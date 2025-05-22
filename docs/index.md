@@ -36,10 +36,10 @@ Clear documentation also promotes discoverability, collaboration, and risk asses
 
 The templates are tested on real-world scenarios providing examples that further guide their implementation:
 
-|                                                                   | Description | 
-|-------------------------------------------------------------------|---|
-| [Model Documentation Example](example-data-documentation-voc-skin-tones/) | The model template is followed to document a neural network for segmenting human silhouettes in photos |
-| [Data Documentation Example](example-data-documentation-alisnet/) | The data template is followed to document a skin tones dataset created to support fairness evaluations of downstream computer vision models and human centric applications |
+|                                                                            | Description | 
+|----------------------------------------------------------------------------|---|
+| [Model Documentation Example](example-model-documentation-alisnet.md)      | The model template is followed to document a neural network for segmenting human silhouettes in photos |
+| [Data Documentation Example](example-data-documentation-voc-skin-tones.md) | The data template is followed to document a skin tones dataset created to support fairness evaluations of downstream computer vision models and human centric applications |
 
 ## How To Use
 

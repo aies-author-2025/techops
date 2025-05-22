@@ -111,7 +111,7 @@ and links to table(s) with more detailed breakdowns.) -->
 | Human Labels          | All                                 |
 
 **Additional Notes:** The definitions of main and calibration splits and information on labels can be found in 
-the [Human Annotation - Annotation Tasks](#annotation-tasks) section.
+the [Human Annotations](#human-annotators) section.
 
 ### Tables and Fields
 <!-- width: full -->
