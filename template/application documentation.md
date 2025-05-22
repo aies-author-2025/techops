@@ -1,7 +1,8 @@
 # Application Documentation Template
 
-## General Information (Article 11, paragraph 1 and 2)
+## General Information 
 
+(Article 11, paragraph 1 and 2:https://artificialintelligenceact.eu/article/11/)
 > Info: this section covers the AI Act requirement of a description of  the intended puprose, version and provider, relevant versions and updates. In Article 11, 2 (d) a datasheet is required which describes all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed.  
 
 **Purpose and Intended Use**:
@@ -25,15 +26,20 @@ Minimal-risk systems, like spam filters or AI in video games, face no specific r
 - High / Limited / Minimal (in accordance with the AI Act)
 - reasoning for the above classification
    
-## Application Functionality (Article 11, paragraph 1, 2, 3)
+## Application Functionality 
+
+(Article 11, paragraph 1, 2, 3: https://artificialintelligenceact.eu/article/11/)
 
 >Info: this section covers the delineation of the genral purpose of the system required in article 1 with a focus on defining what the system should do and how it
 should work. 
 
 
+- **Instructions for use for deployers**:
+(Article 13: https://artificialintelligenceact.eu/article/13/ )
+
 
 - **Model Capabilities**:
-    
+  
     - What the application can and cannot do (limitations).
     - Supported languages, data types, or scenarios.
 
@@ -57,7 +63,8 @@ should work.
     - Logging of necessary data and model documentation and responsible contacts.
 
 
-## Data Documentation (Article 11, paragraph 2 (d))
+## Data Documentation 
+(Article 11, paragraph 2 (d))
 
 <!--In Article 11, 2 (d) a datasheet is required which describes all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed -->
 
@@ -102,7 +109,9 @@ should work.
     - Criteria for keeping or removing features.
 -->
 
-## Model Development (Article 11, paragraph 1 c, g, 2, 3 4)
+## Model Development 
+
+(Article 11, paragraph 1 c, g, 2, 3 4: https://artificialintelligenceact.eu/article/11/, Article 15: https://artificialintelligenceact.eu/article/15/)
 
 >Info: In Article 11 paragraph 2 c details about the computational resources needed to develop, tain, test and validate AI systems are required. Moreover, in this section, in accordance to Article 11, paragraph 2 (g) the validation and testing procedures used as well as the data and the main metrics adopted to measure accuracy, robustness, compliance with the requirements layed out in Chapter III Section 2. Paragraph 3 requires detailed information about the monitoring and fucntioning and control of the system as well as logging of testing reporting dated and signed by responsible stakeholders.  Paragraph 4 requires a description of the appropriateness of the performance metrics for the specific AI system. Defining the appropriateness of performance metrics is important to reflect the real-world costs of errors in the specific application. Without this, even technically strong models can fail their actual purpose.
 
@@ -191,7 +200,9 @@ Refer here to the model documentation and decsribe the appropriateness of the pe
     - Latency and scalability expectations.
 
 
-## Integration with External Systems (Article 11, paragraph 1 (b, c, d, g, h), 2 (a)
+## Integration with External Systems 
+
+(Article 11, paragraph 1 (b, c, d, g, h), 2 (a): https://artificialintelligenceact.eu/article/11/)
 
 - **Systems**:
     - List dependencies 
@@ -215,7 +226,8 @@ Refer here to the model documentation and decsribe the appropriateness of the pe
  - **User Information**: where is this under deployment?
 
 
- ## Lifecycle Management (Article 11, paragraph 6)
+ ## Lifecycle Management 
+ (Article 11, paragraph 6: https://artificialintelligenceact.eu/article/11/)
     
 - Monitoring procedures for performance and ethical compliance.
 - Versioning and change logs for model updates.
@@ -247,7 +259,9 @@ Refer here to the model documentation and decsribe the appropriateness of the pe
 - security and vulnerability fixes
 
 
-### Risk Management System (Article 11, paragraph 5, Article 9)
+### Risk Management System 
+
+(Article 11, paragraph 5, Article 9: https://artificialintelligenceact.eu/article/11/; https://artificialintelligenceact.eu/article/9/)
 
 <!--**Instructions:**  A thorough risk management system is mandated by the AI Act, especially for high-risk AI systems. This section documents the  proactive efforts to ensure the AI system operates safely and ethically. In general in this section you should document all the measures undertaken to make sure that a system operates safely on the market. Example: Consider a facial recognition system used for real-time law enforcement in public spaces. This is categorized as high-risk under the EU AI Act. If developers document the risk that the system might misidentify individuals—particularly among minority groups due to biased training data—they can plan for rigorous dataset audits, independent bias testing, and establish human oversight in decision-making. Without documenting this risk, the system might be deployed without safeguards, leading to wrongful detentions and legal liabilities. Systematic documentation ensures these issues are not only identified but addressed before harm occurs.-->
 
@@ -307,7 +321,8 @@ Refer here to the model documentation and decsribe the appropriateness of the pe
 - Include mechanisms to quantify uncertainty in the model’s predictions (e.g., Bayesian networks or confidence scores).
     
 
-#### Cybersecurity (Article 11, paragraph 2 h)
+#### Cybersecurity 
+(Article 11, paragraph 2 h)
 
 **Data Security:**
 
@@ -324,8 +339,9 @@ Documentation of all cybersecurity processes and incidents is mandatory to ensur
 
   
 
-## Human Oversight (Article 11, paragraph 2 e)
-
+## Human Oversight 
+(Article 11, paragraph 2 e, Article 14)
+Link: https://artificialintelligenceact.eu/article/11/; https://artificialintelligenceact.eu/article/14/)
 
 > AI Act Article 11, paragraph 2 (e) requirements: assessment of the human oversight measures needed in accordance with Article 14, including the assessment of the technical measures needed to facilitate the integration of the outputs of the AI systems by deployers (Article 13 paragrapgh 3 (d))
 
@@ -487,7 +503,8 @@ This section outlines potential issues that can arise during the deployment of a
   - Test and document disaster recovery plans.
   - Use automated backups and verify restore procedures.-->
 
-### EU Declaration of conformity (Article 47)
+### EU Declaration of conformity 
+(Article 47:https://artificialintelligenceact.eu/article/47/)
 
  <!-- when applicable and certifications are available: it requires a systems name as well as the name and address of the provider; a statement that the EU declaration of conformity referred to in Article 47 is issued under the sole responsibility of the provider; a statement that the AI system is in conformity with this Regulation and, if applicable, with any other relevant Union law that provides for the issuing of the EU declaration of conformity referred to in Article 47, Where an AI system involves the processing of personal data;  a statement that that AI system complies with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, reference to the harmonised standards used or any other common specification in relation to which
 conformity is declared; the name and identification number of the notified body, a description of the conformity

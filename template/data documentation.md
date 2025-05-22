@@ -4,7 +4,8 @@
 ## Overview 
 <!-- info: This section enables all stakeholders to have a glimpse into the data processes. You can use this session to provide transparency to users and high level information to all relevant stakeholders. -->
 
-### Dataset Description (Article 11, paragraph (1), (2 d))
+### Dataset Description 
+(Article 11, paragraph (1), (2 d))
 
 > info: The AI Act requires a description of  all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed.
 
@@ -56,13 +57,15 @@ Example references:
 - **Team Name, Contact Person**
 
 ### Deployer instructions of Use
-
 <!-- info: Important to determine if there are relevant use-cases or if the data is unsuitable for certair applications. -->
+- **Instructions for use for deployers**:
+(Article 13: https://artificialintelligenceact.eu/article/13/ )
 
 
 ### Version Details
 
-## Data Versioning (Article 11, paragraph 2(d))
+## Data Versioning 
+(Article 11, paragraph 2(d))
 
 **Data Version Control Tools:**
 <!-- Data version control tools are important to track changes in datasets, models, and experiments over time, enabling collaboration, reproducibility, and better model management. This is particularly important to then detect model drifts and debugging or for rollbacks when overwriting on the original data  -->
@@ -72,7 +75,8 @@ Example references:
 -DVC (Data Version Control): Tracks datasets, connects them to model versions, and integrates with Git.
 - Git-LFS (Large File Storage): Stores large data files outside the Git repository.
 
-### Maintainance of Metadata and Schema Versioning (Article 11, paragraph 3)
+### Maintainance of Metadata and Schema Versioning 
+(Article 11, paragraph 3)
     
  Why: Data formats, schema, and other metadata changes can impact downstream processes. Tracking these ensures transparency.
 
@@ -91,7 +95,8 @@ Track schema changes:
   <!-- What could help is to incorporate Data Lineage Tools
    as they provide end-to-end visibility of data transformations and dependencies.-->
 
-## Known Usages (Article 11, Paragraph 3)
+## Known Usages 
+(Article 11, Paragraph 3)
 
 >info: The AI Act requires to delineate a systems foreseeable unintended outcomes and sources of risks to health and safety, fundamental rights
 and discrimination in view of the intended purpose of the AI system; the human oversight measures needed in
@@ -125,7 +130,8 @@ that use this dataset.
 |---------------------------|------------------------------|--------------------------------------------------------|
 | [Example Application 1]() | Size and Fit Recommendations | Fairness Evaluation of end-to-end application pipeline |
 
-## Dataset Characteristics (Article 11, paragraph 2 (d))
+## Dataset Characteristics 
+(Article 11, paragraph 2 (d))
 
 <!-- This section reflects the requirements of the AI Act of Article 11, paragraph 2 (d): where relevant, the data requirements in terms of datasheets describing the training methodologies and
 techniques and the training data sets used, including a general description of these data sets, information about
@@ -174,7 +180,8 @@ _Specify one or more of:_
 - To be determined
 - Others (please specify)
 
-#### Methodology Detail(s) Article 11, 2 (a), (b), (d)
+#### Methodology Detail(s) 
+Article 11, 2 (a), (b), (d)
 <!-- scope: periscope -->
 <!-- info: Provide a description of each collection method used.
 
@@ -226,7 +233,8 @@ considerations. -->
 
 **Others:** Please specify
     
-## Data Pre-Processing, Article 11, paragraph 2 (d, e)
+## Data Pre-Processing, 
+Article 11, paragraph 2 (d, e)
 _Note: not all below sections are relevant for each data set._
 
 ### Data Cleaning
@@ -252,12 +260,14 @@ _Note: not all below sections are relevant for each data set._
 ### Data Augmentation
 - Augmentation technique(s): (e.g., rotation, flipping for images)
 
-## Data Annotation and Labeling (Article 11, paragraph 2(d))
+## Data Annotation and Labeling 
+(Article 11, paragraph 2(d))
 - Annotation Process: Describe the process used to label or annotate the data (e.g., human labelers, automated, crowdsourcing).
 - Quality Assurance: Explain any quality control mechanisms applied to ensure accurate labeling or annotation.
 - Inter-Annotator Agreement: If applicable, mention how disagreements in labeling were resolved.
     
-## Dataset Distribution and Licensing (Article 11, paragraph 2(d))
+## Dataset Distribution and Licensing 
+(Article 11, paragraph 2(d))
 - Availability:
 - Open/public or private dataset
 - Dataset Documentation Link: (Link to further details if available)
@@ -311,7 +321,8 @@ Specify duration in days, months, or years.
 - Sources of potential discrimination or harm.
 
 
-## Cybersecurity Measures (Article 11, paragraph 5)
+## Cybersecurity Measures 
+(Article 11, paragraph 5)
 
 
 ### Data Security Measures
@@ -356,7 +367,8 @@ For instance: If yoi train a model to detec and diagnose lung cancer from hospit
 
 
 
-### EU Declaration of conformity (Article 47)
+### EU Declaration of conformity 
+(Article 47: https://artificialintelligenceact.eu/article/47/)
 
  <!-- when applicable and certifications are available: it requires a systems name as well as the name and address of the provider; a statement that the EU declaration of conformity referred to in Article 47 is issued under the sole responsibility of the provider; a statement that the AI system is in conformity with this Regulation and, if applicable, with any other relevant Union law that provides for the issuing of the EU declaration of conformity referred to in Article 47, Where an AI system involves the processing of personal data;  a statement that that AI system complies with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, reference to the haharmonised standards used or any other common specification in relation to which
 conformity is declared; the name and identification number of the notified body, a description of the conformity
