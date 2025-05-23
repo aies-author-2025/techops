@@ -1,17 +1,17 @@
 # Model Documentation Template
 <!-- info: Replace with model name -->
->Info on Article 11 (paragraph 1): The AI Act requires a description of  (a) the intended puprose, version and provider, (c), (b) a description of how the system interacts with software and hardware must be included, (c) relevant versions and updates
+>Info (EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/),  (paragraph 1): The AI Act requires a description of  (a) the intended puprose, version and provider, (c), (b) a description of how the system interacts with software and hardware must be included, (c) relevant versions and updates
 as well as (d) all the forms in which the AI system is put into service. The overview part should point out (e) the hardware on which the system is intended to run and (f) if the system is part of the safety component of a product, (g) a basic description of the user interface and (h) the instructions for use for the deployers.
-Link to Article 11:  https://artificialintelligenceact.eu/article/11/
+
 
 ## Overview 
-(Article 11, paragraph 1)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/),  paragraph 1)
 > info: This section enables all stakeholders to have a glimpse into the model selction, design and development processes. You can use this session to provide transparency to users and high level information to all relevant stakeholders. 
 ### Model Type
 **Model Type:** (e.g., Neural Networks, Decision Trees, etc.)
 
 ### Model Description 
-(Article 11, paragraph 1 (a))
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 1 (a))
 * Description
 <!-- info: Brief (max 200 words) description of the model architecture and the task(s) it was trained to solve. -->
 
@@ -49,7 +49,7 @@ Example references:
 - **Team Name, Contact Person**
 
 ## Version Details and Artifacts 
-(Article 11, paragraph 1(c))
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/),  paragraph 1(c))
 <!-- scope: periscope -->
 <!-- info: Provide details about the current model version
 and which model version the current model card corresponds to.
@@ -88,14 +88,13 @@ Example Use Case: A university research team develops a machine learning model t
 **Specific tasks performed:**
 
  **Instructions for use for deployers**:
-(Article 13: https://artificialintelligenceact.eu/article/13/ )
-
+(EU AI Act [Article 13](https://artificialintelligenceact.eu/article/13/)) 
 
 ### Out Of Scope Uses
 Provide potential applications and/or use cases for which use of the model is not suitable.
 
 ### Known Applications 
-(Article 11, 1(f))
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/),  1(f))
 <!-- info: Fill out the following section if the model has any
 current known usages.
 -->
@@ -109,7 +108,7 @@ Note, this table may not be exhaustive.  Model users and documentation consumers
 are highly encouraged to contribute known usages.
 
 ## Model Architecture 
-(Article 11 paragraph 2 b, c)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 2 b, c)
 
 > Info AI Act requirements: This section should contain a description of the elements of the model and the processes of its training and development. Article 11, 2(b) requires the design specifications of a system, model selection and ehat the system is designed to optimize for as well as potential trade-offs. Article 11, 2(c) a description of the systems architecture is required, how software components are build on or feed into each other and the computational resources needed to develop, train, test and validate the systems. 
 
@@ -130,7 +129,7 @@ are highly encouraged to contribute known usages.
     
 
 ### Data Collection and Preprocessing 
-(Article 11, paragraph 2 d)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 2 d)
 
 <!--check data documentation to avoid duplicates of information and link it in this sectiion
 
@@ -165,7 +164,7 @@ In Article 11, 2 (d) a datasheet is required which describes all training method
 - Shuffle applied: (Yes/No) 
 
 ## Model Training Process 
-(Article 11, paragraph 2 (c, g), paragraph 3)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/),  paragraph 2 (c, g), paragraph 3)
 
 > AI Act requirements info: In Article 11 paragraph 2 c details about the computational resources needed to develop, tain, test and validate AI systems are required. Moreover, in this section, in accordance to Article 11, paragraph 2 (g) the validation and testing procedures used as well as the data and the main metrics adopted to measure accuracy, robustness, compliance with the requirements layed out in Chapter III Section 2. Paragraph 3 requires detailed information about the monitoring and fucntioning and control of the system as well as logging of testing reporting dated and signed by responsible stakeholders. 
 
@@ -177,7 +176,7 @@ In Article 11, 2 (d) a datasheet is required which describes all training method
 - **Hyperparameters**:
         
 ## Model Training and Validation 
-(Article 11, paragraph 2(g, Article 15)):
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/),  paragraph 2(g), [Article 15](https://artificialintelligenceact.eu/article/15/)):
 
 Objective: Clarify what the model is supposed to achieve. 
 
@@ -246,7 +245,7 @@ Rationale for each metric (why accuracy? why F1-score?)
 - Compare the model’s performance to a simple baseline (e.g., random guess, mean prediction).
 
 ### Model Bias and Fairness Analysis 
-(Article 11, paragraph 2 g, f, paragraph 3, 4)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 2 g, f, paragraph 3, 4)
 
 > This section aims to cover the AI Act requirements layed out in Article 11 paragraph 2 g that requires the description of the potential discriminatory impacts. 
 Paragraphg 4 requires the assessment of the appropriateness of the performance metrics.  
@@ -293,7 +292,7 @@ Paragraphg 4 requires the assessment of the appropriateness of the performance m
     
 
 ## Model Interpretability and Explainability 
-(Article 11, paragraph 2 (e))
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 2 (e))
 **Explainability Techniques Used:**
   <!-- for example: Shapley values, LIME, etc. Both SHAP and LIME are explainability techniques that help to understand why a machine learning model made a specific prediction — especially when the model is a complex "black box" like a random forest, gradient boosting, or deep neural net. Shap Uses game theory to assign each feature a value showing how much it contributed to a prediction. Lime biulds a simple, interpretable model (like a linear model) near the point of interest to explain the prediction -->
     
@@ -329,7 +328,7 @@ Some technical tools that can aid transparency include:
 - Version Control Systems: Git, DVC (Data Version Control) for datasets and models. -->
 
 ### EU Declaration of conformity 
-(Article 47: https://artificialintelligenceact.eu/article/47/)
+(EU AI Act [Article 47](https://artificialintelligenceact.eu/article/47/))
 
  <!-- when applicable and certifications are available: it requires a systems name as well as the name and address of the provider; a statement that the EU declaration of conformity referred to in Article 47 is issued under the sole responsibility of the provider; a statement that the AI system is in conformity with this Regulation and, if applicable, with any other relevant Union law that provides for the issuing of the EU declaration of conformity referred to in Article 47, Where an AI system involves the processing of personal data;  a statement that that AI system complies with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, reference to the harmonised standards used or any other common specification in relation to which
 conformity is declared; the name and identification number of the notified body, a description of the conformity

@@ -2,7 +2,8 @@
 
 ## General Information 
 
-(Article 11, paragraph 1 and 2:https://artificialintelligenceact.eu/article/11/)
+
+ (EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 1, 2, 3))
 > Info: this section covers the AI Act requirement of a description of  the intended puprose, version and provider, relevant versions and updates. In Article 11, 2 (d) a datasheet is required which describes all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed.  
 
 **Purpose and Intended Use**:
@@ -17,10 +18,11 @@
 
 
 ## Risk classification
+(Prohibited Risk: EU AI Act Chapter II [Article 5](https://artificialintelligenceact.eu/article/5/); High-Risk: EU AI Act Chapter III, Section 1 [Article 6](https://artificialintelligenceact.eu/article/6/), [Article 7](https://artificialintelligenceact.eu/article/7/), Limited Risk: Chapter IV [Article 50](https://artificialintelligenceact.eu/article/50/))
 
 > info: The AI Act classifies AI systems into four different risk categories. The EU AI Act categorizes AI systems into four risk levels: unacceptable, high, limited, and minimal risk, each with corresponding regulatory requirements. Unacceptable risk (Chapter II, Article 5) includes systems that pose a clear threat to safety or fundamental rights (e.g. social scoring, recidivism scoring) and are banned.
-High-risk systems include AI used in sensitive domains like healthcare, law enforcement, education, employment, and critical infrastructure. These must meet strict requirements and conduct conformity assessmrent practices , including risk management, transparency, and human oversight.
-Limited-risk systems, such as chatbots, must meet transparency obligations (e.g. disclosing AI use).
+High-risk systems are delineated in Chapter III, Section 1 Article 6, 7 include AI used in sensitive domains like healthcare, law enforcement, education, employment, and critical infrastructure. These must meet strict requirements and conduct conformity assessmrent practices , including risk management, transparency, and human oversight.
+Limited-risk systems delineate in Chapter IV Article 50, such as chatbots, must meet transparency obligations (e.g. disclosing AI use).
 Minimal-risk systems, like spam filters or AI in video games, face no specific requirements. 
 
 - High / Limited / Minimal (in accordance with the AI Act)
@@ -28,15 +30,14 @@ Minimal-risk systems, like spam filters or AI in video games, face no specific r
    
 ## Application Functionality 
 
-(Article 11, paragraph 1, 2, 3: https://artificialintelligenceact.eu/article/11/)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/) paragraph 1, 2, 3)
 
 >Info: this section covers the delineation of the genral purpose of the system required in article 1 with a focus on defining what the system should do and how it
 should work. 
 
 
 - **Instructions for use for deployers**:
-(Article 13: https://artificialintelligenceact.eu/article/13/ )
-
+(EU AI Act [Article 13](https://artificialintelligenceact.eu/article/13/ ))
 
 - **Model Capabilities**:
   
@@ -64,7 +65,7 @@ should work.
 
 
 ## Data Documentation 
-(Article 11, paragraph 2 (d))
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/)  paragraph 2 (d))
 
 <!--In Article 11, 2 (d) a datasheet is required which describes all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed -->
 
@@ -111,9 +112,11 @@ should work.
 
 ## Model Development 
 
-(Article 11, paragraph 1 c, g, 2, 3 4: https://artificialintelligenceact.eu/article/11/, Article 15: https://artificialintelligenceact.eu/article/15/)
 
->Info: In Article 11 paragraph 2 c details about the computational resources needed to develop, tain, test and validate AI systems are required. Moreover, in this section, in accordance to Article 11, paragraph 2 (g) the validation and testing procedures used as well as the data and the main metrics adopted to measure accuracy, robustness, compliance with the requirements layed out in Chapter III Section 2. Paragraph 3 requires detailed information about the monitoring and fucntioning and control of the system as well as logging of testing reporting dated and signed by responsible stakeholders.  Paragraph 4 requires a description of the appropriateness of the performance metrics for the specific AI system. Defining the appropriateness of performance metrics is important to reflect the real-world costs of errors in the specific application. Without this, even technically strong models can fail their actual purpose.
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 1 c, g, 2, 3 4; EU AI Act [Article 15](https://artificialintelligenceact.eu/article/15/))
+
+
+>Info: In Article 11 paragraph 2 c details about the computational resources needed to develop, tain, test and validate AI systems are required. Moreover, in this section, in accordance to Article 11, paragraph 2 (g) the validation and testing procedures used as well as the data and the main metrics adopted to measure accuracy, robustness, compliance with the requirements layed out in Chapter III Section 2. Paragraph 3 requires detailed information about the monitoring and fucntioning and control of the system as well as logging of testing reporting dated and signed by responsible stakeholders.  Paragraph 4 requires a description of the appropriateness of the performance metrics for the specific AI system. Defining the appropriateness of performance metrics is important to reflect the real-world costs of errors in the specific application. Without this, even technically strong models can fail their actual purpose. Article 15 delineates the Accuracy, Robustness, Cybersecurity requirements
 
  **Model Architecture**
 
@@ -202,7 +205,7 @@ Refer here to the model documentation and decsribe the appropriateness of the pe
 
 ## Integration with External Systems 
 
-(Article 11, paragraph 1 (b, c, d, g, h), 2 (a): https://artificialintelligenceact.eu/article/11/)
+EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/) paragraph 1 (b, c, d, g, h), 2 (a))
 
 - **Systems**:
     - List dependencies 
@@ -227,7 +230,7 @@ Refer here to the model documentation and decsribe the appropriateness of the pe
 
 
  ## Lifecycle Management 
- (Article 11, paragraph 6: https://artificialintelligenceact.eu/article/11/)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/)  paragraph 6)
     
 - Monitoring procedures for performance and ethical compliance.
 - Versioning and change logs for model updates.
@@ -260,9 +263,7 @@ Refer here to the model documentation and decsribe the appropriateness of the pe
 
 
 ### Risk Management System 
-
-(Article 11, paragraph 5, Article 9: https://artificialintelligenceact.eu/article/11/; https://artificialintelligenceact.eu/article/9/)
-
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), [Article 9](https://artificialintelligenceact.eu/article/9/))
 <!--**Instructions:**  A thorough risk management system is mandated by the AI Act, especially for high-risk AI systems. This section documents the  proactive efforts to ensure the AI system operates safely and ethically. In general in this section you should document all the measures undertaken to make sure that a system operates safely on the market. Example: Consider a facial recognition system used for real-time law enforcement in public spaces. This is categorized as high-risk under the EU AI Act. If developers document the risk that the system might misidentify individuals—particularly among minority groups due to biased training data—they can plan for rigorous dataset audits, independent bias testing, and establish human oversight in decision-making. Without documenting this risk, the system might be deployed without safeguards, leading to wrongful detentions and legal liabilities. Systematic documentation ensures these issues are not only identified but addressed before harm occurs.-->
 
 
@@ -281,6 +282,7 @@ Refer here to the model documentation and decsribe the appropriateness of the pe
 **Protective Measures:** Describe contingency plans and safeguards in place to minimize the impact if a risk materializes.
 
 ## Testing and Validation (Accuracy, Robustness, Cybersecurity)
+(EU AI Act [Article 15](https://artificialintelligenceact.eu/article/15/))
 
 **Testing and Validation Procedures (Accuracy):**
 
@@ -322,7 +324,7 @@ Refer here to the model documentation and decsribe the appropriateness of the pe
     
 
 #### Cybersecurity 
-(Article 11, paragraph 2 h)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 2 h)
 
 **Data Security:**
 
@@ -340,10 +342,10 @@ Documentation of all cybersecurity processes and incidents is mandatory to ensur
   
 
 ## Human Oversight 
-(Article 11, paragraph 2 e, Article 14)
-Link: https://artificialintelligenceact.eu/article/11/; https://artificialintelligenceact.eu/article/14/)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/),  paragraph 2 e; [Article 14](https://artificialintelligenceact.eu/article/14/))
 
-> AI Act Article 11, paragraph 2 (e) requirements: assessment of the human oversight measures needed in accordance with Article 14, including the assessment of the technical measures needed to facilitate the integration of the outputs of the AI systems by deployers (Article 13 paragrapgh 3 (d))
+
+> AI Act Article 11, paragraph 2 (e) requirements: assessment of the human oversight measures needed in accordance with Article 14, including the assessment of the technical measures needed to facilitate the integration of the outputs of the AI systems by deployers, 
 
 **Human-in-the-Loop Mechanisms:**  Explain how human judgment is incorporated into the AI system’s decision-making process, such as requiring human approval before action.
 
@@ -356,7 +358,7 @@ Link: https://artificialintelligenceact.eu/article/11/; https://artificialintell
 
 
 ## Incident Management
-<!-- what happens when things go wrong -->
+<!-- what happens when things go wrong. This part is particularly important to provide information on how incidents were dealth with and the processes put in place to minimize damage when things go wrong. -->
 - **Common Issues**:
     
     - List common errors and their solutions.
@@ -504,7 +506,7 @@ This section outlines potential issues that can arise during the deployment of a
   - Use automated backups and verify restore procedures.-->
 
 ### EU Declaration of conformity 
-(Article 47:https://artificialintelligenceact.eu/article/47/)
+(EU AI Act [Article 47](https://artificialintelligenceact.eu/article/47/))
 
  <!-- when applicable and certifications are available: it requires a systems name as well as the name and address of the provider; a statement that the EU declaration of conformity referred to in Article 47 is issued under the sole responsibility of the provider; a statement that the AI system is in conformity with this Regulation and, if applicable, with any other relevant Union law that provides for the issuing of the EU declaration of conformity referred to in Article 47, Where an AI system involves the processing of personal data;  a statement that that AI system complies with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, reference to the harmonised standards used or any other common specification in relation to which
 conformity is declared; the name and identification number of the notified body, a description of the conformity

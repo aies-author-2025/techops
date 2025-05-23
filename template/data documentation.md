@@ -1,11 +1,12 @@
 # Data Documentation Template 
+ (EU AI Act [Article 10](https://artificialintelligenceact.eu/article/10/), [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph (1), (2 d) )
 <!-- info: Replace with dataset name -->
->info: The AI Act requires a description of  the intended puprose, version and provider, relevant versions and updates. In Article 11, 2 (d) a datasheet is required which describes all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed. 
+>info: The AI Act delineate the data governance practices required in Article 10 and requires a description of  the intended puprose, version and provider, relevant versions and updates. In Article 11, 2 (d) a datasheet is required which describes all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed. 
 ## Overview 
 <!-- info: This section enables all stakeholders to have a glimpse into the data processes. You can use this session to provide transparency to users and high level information to all relevant stakeholders. -->
 
 ### Dataset Description 
-(Article 11, paragraph (1), (2 d))
+ (EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph (1), (2 d) )
 
 > info: The AI Act requires a description of  all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed.
 
@@ -59,8 +60,8 @@ Example references:
 ### Deployer instructions of Use
 <!-- info: Important to determine if there are relevant use-cases or if the data is unsuitable for certair applications. -->
 - **Instructions for use for deployers**:
-(Article 13: https://artificialintelligenceact.eu/article/13/ )
 
+(EU AI Act [Article 13](https://artificialintelligenceact.eu/article/13/))
 
 ### Version Details
 
@@ -76,7 +77,7 @@ Example references:
 - Git-LFS (Large File Storage): Stores large data files outside the Git repository.
 
 ### Maintainance of Metadata and Schema Versioning 
-(Article 11, paragraph 3)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 3)
     
  Why: Data formats, schema, and other metadata changes can impact downstream processes. Tracking these ensures transparency.
 
@@ -96,7 +97,7 @@ Track schema changes:
    as they provide end-to-end visibility of data transformations and dependencies.-->
 
 ## Known Usages 
-(Article 11, Paragraph 3)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 3)
 
 >info: The AI Act requires to delineate a systems foreseeable unintended outcomes and sources of risks to health and safety, fundamental rights
 and discrimination in view of the intended purpose of the AI system; the human oversight measures needed in
@@ -131,8 +132,7 @@ that use this dataset.
 | [Example Application 1]() | Size and Fit Recommendations | Fairness Evaluation of end-to-end application pipeline |
 
 ## Dataset Characteristics 
-(Article 11, paragraph 2 (d))
-
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 2 (d))
 <!-- This section reflects the requirements of the AI Act of Article 11, paragraph 2 (d): where relevant, the data requirements in terms of datasheets describing the training methodologies and
 techniques and the training data sets used, including a general description of these data sets, information about
 their provenance, scope and main characteristics; how the data was obtained and selected; labelling procedures
@@ -181,7 +181,7 @@ _Specify one or more of:_
 - Others (please specify)
 
 #### Methodology Detail(s) 
-Article 11, 2 (a), (b), (d)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), 2 (a), (b), (d))
 <!-- scope: periscope -->
 <!-- info: Provide a description of each collection method used.
 
@@ -234,7 +234,8 @@ considerations. -->
 **Others:** Please specify
     
 ## Data Pre-Processing, 
-Article 11, paragraph 2 (d, e)
+ (EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 2 (d, e))
+
 _Note: not all below sections are relevant for each data set._
 
 ### Data Cleaning
@@ -267,7 +268,7 @@ _Note: not all below sections are relevant for each data set._
 - Inter-Annotator Agreement: If applicable, mention how disagreements in labeling were resolved.
     
 ## Dataset Distribution and Licensing 
-(Article 11, paragraph 2(d))
+ (EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 2(d))
 - Availability:
 - Open/public or private dataset
 - Dataset Documentation Link: (Link to further details if available)
@@ -322,7 +323,7 @@ Specify duration in days, months, or years.
 
 
 ## Cybersecurity Measures 
-(Article 11, paragraph 5)
+(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 5)
 
 
 ### Data Security Measures
@@ -368,8 +369,7 @@ For instance: If yoi train a model to detec and diagnose lung cancer from hospit
 
 
 ### EU Declaration of conformity 
-(Article 47: https://artificialintelligenceact.eu/article/47/)
-
+(EU AI Act [Article 47](https://artificialintelligenceact.eu/article/47/))
  <!-- when applicable and certifications are available: it requires a systems name as well as the name and address of the provider; a statement that the EU declaration of conformity referred to in Article 47 is issued under the sole responsibility of the provider; a statement that the AI system is in conformity with this Regulation and, if applicable, with any other relevant Union law that provides for the issuing of the EU declaration of conformity referred to in Article 47, Where an AI system involves the processing of personal data;  a statement that that AI system complies with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, reference to the haharmonised standards used or any other common specification in relation to which
 conformity is declared; the name and identification number of the notified body, a description of the conformity
 assessment procedure performed, and identification of the certificate issued; the place and date of issue of the declaration, the name and function of the person who signed it, as well as an
