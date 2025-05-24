@@ -1,8 +1,8 @@
 # Skin Tones Data Documentation
 
-**Dataset Owner**: [Alex Loosley]()
+**Dataset Owner**: [George Costanza]()
 <br>**Document Version**: 0.5.0
-<br>**Reviewers**: [Håkan Jonsson]()
+<br>**Reviewers**: [Jerry Seinfeld]()
 
 Data documentation contributions and feedback are welcome!
 
