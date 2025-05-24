@@ -1,14 +1,23 @@
 # Data Documentation Template 
- (EU AI Act [Article 10](https://artificialintelligenceact.eu/article/10/), [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph (1), (2 d) )
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/10/" style="color:blue; text-decoration:underline">Article 10</a>
+  <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1, 2 (d)
+  <!-- info: The AI Act delineates the data governance practices required in Article 10 and requires a description of the intended purpose, version and provider, and relevant versions and updates.  
+  In Article 11(2)(d), a datasheet is required which describes all training methodologies and techniques as well as the characteristics of the training dataset, a general description of the dataset, information about its provenance, scope and main characteristics, how the data was obtained and selected, labelling procedures conducted, and data cleaning methodologies deployed. -->
+  <p></p>
+</div>
+
 <!-- info: Replace with dataset name -->
->info: The AI Act delineate the data governance practices required in Article 10 and requires a description of  the intended puprose, version and provider, relevant versions and updates. In Article 11, 2 (d) a datasheet is required which describes all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed. 
+
 ## Overview 
 <!-- info: This section enables all stakeholders to have a glimpse into the data processes. You can use this session to provide transparency to users and high level information to all relevant stakeholders. -->
 
 ### Dataset Description 
- (EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph (1), (2 d) )
-
-> info: The AI Act requires a description of  all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed.
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1, 2(d)
+  <p></p>
+  <!-- info: The AI Act requires a description of  all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed.-->
+</div>
 
 
 Write a short summary describing your dataset (limit
@@ -97,12 +106,14 @@ Track schema changes:
    as they provide end-to-end visibility of data transformations and dependencies.-->
 
 ## Known Usages 
-(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 3)
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 3
+  <p></p>
+  <!--info: The AI Act requires delineating a system’s foreseeable unintended outcomes and sources of risks to health and safety, fundamental rights, and discrimination in view of the intended purpose of the AI system;  
+  the human oversight measures needed in accordance with Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of AI systems by the deployers;  
+  and specifications on input data, as appropriate.-->
+</div>
 
->info: The AI Act requires to delineate a systems foreseeable unintended outcomes and sources of risks to health and safety, fundamental rights
-and discrimination in view of the intended purpose of the AI system; the human oversight measures needed in
-accordance with Article 14, including the technical measures put in place to facilitate the interpretation of the
-outputs of AI systems by the deployers; specifications on input data, as appropriat
 <!-- info: Fill out the following section if the dataset has any
 current known usages. This is important to make sure that the dataset is used ethically and legally. A dataset created for classification may not be suitable for regression, or vice versa.
 Moreover, labeling quality, data coverage, and structure vary with use case—assuming it can be used for anything is dangerous. For instance:A skin lesion dataset created for classification—labeling images as benign, malignant, or uncertain—is mistakenly used by an insurance company to train a regression model that predicts cancer risk scores. Because the dataset lacks continuous risk-related data such as treatment outcomes, progression timelines, or cost indicators, the model produces unreliable predictions. As a result, high-risk patients may be misclassified as low-risk, leading to denied or delayed insurance claims. This misuse not only puts patients at risk but also exposes the insurer to ethical and legal scrutiny. Hence it is important to define the safe extent of use of a dataset. 
@@ -131,26 +142,30 @@ that use this dataset.
 |---------------------------|------------------------------|--------------------------------------------------------|
 | [Example Application 1]() | Size and Fit Recommendations | Fairness Evaluation of end-to-end application pipeline |
 
-## Dataset Characteristics 
-(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 2 (d))
+## Dataset Characteristics
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 2(d)
+  <p></p>
+</div>
 <!-- This section reflects the requirements of the AI Act of Article 11, paragraph 2 (d): where relevant, the data requirements in terms of datasheets describing the training methodologies and
 techniques and the training data sets used, including a general description of these data sets, information about
 their provenance, scope and main characteristics; how the data was obtained and selected; labelling procedures
 (e.g. for supervised learning), data cleaning methodologies (e.g. outliers detection)  -->
+
 **Data Types:** (e.g., images, text, audio, structured, unstructured data)
-**Size/Volume:**
-**Number of Instances/Records:**
-**Primary Use Case(s):** Description of the main AI use cases that the dataset was designed for or is typically used in.
-**Associated AI System(s):** List known AI system(s) that this dataset is or has been used in.
-**Number of Features/Attributes (if applicable):**
-**Label Information (if applicable):**
-**Geographical Scope:** Geographic location(s) where the data was collected.
-**Date of Collection:** Start and end date of data collection.
+<br>**Size/Volume:**
+<br>**Number of Instances/Records:**
+<br>**Primary Use Case(s):** Description of the main AI use cases that the dataset was designed for or is typically used in.
+<br>**Associated AI System(s):** List known AI system(s) that this dataset is or has been used in.
+<br>**Number of Features/Attributes (if applicable):**
+<br>**Label Information (if applicable):**
+<br>**Geographical Scope:** Geographic location(s) where the data was collected.
+<br>**Date of Collection:** Start and end date of data collection.
 
 ## Data Origin and Source
 **Source(s):** Provide information about where the data was sourced from (e.g., sensors, surveys, web scraping, public databases).
-**Third-Party Data:** Indicate if any part of the dataset was obtained from third parties, and if so, detail the legal agreements in place (license, usage rights, etc.).
-**Ethical Sourcing:** (Ghana issues) Provide information on the ethical and legal compliance of the data collection process (e.g., informed consent, transparency to data subjects, and compliance with GDPR or other regulations).
+<br>**Third-Party Data:** Indicate if any part of the dataset was obtained from third parties, and if so, detail the legal agreements in place (license, usage rights, etc.).
+<br>**Ethical Sourcing:** (Ghana issues) Provide information on the ethical and legal compliance of the data collection process (e.g., informed consent, transparency to data subjects, and compliance with GDPR or other regulations).
 
 ## Provenance
 _Describe the history and origin of the data._
@@ -181,7 +196,10 @@ _Specify one or more of:_
 - Others (please specify)
 
 #### Methodology Detail(s) 
-(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), 2 (a), (b), (d))
+<div style="color: gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, 2 (a), (b), (d)
+  <p></p>
+</div>
 <!-- scope: periscope -->
 <!-- info: Provide a description of each collection method used.
 
@@ -262,13 +280,21 @@ _Note: not all below sections are relevant for each data set._
 - Augmentation technique(s): (e.g., rotation, flipping for images)
 
 ## Data Annotation and Labeling 
-(Article 11, paragraph 2(d))
+<div style="color: gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, 2(d)
+  <p></p>
+</div>
+
 - Annotation Process: Describe the process used to label or annotate the data (e.g., human labelers, automated, crowdsourcing).
 - Quality Assurance: Explain any quality control mechanisms applied to ensure accurate labeling or annotation.
 - Inter-Annotator Agreement: If applicable, mention how disagreements in labeling were resolved.
     
 ## Dataset Distribution and Licensing 
- (EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 2(d))
+<div style="color: gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, 2(d)
+  <p></p>
+</div>
+
 - Availability:
 - Open/public or private dataset
 - Dataset Documentation Link: (Link to further details if available)
@@ -322,8 +348,11 @@ Specify duration in days, months, or years.
 - Sources of potential discrimination or harm.
 
 
-## Cybersecurity Measures 
-(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 5)
+## Cybersecurity Measures
+<div style="color: gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 5
+  <p></p>
+</div>
 
 
 ### Data Security Measures
@@ -368,8 +397,12 @@ For instance: If yoi train a model to detec and diagnose lung cancer from hospit
 
 
 
-### EU Declaration of conformity 
-(EU AI Act [Article 47](https://artificialintelligenceact.eu/article/47/))
+### EU Declaration of conformity
+<div style="color: gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/47/" style="color:blue; text-decoration:underline">Article 47</a>
+  <p></p>
+</div>
+
  <!-- when applicable and certifications are available: it requires a systems name as well as the name and address of the provider; a statement that the EU declaration of conformity referred to in Article 47 is issued under the sole responsibility of the provider; a statement that the AI system is in conformity with this Regulation and, if applicable, with any other relevant Union law that provides for the issuing of the EU declaration of conformity referred to in Article 47, Where an AI system involves the processing of personal data;  a statement that that AI system complies with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, reference to the haharmonised standards used or any other common specification in relation to which
 conformity is declared; the name and identification number of the notified body, a description of the conformity
 assessment procedure performed, and identification of the certificate issued; the place and date of issue of the declaration, the name and function of the person who signed it, as well as an
@@ -377,8 +410,6 @@ indication for, or on behalf of whom, that person signed, a signature.-->
 
 ### Standards applied
 <!-- Document here the standards and frameworks used-->
-
-
 
 
 ### Documentation Metadata
