@@ -7,6 +7,7 @@ nav:
   - Model Documentation Template: template-model-documentation.md
   - Data Documentation Template: template-data-documentation.md
 - EXAMPLES:
+  - SafeSiteAI Application Documentation: example-application-documentation-safesite-ai.md
   - ALiSNet Model Documentation: example-model-documentation-alisnet.md
   - Skin Tones Data Documentation: example-data-documentation-voc-skin-tones.md
 

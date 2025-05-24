@@ -1,4 +1,10 @@
 # Model Documentation Template
+
+**Model Owner**: Name and contact information
+<br>**Document Version**: Version controlling this document is highly recommended
+<br>**Reviewers**: List reviewers
+
+
 <!-- info: Replace with model name -->
 
 <div style="color:gray">
@@ -8,8 +14,7 @@ The AI Act requires a description of
 (a) the intended purpose, version, and provider,  
 (b) a description of how the system interacts with software and hardware,  
 (c) relevant versions and updates,  
-(d) all the forms in which the AI system is put into service.
-
+(d) all the forms in which the AI system is put into service
 The overview part should also include:  
 (e) the hardware on which the system is intended to run,  
 (f) whether the system is part of the safety component of a product,  
@@ -34,7 +39,7 @@ You can use this section to provide transparency to users and high-level informa
 
 ### Model Description 
 <div style="color:gray">
-    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1(a)
+    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 1(a)
     <p></p>
 </div>
 
@@ -76,7 +81,7 @@ Example references:
 
 ## Version Details and Artifacts 
 <div style="color:gray">
-    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1(c)
+    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 1(c)
     <p></p>
 </div>
 
@@ -119,7 +124,7 @@ Example Use Case: A university research team develops a machine learning model t
 
  **Instructions for use for deployers**:
 <div style="color:gray">
-    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 13</a>
+    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 13</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> 
     <p></p>
 </div>
 
@@ -128,7 +133,7 @@ Provide potential applications and/or use cases for which use of the model is no
 
 ### Known Applications 
 <div style="color:gray">
-    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1(f)
+    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 1(f)
     <p></p>
 </div>
 
@@ -146,7 +151,7 @@ are highly encouraged to contribute known usages.
 
 ## Model Architecture 
 <div style="color:gray">
-EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 2(b), 2(c)
+EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 2(b), 2(c)
 
 Info – AI Act requirements:  
 This section should contain a description of the elements of the model and the processes of its training and development.  
@@ -175,7 +180,7 @@ Article 11(2)(c) requires a description of the system’s architecture, how soft
 
 ### Data Collection and Preprocessing
 <div style="color:gray">
-    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 2(d)
+    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 2(d)
     <p></p>
 </div>
 
@@ -213,7 +218,7 @@ In Article 11, 2 (d) a datasheet is required which describes all training method
 
 ## Model Training Process 
 <div style="color:gray">
-    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 2(c, g), paragraph 3
+    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 2(c, g), paragraph 3
 
 <!-- AI Act requirements info:  
 In Article 11 paragraph 2(c), details about the computational resources needed to develop, train, test, and validate AI systems are required.  
@@ -235,7 +240,7 @@ Paragraph 3 further requires detailed information about the monitoring, function
 ## Model Training and Validation 
 
 <div style="color:gray">
-    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 2(g)
+    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 2(g)
     <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 15</a>
     <p></p>
 </div>
@@ -280,6 +285,55 @@ Rationale for each metric (why accuracy? why F1-score?)
 - Performance metrics (e.g., accuracy, F1 score, RMSE) are monitored.
 - Documeting this step is important as it enables to detect errors and performance issues early on: Overfitting can be detected using validation loss trends.
 -->
+
+<!-- Example: In medical diagnosis, using accuracy alone can be misleading in imbalanced datasets, potentially missing critical cases like cancer. Metrics like recall (which measures the percentage of actual cancer cases the model correctly identifies. Critical for minimizing missed diagnoses), precision ( to ensure that when the model predicts cancer, it’s actually correct—important to reduce false alarms), F1 score, and AUC-ROC provide a more meaningful assessment by accounting for the real-world impact of false positives and false negatives. Choosing the right metrics ensures models are effective, trustworthy, and aligned with practical goals and consequences.
+
+## Model Validation and Testing
+- **Assess the metrics of model performance** 
+   - accuracy:
+   - precision: 
+   - recall:
+   - F1 score:
+
+- **Advanced performance metrics**
+  - ROC-AUC:
+    - trade-off between true positive rate and false positive rate
+  - PR- AUC
+     - Evaluating precision and recall trade-off
+  - Specificity
+    - (True Negatives/(True Negatives+False Positives))
+  - Log Loss (Cross-Entropy Loss):
+    - Penalises incorrect probabilities assigned to classes.
+
+
+- **Context dependant metrics**: 
+  - Regression Metrics: For tasks predicting continuous values
+  - Clustering Metrics: for tasks grouping similar data points
+  - Ranking Metrics: for tasks predicting rankings (e.g., search engines recommendation systems)
+  - NLP processing metrics (e.g., text classification, sequence-to-sequence tasks)
+
+
+- **Fairness Metrics**:
+    
+    - Ensure the model treats different groups (e.g., based on gender, race) equitably.
+    - Examples: Demographic parity, equal opportunity, and disparate impact.
+- **Explainability Metrics**:
+    
+    - Measure how understandable and interpretable are the model’s decisions.
+    - Examples: Feature importance, fidelity (how well explanations match the model), and sparsity (using fewer features for explanations).
+    - 
+- **Robustness Metrics**:
+    
+    - Assess how well the model performs under challenging or unexpected conditions.
+    - Examples: Adversarial robustness, performance under data drift, and sensitivity to input changes.
+ 
+- Limitations of the performance after the tests
+- Simulate deployment scenarios to understand real-world implications.
+- Define thresholds for acceptable performance levels.
+- Justify the choice of metrics based on the application’s purpose.
+   
+--> 
+
  **Performance Metrics**:
     
  - Compute metrics on the test set:
@@ -308,7 +362,7 @@ Rationale for each metric (why accuracy? why F1-score?)
 
 ### Model Bias and Fairness Analysis 
 <div style="color:gray">
-    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 2 (f, g), paragraph 3, 4
+    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 2 (f, g), paragraph 3, 4
     <p></p>
 </div>
 
@@ -358,7 +412,7 @@ Paragraph 4 requires the assessment of the appropriateness of the performance me
 
 ## Model Interpretability and Explainability 
 <div style="color:gray">
-    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 2(e)
+    EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 2(e)
     <p></p>
 </div>
 

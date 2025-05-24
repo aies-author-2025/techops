@@ -1,5 +1,9 @@
 # ALiSNet Model Documentation
 
+**Model Owner**: [Amrollah Seifoddini]()
+<br>**Document Version**: 0.2.0
+<br>**Reviewers**: [Alex Loosley](), [Rocco Maresca]()
+
 Model documentation contributions and feedback are welcome!
 
 ## Overview

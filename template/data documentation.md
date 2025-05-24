@@ -1,7 +1,12 @@
 # Data Documentation Template 
+
+**Dataset Owner**: Name and contact information
+<br>**Document Version**: Version controlling this document is highly recommended
+<br>**Reviewers**: List reviewers
+
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/10/" style="color:blue; text-decoration:underline">Article 10</a>
-  <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1, 2 (d)
+  <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 1, 2 (d)
   <!-- info: The AI Act delineates the data governance practices required in Article 10 and requires a description of the intended purpose, version and provider, and relevant versions and updates.  
   In Article 11(2)(d), a datasheet is required which describes all training methodologies and techniques as well as the characteristics of the training dataset, a general description of the dataset, information about its provenance, scope and main characteristics, how the data was obtained and selected, labelling procedures conducted, and data cleaning methodologies deployed. -->
   <p></p>
@@ -14,7 +19,7 @@
 
 ### Dataset Description 
 <div style="color:gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1, 2(d)
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 1, 2(d)
   <p></p>
   <!-- info: The AI Act requires a description of  all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed.-->
 </div>
@@ -70,7 +75,10 @@ Example references:
 <!-- info: Important to determine if there are relevant use-cases or if the data is unsuitable for certair applications. -->
 - **Instructions for use for deployers**:
 
-(EU AI Act [Article 13](https://artificialintelligenceact.eu/article/13/))
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/13/" style="color:blue; text-decoration:underline">Article 13</a>
+  <p></p>
+</div>
 
 ### Version Details
 
@@ -80,17 +88,21 @@ Example references:
 **Data Version Control Tools:**
 <!-- Data version control tools are important to track changes in datasets, models, and experiments over time, enabling collaboration, reproducibility, and better model management. This is particularly important to then detect model drifts and debugging or for rollbacks when overwriting on the original data  -->
 
-
 - Include a Data_versioning.md file to document changes
--DVC (Data Version Control): Tracks datasets, connects them to model versions, and integrates with Git.
+- DVC (Data Version Control): Tracks datasets, connects them to model versions, and integrates with Git.
 - Git-LFS (Large File Storage): Stores large data files outside the Git repository.
 
-### Maintainance of Metadata and Schema Versioning 
-(EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 3)
-    
- Why: Data formats, schema, and other metadata changes can impact downstream processes. Tracking these ensures transparency.
+### Maintenance of Metadata and Schema Versioning 
 
-#### How:
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 3
+  <p></p>
+</div>
+
+#### Why
+Data formats, schema, and other metadata changes can impact downstream processes. Tracking these ensures transparency.
+
+#### How
 
 Create a data dictionary:
 - Document dataset structure, column descriptions, data types, and relationships.
@@ -107,7 +119,7 @@ Track schema changes:
 
 ## Known Usages 
 <div style="color:gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 3
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 3
   <p></p>
   <!--info: The AI Act requires delineating a system’s foreseeable unintended outcomes and sources of risks to health and safety, fundamental rights, and discrimination in view of the intended purpose of the AI system;  
   the human oversight measures needed in accordance with Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of AI systems by the deployers;  
@@ -144,7 +156,7 @@ that use this dataset.
 
 ## Dataset Characteristics
 <div style="color:gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 2(d)
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 2(d)
   <p></p>
 </div>
 <!-- This section reflects the requirements of the AI Act of Article 11, paragraph 2 (d): where relevant, the data requirements in terms of datasheets describing the training methodologies and
@@ -197,16 +209,12 @@ _Specify one or more of:_
 
 #### Methodology Detail(s) 
 <div style="color: gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, 2 (a), (b), (d)
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> 2 (a), (b), (d)
   <p></p>
 </div>
 <!-- scope: periscope -->
-<!-- info: Provide a description of each collection method used.
-
-Use additional notes to capture any other relevant information or
-considerations.
-
-(Usage Note: Duplicate and complete the following for collection method
+<!-- info: Provide a description of each collection method used. Use additional notes to capture any other relevant information or
+considerations. (Usage Note: Duplicate and complete the following for collection method
 type.) -->
 **Collection Type**
 
@@ -252,9 +260,10 @@ considerations. -->
 **Others:** Please specify
     
 ## Data Pre-Processing, 
- (EU AI Act [Article 11](https://artificialintelligenceact.eu/article/11/), paragraph 2 (d, e))
-
-_Note: not all below sections are relevant for each data set._
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 2 (d, e)
+  <p></p>
+</div>
 
 ### Data Cleaning
 - Handling missing data: (e.g., removal, imputation method used)
@@ -281,7 +290,7 @@ _Note: not all below sections are relevant for each data set._
 
 ## Data Annotation and Labeling 
 <div style="color: gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, 2(d)
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> 2(d)
   <p></p>
 </div>
 
@@ -291,7 +300,7 @@ _Note: not all below sections are relevant for each data set._
     
 ## Dataset Distribution and Licensing 
 <div style="color: gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, 2(d)
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> 2(d)
   <p></p>
 </div>
 
@@ -301,7 +310,7 @@ _Note: not all below sections are relevant for each data set._
 - User Rights and Limitations:
 
 ## Access, Retention, and Deletion
-<!-- info: NEEDS INPUT FROM PRIV-GOV! -->
+<!-- info: Where applicable, collect input from privacy governance team -->
 ### Access
 #### Relevant Links
 * [Link to filestore]
@@ -350,7 +359,7 @@ Specify duration in days, months, or years.
 
 ## Cybersecurity Measures
 <div style="color: gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 5
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 5
   <p></p>
 </div>
 

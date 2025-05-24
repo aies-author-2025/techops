@@ -1,5 +1,9 @@
 # Skin Tones Data Documentation
 
+**Dataset Owner**: [Alex Loosley]()
+<br>**Document Version**: 0.5.0
+<br>**Reviewers**: [Håkan Jonsson]()
+
 Data documentation contributions and feedback are welcome!
 
 ## Overview
