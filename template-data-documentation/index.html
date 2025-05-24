@@ -188,8 +188,8 @@
           
 
   <li class="toctree-l4 current with-children">
-    <a href="#maintainance-of-metadata-and-schema-versioning">
-      Maintainance of Metadata and Schema Versioning
+    <a href="#maintenance-of-metadata-and-schema-versioning">
+      Maintenance of Metadata and Schema Versioning
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -201,7 +201,12 @@
     
       
         <li class="toctree-l5">
-          <a class="toctree-l6" href="#how">How:</a>
+          <a class="toctree-l6" href="#why">Why</a>
+        </li>
+    
+      
+        <li class="toctree-l5">
+          <a class="toctree-l6" href="#how">How</a>
         </li>
     
     </ul>
@@ -583,6 +588,13 @@
 
 
   <li class="navtree toctree-l2 inactive">
+    <a class="" href="../example-application-documentation-safesite-ai/">SafeSiteAI Application Documentation</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
     <a class="" href="../example-model-documentation-alisnet/">ALiSNet Model Documentation</a>
   </li>
         
@@ -633,9 +645,12 @@
             <div class="section">
               
                 <h1 id="data-documentation-template">Data Documentation Template<a class="headerlink" href="#data-documentation-template" title="Permanent link">&para;</a></h1>
+<p><strong>Dataset Owner</strong>: Name and contact information
+<br><strong>Document Version</strong>: Version controlling this document is highly recommended
+<br><strong>Reviewers</strong>: List reviewers</p>
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/10/" style="color:blue; text-decoration:underline">Article 10</a>
-  <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1, 2 (d)
+  <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 1, 2 (d)
   <!-- info: The AI Act delineates the data governance practices required in Article 10 and requires a description of the intended purpose, version and provider, and relevant versions and updates.  
   In Article 11(2)(d), a datasheet is required which describes all training methodologies and techniques as well as the characteristics of the training dataset, a general description of the dataset, information about its provenance, scope and main characteristics, how the data was obtained and selected, labelling procedures conducted, and data cleaning methodologies deployed. -->
   <p></p>
@@ -648,7 +663,7 @@
 
 <h3 id="dataset-description">Dataset Description<a class="headerlink" href="#dataset-description" title="Permanent link">&para;</a></h3>
 <div style="color:gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1, 2(d)
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 1, 2(d)
   <p></p>
   <!-- info: The AI Act requires a description of  all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed.-->
 </div>
@@ -702,7 +717,11 @@ very useful. -->
 <ul>
 <li><strong>Instructions for use for deployers</strong>:</li>
 </ul>
-<p>(EU AI Act <a href="https://artificialintelligenceact.eu/article/13/">Article 13</a>)</p>
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/13/" style="color:blue; text-decoration:underline">Article 13</a>
+  <p></p>
+</div>
+
 <h3 id="version-details">Version Details<a class="headerlink" href="#version-details" title="Permanent link">&para;</a></h3>
 <h2 id="data-versioning">Data Versioning<a class="headerlink" href="#data-versioning" title="Permanent link">&para;</a></h2>
 <p>(Article 11, paragraph 2(d))</p>
@@ -710,14 +729,19 @@ very useful. -->
 <!-- Data version control tools are important to track changes in datasets, models, and experiments over time, enabling collaboration, reproducibility, and better model management. This is particularly important to then detect model drifts and debugging or for rollbacks when overwriting on the original data  -->
 
 <ul>
-<li>Include a Data_versioning.md file to document changes
--DVC (Data Version Control): Tracks datasets, connects them to model versions, and integrates with Git.</li>
+<li>Include a Data_versioning.md file to document changes</li>
+<li>DVC (Data Version Control): Tracks datasets, connects them to model versions, and integrates with Git.</li>
 <li>Git-LFS (Large File Storage): Stores large data files outside the Git repository.</li>
 </ul>
-<h3 id="maintainance-of-metadata-and-schema-versioning">Maintainance of Metadata and Schema Versioning<a class="headerlink" href="#maintainance-of-metadata-and-schema-versioning" title="Permanent link">&para;</a></h3>
-<p>(EU AI Act <a href="https://artificialintelligenceact.eu/article/11/">Article 11</a>, paragraph 3)</p>
-<p>Why: Data formats, schema, and other metadata changes can impact downstream processes. Tracking these ensures transparency.</p>
-<h4 id="how">How:<a class="headerlink" href="#how" title="Permanent link">&para;</a></h4>
+<h3 id="maintenance-of-metadata-and-schema-versioning">Maintenance of Metadata and Schema Versioning<a class="headerlink" href="#maintenance-of-metadata-and-schema-versioning" title="Permanent link">&para;</a></h3>
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 3
+  <p></p>
+</div>
+
+<h4 id="why">Why<a class="headerlink" href="#why" title="Permanent link">&para;</a></h4>
+<p>Data formats, schema, and other metadata changes can impact downstream processes. Tracking these ensures transparency.</p>
+<h4 id="how">How<a class="headerlink" href="#how" title="Permanent link">&para;</a></h4>
 <p>Create a data dictionary:
 - Document dataset structure, column descriptions, data types, and relationships.</p>
 <p>Track schema changes:
@@ -730,7 +754,7 @@ very useful. -->
 
 <h2 id="known-usages">Known Usages<a class="headerlink" href="#known-usages" title="Permanent link">&para;</a></h2>
 <div style="color:gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 3
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 3
   <p></p>
   <!--info: The AI Act requires delineating a system’s foreseeable unintended outcomes and sources of risks to health and safety, fundamental rights, and discrimination in view of the intended purpose of the AI system;  
   the human oversight measures needed in accordance with Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of AI systems by the deployers;  
@@ -794,7 +818,7 @@ that use this dataset.
 </table>
 <h2 id="dataset-characteristics">Dataset Characteristics<a class="headerlink" href="#dataset-characteristics" title="Permanent link">&para;</a></h2>
 <div style="color:gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 2(d)
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 2(d)
   <p></p>
 </div>
 <!-- This section reflects the requirements of the AI Act of Article 11, paragraph 2 (d): where relevant, the data requirements in terms of datasheets describing the training methodologies and
@@ -844,16 +868,12 @@ submitting data independently to form a collective dataset.
 - Others (please specify)</p>
 <h4 id="methodology-details">Methodology Detail(s)<a class="headerlink" href="#methodology-details" title="Permanent link">&para;</a></h4>
 <div style="color: gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, 2 (a), (b), (d)
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> 2 (a), (b), (d)
   <p></p>
 </div>
 <!-- scope: periscope -->
-<!-- info: Provide a description of each collection method used.
-
-Use additional notes to capture any other relevant information or
-considerations.
-
-(Usage Note: Duplicate and complete the following for collection method
+<!-- info: Provide a description of each collection method used. Use additional notes to capture any other relevant information or
+considerations. (Usage Note: Duplicate and complete the following for collection method
 type.) -->
 <p><strong>Collection Type</strong></p>
 <p><strong>Source:</strong> Describe here. Include links where available.</p>
@@ -885,8 +905,11 @@ considerations. -->
 <p><strong>Dynamic:</strong> Data is updated regularly from single or multiple sources.</p>
 <p><strong>Others:</strong> Please specify</p>
 <h2 id="data-pre-processing">Data Pre-Processing,<a class="headerlink" href="#data-pre-processing" title="Permanent link">&para;</a></h2>
-<p>(EU AI Act <a href="https://artificialintelligenceact.eu/article/11/">Article 11</a>, paragraph 2 (d, e))</p>
-<p><em>Note: not all below sections are relevant for each data set.</em></p>
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 2 (d, e)
+  <p></p>
+</div>
+
 <h3 id="data-cleaning">Data Cleaning<a class="headerlink" href="#data-cleaning" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Handling missing data: (e.g., removal, imputation method used)</li>
@@ -917,7 +940,7 @@ considerations. -->
 </ul>
 <h2 id="data-annotation-and-labeling">Data Annotation and Labeling<a class="headerlink" href="#data-annotation-and-labeling" title="Permanent link">&para;</a></h2>
 <div style="color: gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, 2(d)
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> 2(d)
   <p></p>
 </div>
 
@@ -928,7 +951,7 @@ considerations. -->
 </ul>
 <h2 id="dataset-distribution-and-licensing">Dataset Distribution and Licensing<a class="headerlink" href="#dataset-distribution-and-licensing" title="Permanent link">&para;</a></h2>
 <div style="color: gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, 2(d)
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> 2(d)
   <p></p>
 </div>
 
@@ -939,7 +962,7 @@ considerations. -->
 <li>User Rights and Limitations:</li>
 </ul>
 <h2 id="access-retention-and-deletion">Access, Retention, and Deletion<a class="headerlink" href="#access-retention-and-deletion" title="Permanent link">&para;</a></h2>
-<!-- info: NEEDS INPUT FROM PRIV-GOV! -->
+<!-- info: Where applicable, collect input from privacy governance team -->
 <h3 id="access">Access<a class="headerlink" href="#access" title="Permanent link">&para;</a></h3>
 <h4 id="relevant-links_1">Relevant Links<a class="headerlink" href="#relevant-links_1" title="Permanent link">&para;</a></h4>
 <ul>
@@ -982,7 +1005,7 @@ this dataset. -->
 - Sources of potential discrimination or harm.</p>
 <h2 id="cybersecurity-measures">Cybersecurity Measures<a class="headerlink" href="#cybersecurity-measures" title="Permanent link">&para;</a></h2>
 <div style="color: gray">
-  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 5
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 5
   <p></p>
 </div>
 
@@ -1060,7 +1083,7 @@ emails to ease communication and add transparency. -->
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../example-model-documentation-alisnet/" class="btn btn-neutral float-right" title="ALiSNet Model Documentation">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../example-application-documentation-safesite-ai/" class="btn btn-neutral float-right" title="SafeSiteAI Application Documentation">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../template-model-documentation/" class="btn btn-neutral" title="Model Documentation Template"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -1092,7 +1115,7 @@ emails to ease communication and add transparency. -->
         <span><a href="../template-model-documentation/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../example-model-documentation-alisnet/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../example-application-documentation-safesite-ai/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
