@@ -156,11 +156,16 @@
         </li>
     
       
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#deployment-plan">Deployment Plan</a>
+        </li>
+    
+      
           
 
   <li class="toctree-l3">
-    <a href="#deployment-plan">
-      Deployment Plan
+    <a href="#lifecycle-management">
+      Lifecycle Management
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -594,113 +599,141 @@
               
                 <h1 id="application-documentation-template">Application Documentation Template<a class="headerlink" href="#application-documentation-template" title="Permanent link">&para;</a></h1>
 <h2 id="general-information">General Information<a class="headerlink" href="#general-information" title="Permanent link">&para;</a></h2>
-<p>(EU AI Act <a href="https://artificialintelligenceact.eu/article/11/">Article 11</a>, paragraph 1, 2, 3))</p>
-<blockquote>
-<p>Info: this section covers the AI Act requirement of a description of  the intended puprose, version and provider, relevant versions and updates. In Article 11, 2 (d) a datasheet is required which describes all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed.  </p>
-</blockquote>
+<div style="color: gray">
+EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1, 2, 3
+<!-- info: this section covers the AI Act requirement of a description of the intended purpose, version and provider, relevant versions and updates. In Article 11, 2(d) a datasheet is required which describes all training methodologies and techniques as well as the characteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected, labelling procedures conducted, and data cleaning methodologies deployed. -->
+<p></p>
+</div>
+
 <p><strong>Purpose and Intended Use</strong>:</p>
-<p>- Description of the AI system&rsquo;s intended purpose, including the sector of deployment.
-   - Clearly state the problem the AI application aims to solve.
-   - Delineate target users and stakeholders.
-   - Set measurable goals and key performance indicators (KPIs).
-   - Consider ethical implications and regulatory constraints. 
-   - Clear statement on prohibited uses or potential misuse scenarios.
-   - <strong>Operational environment:</strong> Describe where and how the AI system will operate, such as on mobile devices, cloud platforms, or embedded systems.</p>
+<ul>
+<li>Description of the AI system&rsquo;s intended purpose, including the sector of deployment.</li>
+<li>Clearly state the problem the AI application aims to solve.</li>
+<li>Delineate target users and stakeholders.</li>
+<li>Set measurable goals and key performance indicators (KPIs).</li>
+<li>Consider ethical implications and regulatory constraints. </li>
+<li>Clear statement on prohibited uses or potential misuse scenarios.</li>
+<li><strong>Operational environment:</strong> Describe where and how the AI system will operate, such as on mobile devices, cloud platforms, or embedded systems.</li>
+</ul>
 <h2 id="risk-classification">Risk classification<a class="headerlink" href="#risk-classification" title="Permanent link">&para;</a></h2>
-<p>(Prohibited Risk: EU AI Act Chapter II <a href="https://artificialintelligenceact.eu/article/5/">Article 5</a>; High-Risk: EU AI Act Chapter III, Section 1 <a href="https://artificialintelligenceact.eu/article/6/">Article 6</a>, <a href="https://artificialintelligenceact.eu/article/7/">Article 7</a>, Limited Risk: Chapter IV <a href="https://artificialintelligenceact.eu/article/50/">Article 50</a>)</p>
-<blockquote>
-<p>info: The AI Act classifies AI systems into four different risk categories. The EU AI Act categorizes AI systems into four risk levels: unacceptable, high, limited, and minimal risk, each with corresponding regulatory requirements. Unacceptable risk (Chapter II, Article 5) includes systems that pose a clear threat to safety or fundamental rights (e.g. social scoring, recidivism scoring) and are banned.
-High-risk systems are delineated in Chapter III, Section 1 Article 6, 7 include AI used in sensitive domains like healthcare, law enforcement, education, employment, and critical infrastructure. These must meet strict requirements and conduct conformity assessmrent practices , including risk management, transparency, and human oversight.
-Limited-risk systems delineate in Chapter IV Article 50, such as chatbots, must meet transparency obligations (e.g. disclosing AI use).
-Minimal-risk systems, like spam filters or AI in video games, face no specific requirements. </p>
-</blockquote>
+<div style="color: gray">
+Prohibited Risk: EU AI Act Chapter II <a href="https://artificialintelligenceact.eu/article/5/" style="color:blue; text-decoration:underline">Article 5</a>
+<br>High-Risk: EU AI Act Chapter III, Section 1 <a href="https://artificialintelligenceact.eu/article/6/" style="color:blue; text-decoration:underline">Article 6</a>, <a href="https://artificialintelligenceact.eu/article/7/" style="color:blue; text-decoration:underline">Article 7</a>  
+<br>Limited Risk: Chapter IV <a href="https://artificialintelligenceact.eu/article/50/" style="color:blue; text-decoration:underline">Article 50</a>
+<p></p>
+</div>
+
+<!--info: The AI Act classifies AI systems into four different risk categories. The EU AI Act categorizes AI systems into four risk levels: unacceptable, high, limited, and minimal risk, each with corresponding regulatory requirements.  
+Unacceptable risk (Chapter II, Article 5) includes systems that pose a clear threat to safety or fundamental rights (e.g. social scoring, recidivism scoring) and are banned.  
+High-risk systems are delineated in Chapter III, Section 1, Articles 6 and 7, including AI used in sensitive domains like healthcare, law enforcement, education, employment, and critical infrastructure. These must meet strict requirements and conduct conformity assessment practices, including risk management, transparency, and human oversight.  
+Limited-risk systems, delineated in Chapter IV Article 50, such as chatbots, must meet transparency obligations (e.g. disclosing AI use).  
+Minimal-risk systems, like spam filters or AI in video games, face no specific requirements. -->
+
 <ul>
 <li>High / Limited / Minimal (in accordance with the AI Act)</li>
 <li>reasoning for the above classification</li>
 </ul>
 <h2 id="application-functionality">Application Functionality<a class="headerlink" href="#application-functionality" title="Permanent link">&para;</a></h2>
-<p>(EU AI Act <a href="https://artificialintelligenceact.eu/article/11/">Article 11</a> paragraph 1, 2, 3)</p>
-<blockquote>
-<p>Info: this section covers the delineation of the genral purpose of the system required in article 1 with a focus on defining what the system should do and how it
-should work. </p>
-</blockquote>
+<div style="color: gray">
+EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> paragraph 1, 2, 3
+<!-- Info: this section covers the delineation of the general purpose of the system required in Article 1, with a focus on defining what the system should do and how it should work.-->
+<p></p>
+</div>
+
 <ul>
-<li><strong>Instructions for use for deployers</strong>:
-(EU AI Act <a href="https://artificialintelligenceact.eu/article/13/">Article 13</a>)</li>
+<li><strong>Instructions for use for deployers</strong>: <div style="color: gray">(EU AI Act <a href="https://artificialintelligenceact.eu/article/13/" style="color:blue; text-decoration:underline">Article 13</a>)</div></li>
+<li><strong>Model Capabilities</strong>:<ul>
+<li>What the application can and cannot do (limitations).</li>
+<li>Supported languages, data types, or scenarios.</li>
 </ul>
-<ul>
-<li><strong>Model Capabilities</strong>:<p>- What the application can and cannot do (limitations).
-  - Supported languages, data types, or scenarios.</p>
 </li>
+<li><strong>Input Data Requirements</strong>:<ul>
+<li>Format and quality expectations for input data.</li>
+<li>Examples of valid and invalid inputs.</li>
 </ul>
-<ul>
-<li><strong>Input Data Requirements</strong>:<p>- Format and quality expectations for input data.
-  - Examples of valid and invalid inputs.</p>
 </li>
+<li><strong>Output Explanation</strong>:<ul>
+<li>How to interpret predictions, classifications, or recommendations.</li>
+<li>Uncertainty or confidence measures, if applicable.</li>
 </ul>
-<ul>
-<li><strong>Output Explanation</strong>:<p>- How to interpret predictions, classifications, or recommendations.
-  - Uncertainty or confidence measures, if applicable.</p>
 </li>
+<li><strong>System Architecture Overview</strong>:<ul>
+<li>Functional description and architecture of the system.</li>
+<li>Describe the key components of the system (including datasets, algorithms, models, etc.)</li>
 </ul>
-<ul>
-<li><strong>System Architecture Overview</strong>:<p>- Functional description and architecture of the system.
-  - Describe the key components of the system (including datasets, algorithms, models, etc.)</p>
 </li>
+<li><strong>Data and Model Documentation integration</strong>:<ul>
+<li>Logging of necessary data and model documentation and responsible contacts.</li>
 </ul>
-<ul>
-<li><strong>Data and Model Documentation integration</strong>:<p>- Logging of necessary data and model documentation and responsible contacts.</p>
 </li>
 </ul>
 <h2 id="data-documentation">Data Documentation<a class="headerlink" href="#data-documentation" title="Permanent link">&para;</a></h2>
-<p>(EU AI Act <a href="https://artificialintelligenceact.eu/article/11/">Article 11</a>  paragraph 2 (d))</p>
+<div style="color: gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> paragraph 2 (d)
+<p></p>
+</div>
+
 <!--In Article 11, 2 (d) a datasheet is required which describes all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed -->
 
-<p><strong>Data Collection</strong>:
-- Define the orgin of the data (existing databases, APIs, or custom collection methods).
-- How does the data represent the real-world context of the application?</p>
-<!-- color code here for data documentation elements that must be checked from the responsible stakeholder to avoid duplicates in documentation that are hard to maintain>
-- **Data Documentation**:
-- Define the types of data the model will process (e.g., images, text, time-series).
-- Document the expected size, format, and quality of training datasets.
-- Specify any preprocessing steps or feature engineering needed.
-   - Clean and preprocess the data (e.g., handling missing values, normalisation).
-    - Annotate and label data if required (for supervised learning).
-    - Split the dataset into training, validation, and test sets.
-   - Training dataset details
-
-
-   **Data Cleaning**:
-
-    - Handling missing values, duplicates, and outliers.
-- **Normalisation/Standardisation**:
-
-    - Scaling data to a specific range or standard deviation.
-- **Encoding**:
-
-    - Converting categorical data (e.g., one-hot, label encoding).
-- **Transformation**:
-
-    - Applying mathematical transformations (e.g., log, square root).
-- **Augmentation**:
-
-    - Expanding datasets with techniques like flipping images or paraphrasing text.
-- **Anonymisation**:
-
-    - Masking or pseudonymising sensitive data for privacy compliance.
-- **Balancing**:
-
-    - Addressing imbalanced datasets (e.g., oversampling, SMOTE).
-- **Feature Selection/Removal**:
-
-    - Criteria for keeping or removing features.
--->
-
+<p><strong>Data Collection</strong>:</p>
+<ul>
+<li>Define the orgin of the data (existing databases, APIs, or custom collection methods).</li>
+<li>How does the data represent the real-world context of the application?</li>
+<li><strong>Data Documentation</strong>:<ul>
+<li>Define the types of data the model will process (e.g., images, text, time-series).</li>
+<li>Document the expected size, format, and quality of training datasets.</li>
+<li>Specify any preprocessing steps or feature engineering needed.<ul>
+<li>Clean and preprocess the data (e.g., handling missing values, normalisation).<ul>
+<li>Annotate and label data if required (for supervised learning).</li>
+<li>Split the dataset into training, validation, and test sets.</li>
+</ul>
+</li>
+<li>Training dataset details</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Data Cleaning</strong>:<ul>
+<li>Handling missing values, duplicates, and outliers.</li>
+</ul>
+</li>
+<li><strong>Normalisation/Standardisation</strong>: <ul>
+<li>Scaling data to a specific range or standard deviation.</li>
+</ul>
+</li>
+<li><strong>Encoding</strong>: <ul>
+<li>Converting categorical data (e.g., one-hot, label encoding).</li>
+</ul>
+</li>
+<li><strong>Transformation</strong>: <ul>
+<li>Applying mathematical transformations (e.g., log, square root).</li>
+</ul>
+</li>
+<li><strong>Augmentation</strong>: <ul>
+<li>Expanding datasets with techniques like flipping images or paraphrasing text.</li>
+</ul>
+</li>
+<li><strong>Anonymisation</strong>: <ul>
+<li>Masking or pseudonymising sensitive data for privacy compliance.</li>
+</ul>
+</li>
+<li><strong>Balancing</strong>: <ul>
+<li>Addressing imbalanced datasets (e.g., oversampling, SMOTE).</li>
+</ul>
+</li>
+<li><strong>Feature Selection/Removal</strong>:<ul>
+<li>Criteria for keeping or removing features.</li>
+</ul>
+</li>
+</ul>
 <h2 id="model-development">Model Development<a class="headerlink" href="#model-development" title="Permanent link">&para;</a></h2>
-<p>(EU AI Act <a href="https://artificialintelligenceact.eu/article/11/">Article 11</a>, paragraph 1 c, g, 2, 3 4; EU AI Act <a href="https://artificialintelligenceact.eu/article/15/">Article 15</a>)</p>
-<blockquote>
-<p>Info: In Article 11 paragraph 2 c details about the computational resources needed to develop, tain, test and validate AI systems are required. Moreover, in this section, in accordance to Article 11, paragraph 2 (g) the validation and testing procedures used as well as the data and the main metrics adopted to measure accuracy, robustness, compliance with the requirements layed out in Chapter III Section 2. Paragraph 3 requires detailed information about the monitoring and fucntioning and control of the system as well as logging of testing reporting dated and signed by responsible stakeholders.  Paragraph 4 requires a description of the appropriateness of the performance metrics for the specific AI system. Defining the appropriateness of performance metrics is important to reflect the real-world costs of errors in the specific application. Without this, even technically strong models can fail their actual purpose. Article 15 delineates the Accuracy, Robustness, Cybersecurity requirements</p>
-</blockquote>
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1 (c, g), 2, 3, 4
+  <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/15/" style="color:blue; text-decoration:underline">Article 15</a>
+  <!-- info: In Article 11 paragraph 2 c details about the computational resources needed to develop, tain, test and validate AI systems are required. Moreover, in this section, in accordance to Article 11, paragraph 2 (g) the validation and testing procedures used as well as the data and the main metrics adopted to measure accuracy, robustness, compliance with the requirements layed out in Chapter III Section 2. Paragraph 3 requires detailed information about the monitoring and fucntioning and control of the system as well as logging of testing reporting dated and signed by responsible stakeholders.  Paragraph 4 requires a description of the appropriateness of the performance metrics for the specific AI system. Defining the appropriateness of performance metrics is important to reflect the real-world costs of errors in the specific application. Without this, even technically strong models can fail their actual purpose. Article 15 delineates the Accuracy, Robustness, Cybersecurity requirements-->
+  <p></p>
+</div>
+
 <p><strong>Model Architecture</strong></p>
 <ul>
 <li>Describe the selected algorithms and architectures  (e.g., supervised, unsupervised, or reinforcement learning).</li>
@@ -783,7 +816,11 @@ should work. </p>
     - Latency and scalability expectations.</li>
 </ul>
 <h2 id="integration-with-external-systems">Integration with External Systems<a class="headerlink" href="#integration-with-external-systems" title="Permanent link">&para;</a></h2>
-<p>EU AI Act <a href="https://artificialintelligenceact.eu/article/11/">Article 11</a> paragraph 1 (b, c, d, g, h), 2 (a))</p>
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1 (b, c, d, g, h), 2 (a)
+  <p></p>
+</div>
+
 <ul>
 <li><strong>Systems</strong>:
     - List dependencies 
@@ -806,40 +843,48 @@ should work. </p>
 <ul>
 <li><strong>User Information</strong>: where is this under deployment?</li>
 </ul>
-<p>## Lifecycle Management 
-(EU AI Act <a href="https://artificialintelligenceact.eu/article/11/">Article 11</a>  paragraph 6)</p>
+<h2 id="lifecycle-management">Lifecycle Management<a class="headerlink" href="#lifecycle-management" title="Permanent link">&para;</a></h2>
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 6
+  <p></p>
+</div>
+
 <ul>
 <li>Monitoring procedures for performance and ethical compliance.</li>
 <li>Versioning and change logs for model updates.</li>
+<li><strong>Metrics</strong>:<ul>
+<li>Application performance: response time, error rate.</li>
+<li>Model performance: accuracy, precision, recall.</li>
+<li>Infrastructure: CPU, memory, network usage.</li>
 </ul>
-<ul>
-<li><strong>Metrics</strong>:<p>- Application performance: response time, error rate.
-  - Model performance: accuracy, precision, recall.
-  - Infrastructure: CPU, memory, network usage.</p>
 </li>
+<li><strong>Key Activities</strong>:<ul>
+<li>Monitor performance in real-world usage.</li>
+<li>Identify and fix drifts, bugs, or failures.</li>
+<li>Update the model periodically.</li>
 </ul>
-<ul>
-<li><strong>Key Activities</strong>:<p>- Monitor performance in real-world usage.
-  - Identify and fix drifts, bugs, or failures.
-  - Update the model periodically.</p>
 </li>
+<li><strong>Documentation Needs</strong>:<ul>
+<li><strong>Monitoring Logs</strong>: Real-time data on accuracy, latency, and uptime.</li>
+<li><strong>Incident Reports</strong>: Record of failures, impacts, and resolutions.</li>
+<li><strong>Retraining Logs</strong>: Data updates and changes in performance.</li>
+<li><strong>Audit Trails</strong>: Comprehensive history of changes to ensure compliance.
+-<strong>Manteinance of change logs</strong>: </li>
 </ul>
-<ul>
-<li><strong>Documentation Needs</strong>:
-    - <strong>Monitoring Logs</strong>: Real-time data on accuracy, latency, and uptime.
-    - <strong>Incident Reports</strong>: Record of failures, impacts, and resolutions.
-    - <strong>Retraining Logs</strong>: Data updates and changes in performance.
-    - <strong>Audit Trails</strong>: Comprehensive history of changes to ensure compliance.</li>
+</li>
+<li>new features added</li>
+<li>updates to existing functionality</li>
+<li>deprecated features</li>
+<li>removed features</li>
+<li>bug fixes</li>
+<li>security and vulnerability fixes</li>
 </ul>
-<p>-<strong>Manteinance of change logs</strong>: 
- - new features added
-- updates to existing functionality
-- deprecated features
--removed features
--bug fixes
-- security and vulnerability fixes</p>
 <h3 id="risk-management-system">Risk Management System<a class="headerlink" href="#risk-management-system" title="Permanent link">&para;</a></h3>
-<p>(EU AI Act <a href="https://artificialintelligenceact.eu/article/11/">Article 11</a>, <a href="https://artificialintelligenceact.eu/article/9/">Article 9</a>)</p>
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/9/" style="color:blue; text-decoration:underline">Article 9</a>
+  <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>
+  <p></p>
+</div>
 <!--**Instructions:**  A thorough risk management system is mandated by the AI Act, especially for high-risk AI systems. This section documents the  proactive efforts to ensure the AI system operates safely and ethically. In general in this section you should document all the measures undertaken to make sure that a system operates safely on the market. Example: Consider a facial recognition system used for real-time law enforcement in public spaces. This is categorized as high-risk under the EU AI Act. If developers document the risk that the system might misidentify individuals—particularly among minority groups due to biased training data—they can plan for rigorous dataset audits, independent bias testing, and establish human oversight in decision-making. Without documenting this risk, the system might be deployed without safeguards, leading to wrongful detentions and legal liabilities. Systematic documentation ensures these issues are not only identified but addressed before harm occurs.-->
 
 <p><strong>Risk Assessment Methodology:</strong> Describe the frameworks or standards used to identify and assess risks, such as ISO 31000 or failure mode and effects analysis (FMEA), or NIST Risk Assessment Framework.</p>
@@ -850,7 +895,11 @@ should work. </p>
 <p><strong>Preventive Measures:</strong> Detail actions taken to prevent risks, like implementing data validation checks or bias reduction techniques.</p>
 <p><strong>Protective Measures:</strong> Describe contingency plans and safeguards in place to minimize the impact if a risk materializes.</p>
 <h2 id="testing-and-validation-accuracy-robustness-cybersecurity">Testing and Validation (Accuracy, Robustness, Cybersecurity)<a class="headerlink" href="#testing-and-validation-accuracy-robustness-cybersecurity" title="Permanent link">&para;</a></h2>
-<p>(EU AI Act <a href="https://artificialintelligenceact.eu/article/15/">Article 15</a>)</p>
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/15/" style="color:blue; text-decoration:underline">Article 15</a>
+  <p></p>
+</div>
+
 <p><strong>Testing and Validation Procedures (Accuracy):</strong></p>
 <p><strong>Performance Metrics:</strong> List the metrics used to evaluate the AI system, such as accuracy, precision, recall, F1 score, or mean squared error.</p>
 <p><strong>Validation Results:</strong> Summarize the outcomes of testing, including any benchmarks or thresholds met or exceeded.</p>
@@ -877,7 +926,11 @@ should work. </p>
 <li>Include mechanisms to quantify uncertainty in the model’s predictions (e.g., Bayesian networks or confidence scores).</li>
 </ul>
 <h4 id="cybersecurity">Cybersecurity<a class="headerlink" href="#cybersecurity" title="Permanent link">&para;</a></h4>
-<p>(EU AI Act <a href="https://artificialintelligenceact.eu/article/11/">Article 11</a>, paragraph 2 h)</p>
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 2 (h)
+  <p></p>
+</div>
+
 <p><strong>Data Security:</strong></p>
 <p><strong>Access Control:</strong></p>
 <p><strong>Incident Response :</strong></p>
@@ -885,10 +938,14 @@ should work. </p>
 <p>Post-deployment monitoring, patch management, and forensic logging are crucial to maintaining ongoing cybersecurity compliance.</p>
 <p>Documentation of all cybersecurity processes and incidents is mandatory to ensure accountability and regulatory conformity.</p>
 <h2 id="human-oversight">Human Oversight<a class="headerlink" href="#human-oversight" title="Permanent link">&para;</a></h2>
-<p>(EU AI Act <a href="https://artificialintelligenceact.eu/article/11/">Article 11</a>,  paragraph 2 e; <a href="https://artificialintelligenceact.eu/article/14/">Article 14</a>)</p>
-<blockquote>
-<p>AI Act Article 11, paragraph 2 (e) requirements: assessment of the human oversight measures needed in accordance with Article 14, including the assessment of the technical measures needed to facilitate the integration of the outputs of the AI systems by deployers, </p>
-</blockquote>
+<div style="color:gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 2(e)
+  <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/14/" style="color:blue; text-decoration:underline">Article 14</a>
+  <p></p>
+</div>
+
+<!-- info: AI Act Article 11, paragraph 2(e) requirements: assessment of the human oversight measures needed in accordance with Article 14, including the assessment of the technical measures needed to facilitate the integration of the outputs of the AI systems by deployers. -->
+
 <p><strong>Human-in-the-Loop Mechanisms:</strong>  Explain how human judgment is incorporated into the AI system’s decision-making process, such as requiring human approval before action.</p>
 <p><strong>Override and Intervention Procedures:</strong> Describe how users or operators can intervene or disable the AI system in case of errors or emergencies.</p>
 <p><strong>User Instructions and Training:</strong> Provide guidelines and training materials to help users understand how to operate the AI system safely and effectively.</p>
@@ -1057,7 +1114,11 @@ should work. </p>
   - Use automated backups and verify restore procedures.-->
 
 <h3 id="eu-declaration-of-conformity">EU Declaration of conformity<a class="headerlink" href="#eu-declaration-of-conformity" title="Permanent link">&para;</a></h3>
-<p>(EU AI Act <a href="https://artificialintelligenceact.eu/article/47/">Article 47</a>)</p>
+<div style="color: gray">
+  EU AI Act <a href="https://artificialintelligenceact.eu/article/47/" style="color:blue; text-decoration:underline">Article 47</a>
+  <p></p>
+</div>
+
 <!-- when applicable and certifications are available: it requires a systems name as well as the name and address of the provider; a statement that the EU declaration of conformity referred to in Article 47 is issued under the sole responsibility of the provider; a statement that the AI system is in conformity with this Regulation and, if applicable, with any other relevant Union law that provides for the issuing of the EU declaration of conformity referred to in Article 47, Where an AI system involves the processing of personal data;  a statement that that AI system complies with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, reference to the harmonised standards used or any other common specification in relation to which
 conformity is declared; the name and identification number of the notified body, a description of the conformity
 assessment procedure performed, and identification of the certificate issued; the place and date of issue of the declaration, the name and function of the person who signed it, as well as an
