@@ -4,6 +4,14 @@
 <br>**Document Version**: 0.4.1
 <br>**Reviewers**: [Jerry Seinfeld](), [Alex Loosley]()
 
+## Relevant Links
+* [GitHub Repository]()
+* [Deployment Pipeline]()
+* [API]() ([Swagger Docs]())
+* [AWS Account]()
+* [JIRA Backlog]()
+* [LeanIX Page]()
+
 ## General Information
 **Purpose and Intended Use**:
 SafeSiteAI is a **fictional** high-risk AI system developed to detect and monitor construction worker safety using real-time video 
@@ -45,19 +53,19 @@ analytics and sensor fusion. The system's primary objective is to identify unsaf
 
 ### Models
 
-| Model                        | Links                                                           | Description of Application Usage                    |
-|------------------------------|-----------------------------------------------------------------|-----------------------------------------------------|
+| Model                        | Documentation                                                    | Description of Application Usage                    |
+|------------------------------|------------------------------------------------------------------|-----------------------------------------------------|
 | ALiSNet*                     | [TechOps Model Document](example-model-documentation-alisnet.md) | Used for identity masked human and PPE segmentation |
-| PPE Fit and Usage Classifier | [TechOps Model Document]()                                      | Used to score if PPE properly used                  |
-| Other Danger Classifier      | [GitHub Repo]()                                                 | Used to detect other safety hazards in view         |
+| PPE Fit and Usage Classifier | [TechOps Model Document]()                                       | Used to score if PPE properly used                  |
+| Other Danger Classifier      | [GitHub Repo]()                                                  | Used to detect other safety hazards in view         |
 
 
 ### Datasets
 
-| Dataset               | Link to Single Source of Truth    | Description of Application Usage        |
-|-----------------------|-----------------------------------|-----------------------------------------|
-| Skin tones dataset    | [TechOps Data Document](example-data-documentation-voc-skin-tones.md)      | Used for end-to-end application testing |
-| PPE annotation data   | [GitHub Repo]()                | Used for end-to-end application testing |
+| Dataset               | Documentation                                                         | Description of Application Usage        |
+|-----------------------|-----------------------------------------------------------------------|-----------------------------------------|
+| Skin tones dataset    | [TechOps Data Document](example-data-documentation-voc-skin-tones.md) | Used for end-to-end application testing |
+| PPE annotation data   | [GitHub Repo]()                                                       | Used for end-to-end application testing |
 
 Note, other datasets were used to train, evaluate, and test [models](#models) used as part of WorkSafeAI. 
 See those documentation for details about those datasets.

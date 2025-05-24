@@ -1,9 +1,4 @@
 # Data Documentation Template 
-
-**Dataset Owner**: Name and contact information
-<br>**Document Version**: Version controlling this document is highly recommended
-<br>**Reviewers**: List reviewers
-
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/10/" style="color:blue; text-decoration:underline">Article 10</a>
   <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 1, 2 (d)
@@ -11,6 +6,10 @@
   In Article 11(2)(d), a datasheet is required which describes all training methodologies and techniques as well as the characteristics of the training dataset, a general description of the dataset, information about its provenance, scope and main characteristics, how the data was obtained and selected, labelling procedures conducted, and data cleaning methodologies deployed. -->
   <p></p>
 </div>
+
+**Dataset Owner**: Name and contact information
+<br>**Document Version**: Version controlling this document is highly recommended
+<br>**Reviewers**: List reviewers
 
 <!-- info: Replace with dataset name -->
 

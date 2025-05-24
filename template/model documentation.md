@@ -1,29 +1,26 @@
 # Model Documentation Template
-
-**Model Owner**: Name and contact information
-<br>**Document Version**: Version controlling this document is highly recommended
-<br>**Reviewers**: List reviewers
-
-
 <!-- info: Replace with model name -->
 
 <div style="color:gray">
     EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1
-<!-- info:  
-The AI Act requires a description of  
-(a) the intended purpose, version, and provider,  
-(b) a description of how the system interacts with software and hardware,  
-(c) relevant versions and updates,  
-(d) all the forms in which the AI system is put into service
-The overview part should also include:  
-(e) the hardware on which the system is intended to run,  
-(f) whether the system is part of the safety component of a product,  
-(g) a basic description of the user interface, and  
-(h) the instructions for use for the deployers. 
--->
+    <!-- info:  
+    The AI Act requires a description of  
+    (a) the intended purpose, version, and provider,  
+    (b) a description of how the system interacts with software and hardware,  
+    (c) relevant versions and updates,  
+    (d) all the forms in which the AI system is put into service
+    The overview part should also include:  
+    (e) the hardware on which the system is intended to run,  
+    (f) whether the system is part of the safety component of a product,  
+    (g) a basic description of the user interface, and  
+    (h) the instructions for use for the deployers. 
+    -->
     <p></p>
 </div>
 
+**Model Owner**: Name and contact information
+<br>**Document Version**: Version controlling this document is highly recommended
+<br>**Reviewers**: List reviewers
 
 ## Overview 
 <div style="color:gray">
