@@ -165,3 +165,13 @@ See those documentation for details about those datasets.
 * IEC 61508: Functional Safety
 
 See [Governance Approvals]() for more information
+
+## Documentation Metadata
+
+### Template Version
+
+[Link to Template](template-application-documentation.md)
+
+### Documentation Authors
+
+- **[George Costanza](mailto:g.costanza@vandelay-industries.com), Importer/Exporter:** (Principle Developer)

@@ -1378,7 +1378,7 @@ relevant information or considerations. -->
 See [Data Point Collection Criteria](#data-point-collection-criteria) for information on how images were selected
 for labeling from the [Zalando VOC Images Dataset](https://docs.google.com/document/d/15Agfx3jpiYHLjssztqZMWl-JtxRDhXfV5BT4ZZXfOcs/edit).
 
-## Model Documentation Metadata
+## Documentation Metadata
 
 ### Documentation Template Version
 

@@ -165,7 +165,7 @@ Poor lightning conditions and low photo resolution may decrease quality of segme
 
 The model was designed with strong size and latency constraints and is ready to be deployed to production or edge devices.
 
-## Model Documentation Metadata
+## Documentation Metadata
 
 ### Documentation Template Version
 

@@ -465,9 +465,6 @@ indication for, or on behalf of whom, that person signed, a signature.-->
 
 ## Documentation Metadata
 
-### Version
-<!-- info: provide version of this document, if applicable (dates might also be useful) -->
-
 ### Template Version
 <!-- info: link to model documentation template (i.e. could be a GitHub link) -->
 
