@@ -655,26 +655,42 @@ Article 11(2)(c) requires a description of the system’s architecture, how soft
 In Article 11, 2 (d) a datasheet is required which describes all training methodologies and techniques as well as the characteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed -->
 
 <ul>
-<li><strong>Steps Involved</strong>:
-    - Data collection: Describe how the data was sourced (e.g., databases, APIs, sensors, or publicly available datasets).
-    - Data cleaning: Explain techniques used to handle missing values, outliers, or errors.<p>- Data transformation: Include any scaling or encoding applied.</p>
+<li>
+<p><strong>Steps Involved</strong>:</p>
+<ul>
+<li>Data collection: Describe how the data was sourced (e.g., databases, APIs, sensors, or publicly available datasets).</li>
+<li>Data cleaning: Explain techniques used to handle missing values, outliers, or errors.</li>
+</ul>
+<ul>
+<li>Data transformation: Include any scaling or encoding applied.</li>
+</ul>
 </li>
 </ul>
 <h3 id="data-splitting">Data Splitting<a class="headerlink" href="#data-splitting" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>Subset Definitions</strong>:
-    * <strong>Training set</strong>: 
-    * <strong>Validation set</strong>: 
-    * <strong>Test set</strong>: </li>
-<li><strong>Splitting Methodology</strong>:
-    * Describe the approach:
-        * <strong>Random Sampling</strong>: 
-        * <strong>Stratified Sampling</strong>: 
-        * <strong>Temporal Splits</strong>: </li>
-<li><strong>Proportions</strong>:
-    * Example: &ldquo;70% training, 20% validation, 10% testing.&rdquo;</li>
-<li><strong>Reproducibility</strong>:
-    * Mention how many seeds are being used and how many are needed to prove statistical significance</li>
+<li><strong>Subset Definitions</strong>:<ul>
+<li><strong>Training set</strong>: </li>
+<li><strong>Validation set</strong>: </li>
+<li><strong>Test set</strong>: </li>
+</ul>
+</li>
+<li><strong>Splitting Methodology</strong>:<ul>
+<li>Describe the approach:<ul>
+<li><strong>Random Sampling</strong>: </li>
+<li><strong>Stratified Sampling</strong>: </li>
+<li><strong>Temporal Splits</strong>: </li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Proportions</strong>:<ul>
+<li>Example: &ldquo;70% training, 20% validation, 10% testing.&rdquo;</li>
+</ul>
+</li>
+<li><strong>Reproducibility</strong>:<ul>
+<li>Mention how many seeds are being used and how many are needed to prove statistical significance</li>
+</ul>
+</li>
 </ul>
 <p><strong>Data Shuffling</strong>:</p>
 <ul>
@@ -790,9 +806,11 @@ Rationale for each metric (why accuracy? why F1-score?)</li>
 
 <p><strong>Performance Metrics</strong>:</p>
 <ul>
-<li>Compute metrics on the test set:
-     - Accuracy, precision, recall, F1 score for classification.
-    - MSE, RMSE, MAE for regression.</li>
+<li>Compute metrics on the test set:<ul>
+<li>Accuracy, precision, recall, F1 score for classification.</li>
+<li>MSE, RMSE, MAE for regression.</li>
+</ul>
+</li>
 </ul>
 <p><strong>Confusion Matrix</strong>:</p>
 <ul>

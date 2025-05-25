@@ -1640,7 +1640,7 @@ Use additional notes to capture any other relevant information or
 considerations. -->
 <p>Version 1.0.0 will be released once data curation and preparation is complete.</p>
 <h2 id="example-of-data-points">Example of Data Points<a class="headerlink" href="#example-of-data-points" title="Permanent link">&para;</a></h2>
-<h4 id="typical-data-point">Typical Data Point<a class="headerlink" href="#typical-data-point" title="Permanent link">&para;</a></h4>
+<h3 id="typical-data-point">Typical Data Point<a class="headerlink" href="#typical-data-point" title="Permanent link">&para;</a></h3>
 <!-- width: half -->
 <!-- info: Provide an example of a typical data point and describe what makes
 it typical.
@@ -1678,7 +1678,7 @@ like <code>mid-deep</code> and <code>deep</code> were allowed, see <a href="#ann
 for more details).</p>
 <p>Note, this data corresponds to the main labeling task which only had three labelers. See 
 <a href="#annotations-and-labeling">Annotations and Labeling</a> for more details about labeling tasks.</p>
-<h4 id="atypical-data-point">Atypical Data Point<a class="headerlink" href="#atypical-data-point" title="Permanent link">&para;</a></h4>
+<h3 id="atypical-data-point">Atypical Data Point<a class="headerlink" href="#atypical-data-point" title="Permanent link">&para;</a></h3>
 <!-- width: half -->
 <!-- info: Provide an example of an outlier data point and describe what makes
 it atypical.
@@ -1710,7 +1710,7 @@ the first labeler seemed to have made a mistake by labeled a skin tone as both <
 <p>Note, this data corresponds to the calibration 1 labeling task which had more labeling mistakes as labelers 
 got used to the labeling UI.  See <a href="#annotations-and-labeling">Annotations and Labeling</a> for more details about
 labeling tasks.</p>
-<h4 id="sampling-of-data-points">Sampling of Data Points<a class="headerlink" href="#sampling-of-data-points" title="Permanent link">&para;</a></h4>
+<h3 id="sampling-of-data-points">Sampling of Data Points<a class="headerlink" href="#sampling-of-data-points" title="Permanent link">&para;</a></h3>
 <!-- scope: periscope -->
 <!-- info: Provide link(s) to data points OR
 a link to an exploratory demo if one exists -->
@@ -1889,7 +1889,7 @@ individual data points made explicit.
 
 Include links to servers where readers can explore the data on their own. -->
 
-<p><strong>Exploration Demo:</strong> <a href="https://github.bus.zalan.do/aithics/skin-tone-labeling/blob/main/datasets/zalando-voc/notebooks/01-aggregate-labeling-job-results-from-local.ipynb">Link</a></p>
+<p><strong>Exploration Demo:</strong> Found in <a href="https://github.bus.zalan.do/aithics/skin-tone-labeling/blob/main/datasets/zalando-voc/notebooks/01-aggregate-labeling-job-results-from-local.ipynb">Jupyter Notebook</a></p>
 <h3 id="distributions">Distribution(s)<a class="headerlink" href="#distributions" title="Permanent link">&para;</a></h3>
 <!-- scope: periscope -->
 <!-- info: Describe the recommended splits and corresponding criteria.
@@ -1935,7 +1935,7 @@ out for, or other relevant information or considerations. -->
 <h2 id="known-usage">Known Usage<a class="headerlink" href="#known-usage" title="Permanent link">&para;</a></h2>
 <!-- info: Fill out the following section if your dataset was primarily
 created for use in AI/ML system(s) -->
-<h4 id="modelss">Models(s)<a class="headerlink" href="#modelss" title="Permanent link">&para;</a></h4>
+<h3 id="modelss">Models(s)<a class="headerlink" href="#modelss" title="Permanent link">&para;</a></h3>
 <!-- scope: telescope -->
 <!-- info: Provide a table of known models that use this dataset
 that the dataset has been used for.-->
@@ -1960,7 +1960,7 @@ that the dataset has been used for.-->
 </table>
 <p>Note, this table may not be exhaustive.  Dataset users and documentation consumers at large
 are highly encouraged to contribute known usages.</p>
-<h4 id="applications">Application(s)<a class="headerlink" href="#applications" title="Permanent link">&para;</a></h4>
+<h3 id="applications">Application(s)<a class="headerlink" href="#applications" title="Permanent link">&para;</a></h3>
 <!-- scope: telescope -->
 <!-- info: Provide a table of known AI/ML systems that use this dataset
 that the dataset has been used for.-->
@@ -2012,9 +2012,11 @@ see https://docs.google.com/document/d/1j-khhbdOf2Fqyh2JlSC_82nA9KvyBOfdezftKOkP
 <!-- info: Please describe any required training or prerequisites to access
 this dataset. -->
 <ul>
-<li>Users requiring access must get approval on a DPR (with corresponding use case) either by:
-    - adding their user to the <a href="https://jira.zalando.net/browse/SEC-23706">existing DPR</a>
-    - creating a <a href="https://jira.zalando.net/secure/CreateIssue.jspa?pid=16062&amp;issuetype=15401">new DPR</a> if the existing DPR does not match your requirements</li>
+<li>Users requiring access must get approval on a DPR (with corresponding use case) either by:<ul>
+<li>adding their user to the <a href="https://jira.zalando.net/browse/SEC-23706">existing DPR</a></li>
+<li>creating a <a href="https://jira.zalando.net/secure/CreateIssue.jspa?pid=16062&amp;issuetype=15401">new DPR</a> if the existing DPR does not match your requirements</li>
+</ul>
+</li>
 <li>For data with images, users must be added to role with S3 access to the Zalando VOC skin tones dataset
   (first get DPR approval described above, then contact dataset owner)</li>
 </ul>
@@ -2400,8 +2402,10 @@ type applied.) -->
 <p><strong>Transformation Type</strong> N/A</p>
 <p><strong>Method:</strong> Skin tone labels have been grouped by image and enriched
 by calculating other statistics. No loss of raw data has taken place.</p>
-<p><strong>Platforms, tools, or libraries:</strong>
-- Python</p>
+<p><strong>Platforms, tools, or libraries:</strong></p>
+<ul>
+<li>Python</li>
+</ul>
 <p><strong>Additional Notes:</strong></p>
 <h2 id="annotations-and-labeling">Annotations and Labeling<a class="headerlink" href="#annotations-and-labeling" title="Permanent link">&para;</a></h2>
 <!-- info: Fill this section if any human or algorithmic annotation tasks were
@@ -2662,7 +2666,7 @@ type.) -->
 <h2 id="validation-types">Validation Types<a class="headerlink" href="#validation-types" title="Permanent link">&para;</a></h2>
 <!-- info: Fill this section if the data in the dataset was validated during
 or after the creation of your dataset. -->
-<h4 id="methods">Method(s)<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h4>
+<h3 id="methods">Method(s)<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h3>
 <!-- scope: telescope -->
 <!-- info: Select **all applicable**: -->
 <ul>
@@ -2670,7 +2674,7 @@ or after the creation of your dataset. -->
 <li>Structured Validation</li>
 <li>Consistency Validation</li>
 </ul>
-<h4 id="breakdowns">Breakdown(s)<a class="headerlink" href="#breakdowns" title="Permanent link">&para;</a></h4>
+<h3 id="breakdowns">Breakdown(s)<a class="headerlink" href="#breakdowns" title="Permanent link">&para;</a></h3>
 <!-- scope: periscope -->
 <!-- info: Provide a description of the fields and data
 points that were validated.
@@ -2682,7 +2686,7 @@ relevant information or considerations.
 following for each validator type.) -->
 <p><strong>(Validation Type)</strong></p>
 <p><strong>Number of Data Points Validated:</strong> all</p>
-<h4 id="descriptions_1">Description(s)<a class="headerlink" href="#descriptions_1" title="Permanent link">&para;</a></h4>
+<h3 id="descriptions_1">Description(s)<a class="headerlink" href="#descriptions_1" title="Permanent link">&para;</a></h3>
 <!-- scope: microscope -->
 <!-- info: Provide a description of the methods used to
 validate the dataset.
@@ -2699,14 +2703,14 @@ biases introduced by sampling to create this dataset.
 
 Fill out the following block if your dataset employs any sampling
 methods. -->
-<h4 id="methods-used_1">Method(s) Used<a class="headerlink" href="#methods-used_1" title="Permanent link">&para;</a></h4>
+<h3 id="methods-used_1">Method(s) Used<a class="headerlink" href="#methods-used_1" title="Permanent link">&para;</a></h3>
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** methods used in the creation of this
 dataset: -->
 <ul>
 <li>Unsampled</li>
 </ul>
-<h4 id="characteristics_1">Characteristic(s)<a class="headerlink" href="#characteristics_1" title="Permanent link">&para;</a></h4>
+<h3 id="characteristics_1">Characteristic(s)<a class="headerlink" href="#characteristics_1" title="Permanent link">&para;</a></h3>
 <!-- scope: periscope -->
 <!-- info: Provide characteristics of each sampling
 method used.
@@ -2718,7 +2722,7 @@ relevant information or considerations.
 following for each sampling method
 used.) -->
 
-<h4 id="sampling-criteria">Sampling Criteria<a class="headerlink" href="#sampling-criteria" title="Permanent link">&para;</a></h4>
+<h3 id="sampling-criteria">Sampling Criteria<a class="headerlink" href="#sampling-criteria" title="Permanent link">&para;</a></h3>
 <!-- scope: microscope -->
 <!-- info: Describe the criteria used to sample data from
 upstream sources.
