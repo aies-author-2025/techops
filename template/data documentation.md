@@ -1,4 +1,5 @@
 # Data Documentation Template 
+
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/10/" style="color:blue; text-decoration:underline">Article 10</a>
   <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 1, 2 (d)
@@ -17,6 +18,7 @@
 <!-- info: This section enables all stakeholders to have a glimpse into the data processes. You can use this session to provide transparency to users and high level information to all relevant stakeholders. -->
 
 ### Dataset Description 
+
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 1, 2(d)
   <p></p>
@@ -55,24 +57,25 @@ very useful. -->
 
 Example references:
 
-- GitHub Repository
-- Paper/Documentation Link
-- Initiative Demo
-- Conference Talk
-- API Link
+* GitHub Repository
+* Paper/Documentation Link
+* Initiative Demo
+* Conference Talk
+* API Link
 
 
 ### Developers
-- **Name, Team**
-- **Name, Team**
+
+* **Name, Team**
+* **Name, Team**
 
 ### Owner
 <!-- info: Remember to reference developers and owners emails. -->
-- **Team Name, Contact Person**
+* **Team Name, Contact Person**
 
 ### Deployer instructions of Use
 <!-- info: Important to determine if there are relevant use-cases or if the data is unsuitable for certair applications. -->
-- **Instructions for use for deployers**:
+* **Instructions for use for deployers**:
 
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/13/" style="color:blue; text-decoration:underline">Article 13</a>
@@ -82,14 +85,15 @@ Example references:
 ### Version Details
 
 ## Data Versioning 
+
 (Article 11, paragraph 2(d))
 
 **Data Version Control Tools:**
 <!-- Data version control tools are important to track changes in datasets, models, and experiments over time, enabling collaboration, reproducibility, and better model management. This is particularly important to then detect model drifts and debugging or for rollbacks when overwriting on the original data  -->
 
-- Include a Data_versioning.md file to document changes
-- DVC (Data Version Control): Tracks datasets, connects them to model versions, and integrates with Git.
-- Git-LFS (Large File Storage): Stores large data files outside the Git repository.
+* Include a Data_versioning.md file to document changes
+* DVC (Data Version Control): Tracks datasets, connects them to model versions, and integrates with Git.
+* Git-LFS (Large File Storage): Stores large data files outside the Git repository.
 
 ### Maintenance of Metadata and Schema Versioning 
 
@@ -99,24 +103,29 @@ Example references:
 </div>
 
 #### Why
+
 Data formats, schema, and other metadata changes can impact downstream processes. Tracking these ensures transparency.
 
 #### How
 
 Create a data dictionary:
-- Document dataset structure, column descriptions, data types, and relationships.
+
+* Document dataset structure, column descriptions, data types, and relationships.
 
 Track schema changes:
-- Use tools to log schema evolution.
-- Record changes as part of version control or data pipelines.
+
+* Use tools to log schema evolution.
+* Record changes as part of version control or data pipelines.
 
  Save metadata alongside datasets:
-- Include details like source, timestamp, description, version, and quality metrics.
+
+* Include details like source, timestamp, description, version, and quality metrics.
     
   <!-- What could help is to incorporate Data Lineage Tools
    as they provide end-to-end visibility of data transformations and dependencies.-->
 
 ## Known Usages 
+
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 3
   <p></p>
@@ -154,6 +163,7 @@ that use this dataset.
 | [Example Application 1]() | Size and Fit Recommendations | Fairness Evaluation of end-to-end application pipeline |
 
 ## Dataset Characteristics
+
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 2(d)
   <p></p>
@@ -174,13 +184,17 @@ their provenance, scope and main characteristics; how the data was obtained and 
 <br>**Date of Collection:** Start and end date of data collection.
 
 ## Data Origin and Source
+
 **Source(s):** Provide information about where the data was sourced from (e.g., sensors, surveys, web scraping, public databases).
 <br>**Third-Party Data:** Indicate if any part of the dataset was obtained from third parties, and if so, detail the legal agreements in place (license, usage rights, etc.).
 <br>**Ethical Sourcing:** (Ghana issues) Provide information on the ethical and legal compliance of the data collection process (e.g., informed consent, transparency to data subjects, and compliance with GDPR or other regulations).
 
 ## Provenance
+
 _Describe the history and origin of the data._
+
 ### Collection
+
 #### Method(s) Used
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** methods used to collect data.
@@ -191,22 +205,24 @@ section), or the case where a crowd is responsible for collecting and
 submitting data independently to form a collective dataset.
 -->
 _Specify one or more of:_
-- API
-- Artificially generated
-- Crowdsourced - Internal Employee
-- Crowdsourced - External Paid
-- Crowdsourced - Volunteer
-- Vendor collection efforts
-- Scraped or crawled
-- Survey, forms, or polls
-- Interviews, focus groups
-- Scientific experiment
-- Taken from other existing datasets
-- Unknown
-- To be determined
-- Others (please specify)
+
+* API
+* Artificially generated
+* Crowdsourced - Internal Employee
+* Crowdsourced - External Paid
+* Crowdsourced - Volunteer
+* Vendor collection efforts
+* Scraped or crawled
+* Survey, forms, or polls
+* Interviews, focus groups
+* Scientific experiment
+* Taken from other existing datasets
+* Unknown
+* To be determined
+* Others (please specify)
 
 #### Methodology Detail(s) 
+
 <div style="color: gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> 2 (a), (b), (d)
   <p></p>
@@ -227,7 +243,7 @@ type.) -->
 
 **Update Frequency for collected data:**
 
-*Select one for this collection type:* yearly, quarterly, monthly, on demand, no changes, others, ....
+_Select one for this collection type:_ yearly, quarterly, monthly, on demand, no changes, others, ....
 
 **Additional Links for this collection:**
 
@@ -241,9 +257,9 @@ See section on [Access, Rention, and Deletion](#access-retention-and-deletion)
 
 Use additional notes to capture any other relevant information or
 considerations. -->
-- **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
-- **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
-- **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
+* **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
+* **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
+* **Source:** Describe here. Include links, data examples, metrics, visualizations where relevant.
 
 **Additional Notes:** Add here
 
@@ -258,60 +274,70 @@ considerations. -->
 
 **Others:** Please specify
     
-## Data Pre-Processing, 
+## Data Pre-Processing 
+
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 2 (d, e)
   <p></p>
 </div>
 
 ### Data Cleaning
-- Handling missing data: (e.g., removal, imputation method used)
-- Outlier treatment: (e.g., detection and removal technique)
-- Duplicates removal: (Yes/No)
-- Error correction: (Manual/Automated, if applicable)
+
+* Handling missing data: (e.g., removal, imputation method used)
+* Outlier treatment: (e.g., detection and removal technique)
+* Duplicates removal: (Yes/No)
+* Error correction: (Manual/Automated, if applicable)
 
 ### Data Transformation
-- Normalization/Standardization: (Method used, e.g., min-max scaling)
-- Encoding categorical data: (e.g., one-hot encoding, label encoding)
-- Text/tokenization: (Applicable for NLP tasks)
+
+* Normalization/Standardization: (Method used, e.g., min-max scaling)
+* Encoding categorical data: (e.g., one-hot encoding, label encoding)
+* Text/tokenization: (Applicable for NLP tasks)
 
 ### Feature Engineering
-- Feature selection: (e.g., methods used to select features)
-- Feature extraction: (e.g., PCA, interaction terms)
-- Newly created features: (List any)
+
+* Feature selection: (e.g., methods used to select features)
+* Feature extraction: (e.g., PCA, interaction terms)
+* Newly created features: (List any)
 
 ### Dimensionality Reduction
-- Technique(s) used: (e.g., PCA, t-SNE)
-- Number of dimensions after reduction: (Specify)
+
+* Technique(s) used: (e.g., PCA, t-SNE)
+* Number of dimensions after reduction: (Specify)
 
 ### Data Augmentation
-- Augmentation technique(s): (e.g., rotation, flipping for images)
+
+* Augmentation technique(s): (e.g., rotation, flipping for images)
 
 ## Data Annotation and Labeling 
+
 <div style="color: gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> 2(d)
   <p></p>
 </div>
 
-- Annotation Process: Describe the process used to label or annotate the data (e.g., human labelers, automated, crowdsourcing).
-- Quality Assurance: Explain any quality control mechanisms applied to ensure accurate labeling or annotation.
-- Inter-Annotator Agreement: If applicable, mention how disagreements in labeling were resolved.
+* Annotation Process: Describe the process used to label or annotate the data (e.g., human labelers, automated, crowdsourcing).
+* Quality Assurance: Explain any quality control mechanisms applied to ensure accurate labeling or annotation.
+* Inter-Annotator Agreement: If applicable, mention how disagreements in labeling were resolved.
     
 ## Dataset Distribution and Licensing 
+
 <div style="color: gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> 2(d)
   <p></p>
 </div>
 
-- Availability:
-- Open/public or private dataset
-- Dataset Documentation Link: (Link to further details if available)
-- User Rights and Limitations:
+* Availability:
+* Open/public or private dataset
+* Dataset Documentation Link: (Link to further details if available)
+* User Rights and Limitations:
 
 ## Access, Retention, and Deletion
 <!-- info: Where applicable, collect input from privacy governance team -->
 ### Access
+
 #### Relevant Links
+
 * [Link to filestore]
 * [Link to governance processes for data access]
 * ...
@@ -330,10 +356,12 @@ For example:
 
 This dataset requires membership in [specific] database groups:
 
-- Complete the [Mandatory Training]
-- Read [Data Usage Policy]
-- Initiate a [Data Processing Request]
+* Complete the [Mandatory Training]
+* Read [Data Usage Policy]
+* Initiate a [Data Processing Request]
+
 ### Retention
+
 #### Duration
 <!-- scope: periscope -->
 <!-- info: Specify the duration for which this dataset can be retained: -->
@@ -351,12 +379,15 @@ Specify duration in days, months, or years.
 
   
 ## Data Risk Assessment
+
 **Describe the assessment of data risks**:
-- Foreseeable unintended outcomes or biases arising from dataset use.
-- Sources of potential discrimination or harm.
+
+* Foreseeable unintended outcomes or biases arising from dataset use.
+* Sources of potential discrimination or harm.
 
 
 ## Cybersecurity Measures
+
 <div style="color: gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 5
   <p></p>
@@ -367,24 +398,24 @@ Specify duration in days, months, or years.
 
 #### Data Storage
 
-- **Encryption**: Use AES-256; detail key management (e.g., HSM, key rotation).
-- **Access Control**: Implement role-based access and MFA.
-- **Backup**: Document backup frequency, encryption, and recovery testing.
-- **Integrity Monitoring**: Use hashes, checksums, or blockchain.
-- **Security**: Describe server protections (e.g., restricted access).
+* **Encryption**: Use AES-256; detail key management (e.g., HSM, key rotation).
+* **Access Control**: Implement role-based access and MFA.
+* **Backup**: Document backup frequency, encryption, and recovery testing.
+* **Integrity Monitoring**: Use hashes, checksums, or blockchain.
+* **Security**: Describe server protections (e.g., restricted access).
 
 #### Data Transfer
 
-- **Encryption in Transit**: Specify TLS 1.3, IPsec configurations.
-- **Endpoint Security**: Detail device verification and certificate pinning.
-- **API Security**: Document authentication, rate-limiting, and channel encryption.
-- **Data Masking**: Use pseudonymisation for sensitive data in transit.
+* **Encryption in Transit**: Specify TLS 1.3, IPsec configurations.
+* **Endpoint Security**: Detail device verification and certificate pinning.
+* **API Security**: Document authentication, rate-limiting, and channel encryption.
+* **Data Masking**: Use pseudonymisation for sensitive data in transit.
 
 #### Data Processing
 
-- **Secure Environments**: Use containers, VMs, or trusted execution (e.g., Intel SGX).
-- **Audit Logs**: Specify logging standards, retention, and tamper protection.
-- **Data Minimisation**: Anonymise or limit collected data.
+* **Secure Environments**: Use containers, VMs, or trusted execution (e.g., Intel SGX).
+* **Audit Logs**: Specify logging standards, retention, and tamper protection.
+* **Data Minimisation**: Anonymise or limit collected data.
 
 
 
@@ -401,11 +432,12 @@ For instance: If yoi train a model to detec and diagnose lung cancer from hospit
 
 -**Audit Logs:** Periodically perform manual or semi-automated reviews of data samples and log changes in the data as well as access patterns.
 
-- **Action plans implemented to address identified issues:**.
+* **Action plans implemented to address identified issues:**.
 
 
 
 ### EU Declaration of conformity
+
 <div style="color: gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/47/" style="color:blue; text-decoration:underline">Article 47</a>
   <p></p>
@@ -421,6 +453,7 @@ indication for, or on behalf of whom, that person signed, a signature.-->
 
 
 ### Documentation Metadata
+
 ### Version
 <!-- info: provide version of this document, if applicable (dates might also be useful) -->
 
@@ -433,6 +466,6 @@ indication for, or on behalf of whom, that person signed, a signature.-->
 Select one or more roles per author and reference author's
 emails to ease communication and add transparency. -->
 
-- **Name, Team:** (Owner / Contributor / Manager)
-- **Name, Team:** (Owner / Contributor / Manager)
-- **Name, Team:** (Owner / Contributor / Manager)
+* **Name, Team:** (Owner / Contributor / Manager)
+* **Name, Team:** (Owner / Contributor / Manager)
+* **Name, Team:** (Owner / Contributor / Manager)

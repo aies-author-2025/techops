@@ -9,6 +9,7 @@ Model documentation contributions and feedback are welcome!
 ## Overview
 
 ### Model Type
+
 Convolutional Neural Network
 
 ### Model Description
@@ -17,14 +18,17 @@ Convolutional Neural Network
 Architecture of ALiSNet is based on [Semantic FPN](https://arxiv.org/abs/1901.02446) with [PointRend](https://arxiv.org/abs/1912.08193) refinement. The original backbone of the network is exchanged by mobile-optimized [MnasNet](https://arxiv.org/abs/1807.11626) to achieve significant model size reduction. Additionaly, Feature Pyramid Network (FPN) from the original backbone is replaced with a simpler aggregation step, skipping FPN top-down path. Final model is also quantized to 8 bits integer precision using Qantization Aware Training.
 
 ### Status
+
 **Status Date:** 2025-01-22
 
 **Regularly Updated** - New versions of the model have been or will continue to be made available.
 
 ### Relevant Links
+
 * [Paper](https://arxiv.org/abs/2304.07533)
 
 ### Developer(s)
+
 [**Amrollah Seifoddini**](mailto:amrollah.seifoddini@zalando.ch), **Size & Fit**
 
 ### Owner(s)
@@ -79,7 +83,7 @@ are highly encouraged to contribute known usages.
 
 Privacy risks were initially reviewed by Size & Fit ([Malte Alf](mailto:malte.alf@zalando.ch), [Amrollah Seifoddini](mailto:amrollah.seifoddini@zalando.ch), [Timon Kuenzle](mailto:timon.kuenzle@zalando.ch), [Stefan Messmer](mailto:stefan.messmer@zalando.ch)) in collaboration with Algorithmic Privacy & Fairness ([Håkan Jonsson](mailto:hakan.jonsson@zalando.de)) and Product Security ([Daniel Calderon](mailto:daniel.calderon@zalando.de)).
 
-#### Processing or storage of customer photos during deployment
+### Processing or storage of customer photos during deployment
 
 In order to obtain measurments customers need to upload their photos to our app so that their silhouette may be inferred. This creates a risk related to storage and processing of private data.
 
@@ -87,7 +91,7 @@ In order to obtain measurments customers need to upload their photos to our app 
 
 ALiSNet is deployed on-device. Customers photos are processed and stored on their device and Zalando does not have access to them. Only inferred silhouettes are sent to Zalando servers.
 
-#### On-device deployment
+### On-device deployment
 
 Deploying ALiSNet on-device may cause risks related to backdoor attacks against ML models such as Membership Inference or Model Inversion which may result in violation of privacy of our customers.
 
@@ -96,7 +100,8 @@ Deploying ALiSNet on-device may cause risks related to backdoor attacks against 
 [Privacy risk assessment](https://docs.google.com/document/d/1OXFrcyWblFIHLw9uOXsla8e-zBhtFwlgIBH84MdvrrM/edit?usp=sharing) was performed in order to quantify Membership Inference (MIA) risk of the ALiSNet.
 As of November 2022 results of the audit showed that MIA risk is none to low.
 
-#### Biases in model performance
+### Biases in model performance
+
 Statistically relevant discrepancies in the model accuracy across protected attributes related to human characteristics such as age, percieved skin tone, height etc..
 
 **Mitigation Strategy:**
@@ -125,6 +130,7 @@ See [ALiSNet Paper](https://arxiv.org/abs/2304.07533) for more details about tra
 See [ALiSNet Paper](https://arxiv.org/abs/2304.07533) for more details about testing such as performance metrics and baselines.
 
 ### Performance Metrics
+
 Metrics used to evaluate model:
 
 * **MIoU**: [Mean Intersection over Union](https://en.wikipedia.org/wiki/Jaccard_index)
@@ -132,9 +138,10 @@ Metrics used to evaluate model:
 **Results**:
 
 * Voices of Customers (VOC):
-    * **MIoU**: 97.6 (+/- 0.1)
+  * **MIoU**: 97.6 (+/- 0.1)
 
 ### Model Bias and Fairness Analysis
+
 See [Body Measurement Prediction Fairness Paper](https://ceur-ws.org/Vol-3442/paper-17.pdf) for complete fairness assessment results.
 
 ### Datasets
@@ -153,13 +160,17 @@ ALiSNet was evaluated using multiple datasets. All of the datasets represent rea
 <br>(2): Used for fairness evaluation
 
 ## Caveats and Recommendations
+
 Poor lightning conditions and low photo resolution may decrease quality of segmentation. (?)
 
 The model was designed with strong size and latency constraints and is ready to be deployed to production or edge devices.
 
 ## Model Documentation Metadata
-#### Documentation Template Version
+
+### Documentation Template Version
+
 [v1.0.0](template-model-documentation.md)
 
-#### Documentation Authors
-- **[Rocco Maresca](mailto:rocco.maresca@zalando.de), Algorithmic Privacy & Fairness:** (Owner)
+### Documentation Authors
+
+* **[Rocco Maresca](mailto:rocco.maresca@zalando.de), Algorithmic Privacy & Fairness:** (Owner)

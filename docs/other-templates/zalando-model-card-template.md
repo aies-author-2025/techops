@@ -24,7 +24,8 @@ emails to ease communication and add transparency. -->
 - **Name, Team:** (Owner / Contributor / Manager)
 
 ## Model Overview
-* Description
+
+- Description
 <!-- info: Brief (max 200 words) description of the model architecture and the task(s) it was trained to solve. -->
 
 #### Status
@@ -50,6 +51,7 @@ addressed.
 no longer being maintained.
 
 ### Developers
+
 - **Name, Team**
 - **Name, Team**
 
@@ -89,6 +91,7 @@ but be sure to track the release date of the model.
 - Repository_2
 
 ### References
+
 Example references:
 
 - Paper/Documentation Link
@@ -96,11 +99,12 @@ Example references:
 - API Link
 
 ## Intended Use and Known Applications
+
 #### Intended Use
 <!-- info: This section focuses on the initial purpose and/or reasoning
 for creating the model.-->
 
-* Description
+- Description
 
 #### Known Applications
 <!-- info: Fill out the following section if the model has any
@@ -116,9 +120,11 @@ Note, this table may not be exhaustive.  Model users and documentation consumers
 are highly encouraged to contribute known usages.
 
 #### Out Of Scope Uses
+
 Provide potential applications and/or use cases for which use of the model is not suitable.
 
 ## Risks and Ethical Considerations
+
 This section should cover topics related to known biases, security, privacy and other risks related to use of the model. Please provide an introductory paragraph before listing risks and cosnsiderations. Such introduction should explain
 how the risks / ethical considerations were identified
 and wheter, and if so which, risks teams were involved in identifying the issues and coming up with the mitigation strategies.
@@ -143,6 +149,7 @@ Description
 <!-- info: This section should include overview regarding training process such as training dataset(s), training task (ex. next token prediciton, pixel-wise classification). -->
 
 ### Datasets
+
 Datasets should be compiled in a table with columns and rows:
 
 | Name  | Location | Sensitive*  | Size   | Documentation
@@ -151,12 +158,14 @@ Name | Location (e.g. S3 bucket) | Yes / No | # of samples | Link (e.g. Dataset 
 
 
 (*): Requires a special Data Processing Request
+
 ## Evaluation
 <!-- info: Remember to reference metrics definitions and results variance (if available.) -->
 This section should include overview of evaluation process such as evaluation dataset(s), metrics and quantitive results.
 
 
 ### Datasets
+
 Datasets should be compiled in a table with columns and rows:
 
 | Name  | Location | Sensitive*  | Size   | Documentation
@@ -167,21 +176,22 @@ Name | Location (e.g S3 bucket) | Yes / No | # of samples | Link (e.g Dataset Ca
 
 ### Quantitive Results
 <!-- info: Please provide rationales for selected metrics.  -->
-* Dataset:
-    * **Metric: Result**
-    * **Metric: Result**
+- Dataset:
+  - **Metric: Result**
+  - **Metric: Result**
 
-* Dataset:
-    * **Metric: Result**
-    * **Metric: Result**
+- Dataset:
+  - **Metric: Result**
+  - **Metric: Result**
 
 ## Caveats and Recommendations
+
 This section should cover shortcomings and recommendations related to current approach such as:
 
-* scalability
-* robustness
-* deployment safety and readiness
-* training / evaluation data
+- scalability
+- robustness
+- deployment safety and readiness
+- training / evaluation data
 
 
 Additionaly plans or ideas for future work could be discussed (e.g. incorporate new data source or use a bigger model).

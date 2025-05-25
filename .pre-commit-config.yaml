@@ -22,6 +22,10 @@ repos:
         args: [--unsafe]
       - id: detect-private-key
       - id: mixed-line-ending
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.18.1
+    hooks:
+      - id: markdownlint-cli2
 
   # security
 

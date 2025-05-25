@@ -5,6 +5,7 @@
 <br>**Reviewers**: List reviewers
 
 ## Key Links
+
 * [Code Repository]()
 * [Deployment Pipeline]()
 * [API]() ([Swagger Docs]())
@@ -23,16 +24,17 @@ EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="colo
 
 **Purpose and Intended Use**:
     
-- Description of the AI system's intended purpose, including the sector of deployment.
-- Clearly state the problem the AI application aims to solve.
-- Delineate target users and stakeholders.
-- Set measurable goals and key performance indicators (KPIs).
-- Consider ethical implications and regulatory constraints. 
-- Clear statement on prohibited uses or potential misuse scenarios.
-- **Operational environment:** Describe where and how the AI system will operate, such as on mobile devices, cloud platforms, or embedded systems.
+* Description of the AI system's intended purpose, including the sector of deployment.
+* Clearly state the problem the AI application aims to solve.
+* Delineate target users and stakeholders.
+* Set measurable goals and key performance indicators (KPIs).
+* Consider ethical implications and regulatory constraints. 
+* Clear statement on prohibited uses or potential misuse scenarios.
+* **Operational environment:** Describe where and how the AI system will operate, such as on mobile devices, cloud platforms, or embedded systems.
 
 
 ## Risk classification
+
 <div style="color: gray">
 Prohibited Risk: EU AI Act Chapter II <a href="https://artificialintelligenceact.eu/article/5/" style="color:blue; text-decoration:underline">Article 5</a>
 <br>High-Risk: EU AI Act Chapter III, Section 1 <a href="https://artificialintelligenceact.eu/article/6/" style="color:blue; text-decoration:underline">Article 6</a>, <a href="https://artificialintelligenceact.eu/article/7/" style="color:blue; text-decoration:underline">Article 7</a>  
@@ -46,8 +48,8 @@ High-risk systems are delineated in Chapter III, Section 1, Articles 6 and 7, in
 Limited-risk systems, delineated in Chapter IV Article 50, such as chatbots, must meet transparency obligations (e.g. disclosing AI use).  
 Minimal-risk systems, like spam filters or AI in video games, face no specific requirements. -->
 
-- High / Limited / Minimal (in accordance with the AI Act)
-- reasoning for the above classification
+* High / Limited / Minimal (in accordance with the AI Act)
+* reasoning for the above classification
    
 ## Application Functionality 
 
@@ -58,21 +60,22 @@ EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="colo
 </div>
 
 
-- **Instructions for use for deployers**: <div style="color: gray">(EU AI Act <a href="https://artificialintelligenceact.eu/article/13/" style="color:blue; text-decoration:underline">Article 13</a>)</div>
-- **Model Capabilities**:
-  - What the application can and cannot do (limitations).
-  - Supported languages, data types, or scenarios.
-- **Input Data Requirements**:
-  - Format and quality expectations for input data.
-  - Examples of valid and invalid inputs.
-- **Output Explanation**:
-  - How to interpret predictions, classifications, or recommendations.
-  - Uncertainty or confidence measures, if applicable.
-- **System Architecture Overview**:
-  - Functional description and architecture of the system.
-  - Describe the key components of the system (including datasets, algorithms, models, etc.)
+* **Instructions for use for deployers**: <div style="color: gray">(EU AI Act <a href="https://artificialintelligenceact.eu/article/13/" style="color:blue; text-decoration:underline">Article 13</a>)</div>
+* **Model Capabilities**:
+  * What the application can and cannot do (limitations).
+  * Supported languages, data types, or scenarios.
+* **Input Data Requirements**:
+  * Format and quality expectations for input data.
+  * Examples of valid and invalid inputs.
+* **Output Explanation**:
+  * How to interpret predictions, classifications, or recommendations.
+  * Uncertainty or confidence measures, if applicable.
+* **System Architecture Overview**:
+  * Functional description and architecture of the system.
+  * Describe the key components of the system (including datasets, algorithms, models, etc.)
 
 ## Models and Datasets
+
 <div style="color: gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 2 (d)
 <p></p>
@@ -82,6 +85,7 @@ EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="colo
 <!--In Article 11, 2 (d) a datasheet is required which describes all training methodologies and techniques as well as the charatcteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed -->
 
 ### Models
+
 Link to all model integrated in the AI/ML System
 
 | Model   | Link to Single Source of Truth | Description of Application Usage |
@@ -91,6 +95,7 @@ Link to all model integrated in the AI/ML System
 | Model 3 | [GitHub Repo]()             | ...                              |
 
 ### Datasets
+
 Link to all dataset documentation and information used to evaluate the AI/ML System.  
 (Note, Model Documentation should also contain dataset information and links for all datasets used to train and test each respective model) 
 
@@ -101,19 +106,19 @@ Link to all dataset documentation and information used to evaluate the AI/ML Sys
 
 ## Deployment
     
-- Infrastructure and environment details (e.g., cloud setup, APIs).
-- Integration with external systems or applications.
+* Infrastructure and environment details (e.g., cloud setup, APIs).
+* Integration with external systems or applications.
 
 ### Infrastructure and Environment Details
 
-- **Cloud Setup**:
-  - Specify cloud provider (e.g., AWS, Azure, GCP) and regions.
-  - List required services: compute (e.g., EC2, Kubernetes), storage (e.g., S3, Blob Storage), and databases (e.g., DynamoDB, Firestore).
-  - Define resource configurations (e.g., VM sizes, GPU/TPU requirements).
-  - Network setup: VPC, subnets, and security groups.
-- **APIs**:
-  - API endpoints, payload structure, authentication methods (e.g., OAuth, API keys).
-  - Latency and scalability expectations.
+* **Cloud Setup**:
+  * Specify cloud provider (e.g., AWS, Azure, GCP) and regions.
+  * List required services: compute (e.g., EC2, Kubernetes), storage (e.g., S3, Blob Storage), and databases (e.g., DynamoDB, Firestore).
+  * Define resource configurations (e.g., VM sizes, GPU/TPU requirements).
+  * Network setup: VPC, subnets, and security groups.
+* **APIs**:
+  * API endpoints, payload structure, authentication methods (e.g., OAuth, API keys).
+  * Latency and scalability expectations.
 
 ## Integration with External Systems
 
@@ -122,54 +127,56 @@ Link to all dataset documentation and information used to evaluate the AI/ML Sys
   <p></p>
 </div>
 
-- **Systems**:
-  - List dependencies 
-  - Data flow diagrams showing interactions.
-  - Error-handling mechanisms for APIs or webhooks
+* **Systems**:
+  * List dependencies 
+  * Data flow diagrams showing interactions.
+  * Error-handling mechanisms for APIs or webhooks
 
 ## Deployment Plan
 
-- **Infrastructure**:
-  - List environments: development, staging, production.
-  - Resource scaling policies (e.g., autoscaling, redundancy).
-  - Backup and recovery processes.
-- **Integration Steps**:
-  - Order of deployment (e.g., database migrations, model upload, service launch).
-  - Dependencies like libraries, frameworks, or APIs.
-  - Rollback strategies for each component.
-- **User Information**: where is this under deployment?
+* **Infrastructure**:
+  * List environments: development, staging, production.
+  * Resource scaling policies (e.g., autoscaling, redundancy).
+  * Backup and recovery processes.
+* **Integration Steps**:
+  * Order of deployment (e.g., database migrations, model upload, service launch).
+  * Dependencies like libraries, frameworks, or APIs.
+  * Rollback strategies for each component.
+* **User Information**: where is this under deployment?
 
 
 ## Lifecycle Management
+
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 6
   <p></p>
 </div>
     
-- Monitoring procedures for performance and ethical compliance.
-- Versioning and change logs for model updates.
-- **Metrics**:
-  - Application performance: response time, error rate.
-  - Model performance: accuracy, precision, recall.
-  - Infrastructure: CPU, memory, network usage.
-- **Key Activities**:
-  - Monitor performance in real-world usage.
-  - Identify and fix drifts, bugs, or failures.
-  - Update the model periodically.
-- **Documentation Needs**:
-  - **Monitoring Logs**: Real-time data on accuracy, latency, and uptime.
-  - **Incident Reports**: Record of failures, impacts, and resolutions.
-  - **Retraining Logs**: Data updates and changes in performance.
-  - **Audit Trails**: Comprehensive history of changes to ensure compliance.
+* Monitoring procedures for performance and ethical compliance.
+* Versioning and change logs for model updates.
+* **Metrics**:
+  * Application performance: response time, error rate.
+  * Model performance: accuracy, precision, recall.
+  * Infrastructure: CPU, memory, network usage.
+* **Key Activities**:
+  * Monitor performance in real-world usage.
+  * Identify and fix drifts, bugs, or failures.
+  * Update the model periodically.
+* **Documentation Needs**:
+  * **Monitoring Logs**: Real-time data on accuracy, latency, and uptime.
+  * **Incident Reports**: Record of failures, impacts, and resolutions.
+  * **Retraining Logs**: Data updates and changes in performance.
+  * **Audit Trails**: Comprehensive history of changes to ensure compliance.
 -**Manteinance of change logs**: 
-- new features added
-- updates to existing functionality
-- deprecated features
-- removed features
-- bug fixes
-- security and vulnerability fixes
+* new features added
+* updates to existing functionality
+* deprecated features
+* removed features
+* bug fixes
+* security and vulnerability fixes
 
 ### Risk Management System
+
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/9/" style="color:blue; text-decoration:underline">Article 9</a>
   <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>
@@ -187,13 +194,14 @@ Link to all dataset documentation and information used to evaluate the AI/ML Sys
 
 **Likelihood and Severity:** Assess how likely each risk is to occur and the potential impact on users or society.
 
-#### Risk Mitigation Measures:
+#### Risk Mitigation Measures
 
 **Preventive Measures:** Detail actions taken to prevent risks, like implementing data validation checks or bias reduction techniques.
 
 **Protective Measures:** Describe contingency plans and safeguards in place to minimize the impact if a risk materializes.
 
 ## Testing and Validation (Accuracy, Robustness, Cybersecurity)
+
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/15/" style="color:blue; text-decoration:underline">Article 15</a>
   <p></p>
@@ -208,7 +216,7 @@ Link to all dataset documentation and information used to evaluate the AI/ML Sys
 **Measures for Accuracy:** High-quality data, algorithm optimisation, evaluation metrics, and real-time performance tracking.
 
   
-#### Accuracy throughout the lifecycle:
+### Accuracy throughout the lifecycle
 
 **Data Quality and Management:** High-Quality Training Data: Data Preprocessing, techniques like normalisation, outlier removal, and feature scaling to improve data consistency, Data Augmentation, Data Validation
 
@@ -216,29 +224,32 @@ Link to all dataset documentation and information used to evaluate the AI/ML Sys
 
 **Feedback Mechanisms:** Real-Time Error Tracking, Incorporate mechanisms to iteratively label and include challenging or misclassified examples for retraining.
 
-#### Robustness 
+### Robustness 
 
 <-- Add outlier detection and all possible post analysis, what are the criticalities -->
 
 **Robustness Measures:**
-- Adversarial training, stress testing, redundancy, error handling, and domain adaptation.
+
+* Adversarial training, stress testing, redundancy, error handling, and domain adaptation.
 
 **Scenario-Based Testing:**
-- Plan for adversarial conditions, edge cases, and unusual input scenarios.
+
+* Plan for adversarial conditions, edge cases, and unusual input scenarios.
     
-- Design the system to degrade gracefully when encountering unexpected inputs.
+* Design the system to degrade gracefully when encountering unexpected inputs.
     
 
 **Redundancy and Fail-Safes:**
     
-- Introduce fallback systems (e.g., rule-based or simpler models) to handle situations where the main AI system fails.
+* Introduce fallback systems (e.g., rule-based or simpler models) to handle situations where the main AI system fails.
     
 **Uncertainty Estimation:**
     
-- Include mechanisms to quantify uncertainty in the model’s predictions (e.g., Bayesian networks or confidence scores).
+* Include mechanisms to quantify uncertainty in the model’s predictions (e.g., Bayesian networks or confidence scores).
     
 
-#### Cybersecurity 
+### Cybersecurity 
+
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 2 (h)
   <p></p>
@@ -260,6 +271,7 @@ Documentation of all cybersecurity processes and incidents is mandatory to ensur
   
 
 ## Human Oversight 
+
 <div style="color:gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>;; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 2(e)
   <br>EU AI Act <a href="https://artificialintelligenceact.eu/article/14/" style="color:blue; text-decoration:underline">Article 14</a>
@@ -280,11 +292,11 @@ Documentation of all cybersecurity processes and incidents is mandatory to ensur
 
 ## Incident Management
 <!-- what happens when things go wrong. This part is particularly important to provide information on how incidents were dealth with and the processes put in place to minimize damage when things go wrong. -->
-- **Common Issues**:
-  - List common errors and their solutions.
-  - Logs or debugging tips for advanced troubleshooting.
-- **Support Contact**:
-  - How to reach technical support or community forums.
+* **Common Issues**:
+  * List common errors and their solutions.
+  * Logs or debugging tips for advanced troubleshooting.
+* **Support Contact**:
+  * How to reach technical support or community forums.
 
 
 ### Troubleshooting AI Application Deployment
@@ -295,10 +307,11 @@ This section outlines potential issues that can arise during the deployment of a
 #### Infrastructure-Level Issues
 
 ##### Insufficient Resources
-- **Problem**: Inaccurate resource estimation for production workloads.
-  - Unexpected spikes in user traffic can lead to insufficient resources such as compute, memory or storage that can lead to crashes and bad performance
 
-- **Mitigation Strategy**:
+* **Problem**: Inaccurate resource estimation for production workloads.
+  * Unexpected spikes in user traffic can lead to insufficient resources such as compute, memory or storage that can lead to crashes and bad performance
+
+* **Mitigation Strategy**:
 <!-- describe here the resolution strategy such as:
 -  Enable autoscaling (e.g., Kubernetes Horizontal Pod Autoscaler).
   - Monitor usage metrics and adjust resource allocation dynamically.
@@ -306,9 +319,10 @@ This section outlines potential issues that can arise during the deployment of a
 
 
 ##### Network Failures
-- **Problem**:  network bottlenecks  can lead to inaccessible or experiences latency of the application.
 
-- **Mitigation Strategy**:
+* **Problem**:  network bottlenecks  can lead to inaccessible or experiences latency of the application.
+
+* **Mitigation Strategy**:
 <!-- 
   - Test network connectivity 
   - Use content delivery networks (CDNs) or regional load balancers.
@@ -316,9 +330,10 @@ This section outlines potential issues that can arise during the deployment of a
 
 
 ##### Deployment Pipeline Failures
-- **Problem**: pipeline fails to build, test, or deploy because of issues of compatibility between application code and infrastructure, environment variables or credentials misconfiguration.
 
-- **Mitigation Strategy**: 
+* **Problem**: pipeline fails to build, test, or deploy because of issues of compatibility between application code and infrastructure, environment variables or credentials misconfiguration.
+
+* **Mitigation Strategy**: 
 <!--:
   - Roll back to the last stable build.
   - Fix pipeline scripts and use containerisation for environment consistency.
@@ -328,30 +343,33 @@ This section outlines potential issues that can arise during the deployment of a
 #### Integration Problems
 
 ##### API Failures
-- **Problem**: External APIs or internal services are unreachable due to network errors or authentication failures.
 
-- **Mitigation Strategy**:
+* **Problem**: External APIs or internal services are unreachable due to network errors or authentication failures.
+
+* **Mitigation Strategy**:
 <!--:
   - Implement retries with exponential backoff.
   - Validate API keys or tokens and refresh as needed.
   - Log and monitor API responses for debugging. -->
 
 ##### Data Format Mismatches
-- **Problem**: Crashes or errors due to unexpected data formats such as changes in the schema of external data sources or missing data validation steps.
 
-- **Mitigation Strategy**: 
+* **Problem**: Crashes or errors due to unexpected data formats such as changes in the schema of external data sources or missing data validation steps.
+
+* **Mitigation Strategy**: 
 
 <!--
   - Use schema validation tools (e.g., JSON schema validators).
   - Add versioning to APIs and validate inputs before processing.-->
 
 #### Data Quality Problems
-- **Problem**: Inaccurate or corrupt data leads to poor predictions.
-- **Causes**:
-  - No data validation or cleaning processes.
-  - Inconsistent labelling in training datasets.
 
-- **Mitigation Strategy**: 
+* **Problem**: Inaccurate or corrupt data leads to poor predictions.
+* **Causes**:
+  * No data validation or cleaning processes.
+  * Inconsistent labelling in training datasets.
+
+* **Mitigation Strategy**: 
 <!--
 - **Resolution**:
   - Automate data quality checks (e.g., Great Expectations framework).
@@ -360,10 +378,11 @@ This section outlines potential issues that can arise during the deployment of a
 
 #### Model-Level Issues
 
-#####  Performance or Deployment Issues
-- **Problem**: Incorrect or inconsistent results due to data drift or inadequate training data for the real world deployment domain. 
+##### Performance or Deployment Issues
 
-- **Mitigation Strategy**:
+* **Problem**: Incorrect or inconsistent results due to data drift or inadequate training data for the real world deployment domain. 
+
+* **Mitigation Strategy**:
 
 <!--
 - **Resolution**:
@@ -374,12 +393,14 @@ This section outlines potential issues that can arise during the deployment of a
 #### Safety and Security Issues
 
 ##### Unauthorised Access
-- **Problem**: Sensitive data or APIs are exposed due to misconfigured authentication and authorization.
+
+* **Problem**: Sensitive data or APIs are exposed due to misconfigured authentication and authorization.
 
 ##### Data Breaches
-- **Problem**: User or model data is compromised due to insecure storage or lack of monitoring and logging of data access. 
 
-- **Mitigation Strategy**: 
+* **Problem**: User or model data is compromised due to insecure storage or lack of monitoring and logging of data access. 
+
+* **Mitigation Strategy**: 
 <!--
 - **Resolution**:
   - Use secure storage services (e.g., AWS KMS).
@@ -390,9 +411,10 @@ This section outlines potential issues that can arise during the deployment of a
 #### Monitoring and Logging Failures
 
 ##### Missing or Incomplete Logs
-- **Problem**: Lack of information to debug issues due to inefficient logging. Critical issues go unnoticed, or too many false positives occur by lack of implementation ofactionable information in alerts. 
 
-- **Mitigation Strategy**: 
+* **Problem**: Lack of information to debug issues due to inefficient logging. Critical issues go unnoticed, or too many false positives occur by lack of implementation ofactionable information in alerts. 
+
+* **Mitigation Strategy**: 
 
 
 <!--
@@ -404,9 +426,10 @@ This section outlines potential issues that can arise during the deployment of a
 #### Recovery and Rollback
 
 ##### Rollback Mechanisms
-- **Problem**: New deployment introduces critical errors.
 
-- **Mitigation Strategy**: 
+* **Problem**: New deployment introduces critical errors.
+
+* **Mitigation Strategy**: 
 
 <!--
 - **Resolution**:
@@ -414,9 +437,10 @@ This section outlines potential issues that can arise during the deployment of a
   - Maintain backups of previous versions and configurations. -->
 
 ##### Disaster Recovery
-- **Problem**: Complete system outage or data loss.
 
-- **Mitigation Strategy**:
+* **Problem**: Complete system outage or data loss.
+
+* **Mitigation Strategy**:
 
 <!--
 - **Resolution**:
@@ -424,12 +448,13 @@ This section outlines potential issues that can arise during the deployment of a
   - Use automated backups and verify restore procedures.-->
 
 ### EU Declaration of conformity 
+
 <div style="color: gray">
   EU AI Act <a href="https://artificialintelligenceact.eu/article/47/" style="color:blue; text-decoration:underline">Article 47</a>
   <p></p>
 </div>
 
- <!-- when applicable and certifications are available: it requires a systems name as well as the name and address of the provider; a statement that the EU declaration of conformity referred to in Article 47 is issued under the sole responsibility of the provider; a statement that the AI system is in conformity with this Regulation and, if applicable, with any other relevant Union law that provides for the issuing of the EU declaration of conformity referred to in Article 47, Where an AI system involves the processing of personal data;  a statement that that AI system complies with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, reference to the harmonised standards used or any other common specification in relation to which
+<!-- when applicable and certifications are available: it requires a systems name as well as the name and address of the provider; a statement that the EU declaration of conformity referred to in Article 47 is issued under the sole responsibility of the provider; a statement that the AI system is in conformity with this Regulation and, if applicable, with any other relevant Union law that provides for the issuing of the EU declaration of conformity referred to in Article 47, Where an AI system involves the processing of personal data;  a statement that that AI system complies with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, reference to the harmonised standards used or any other common specification in relation to which
 conformity is declared; the name and identification number of the notified body, a description of the conformity
 assessment procedure performed, and identification of the certificate issued; the place and date of issue of the declaration, the name and function of the person who signed it, as well as an
 indication for, or on behalf of whom, that person signed, a signature.-->
@@ -439,6 +464,7 @@ indication for, or on behalf of whom, that person signed, a signature.-->
 <!-- Document here the standards and frameworks used-->
 
 ## Documentation Metadata
+
 ### Version
 <!-- info: provide version of this document, if applicable (dates might also be useful) -->
 
@@ -451,6 +477,6 @@ indication for, or on behalf of whom, that person signed, a signature.-->
 Select one or more roles per author and reference author's
 emails to ease communication and add transparency. -->
 
-- **Name, Team:** (Owner / Contributor / Manager)
-- **Name, Team:** (Owner / Contributor / Manager)
-- **Name, Team:** (Owner / Contributor / Manager)
+* **Name, Team:** (Owner / Contributor / Manager)
+* **Name, Team:** (Owner / Contributor / Manager)
+* **Name, Team:** (Owner / Contributor / Manager)

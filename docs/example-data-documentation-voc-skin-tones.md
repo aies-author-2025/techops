@@ -13,8 +13,8 @@ Data documentation contributions and feedback are welcome!
 <!-- info: Select the modality(ies) that best describe a typical data point 
 (see http://www.trustworthymachinelearning.com/trustworthymachinelearning-04.htm, 
 section 4.1, for a definition of data modality): -->
-- Image Data
-- Tabular Data
+* Image Data
+* Tabular Data
 
 ### Dataset Description
 
@@ -41,10 +41,10 @@ Further technical details can be found in the [Skin Tone Labeling GitHub Reposit
 
 Special thanks to the labelers:
 
-- **[Alex Loosley](mailto:alex.loosley@zalando.de)**, Algorithmic Privacy and Fairness
-- **[Gunay Kazimzade](mailto:gunay.kazimade@zalando.de)**, Algorithmic Privacy and Fairness
-- **[Amrollah Seifoddini](mailto:amrollah.seifoddini@zalando.ch)**, Size and Fit
-- **[Andra Magerusan](mailto:andra.magerusan@zalando.ch)**, Beauty
+* **[Alex Loosley](mailto:alex.loosley@zalando.de)**, Algorithmic Privacy and Fairness
+* **[Gunay Kazimzade](mailto:gunay.kazimade@zalando.de)**, Algorithmic Privacy and Fairness
+* **[Amrollah Seifoddini](mailto:amrollah.seifoddini@zalando.ch)**, Size and Fit
+* **[Andra Magerusan](mailto:andra.magerusan@zalando.ch)**, Beauty
 
 
 Beyond fairness evaluations, this dataset along with the entire initiative has inpired the creation of a
@@ -64,18 +64,20 @@ ready for wider usage in June 2023.
 <!-- info: Provide a quickly accessible list of relavent links: -->
 <!-- width: full -->
 
-* [Zalando VOC Skin Tones Dataset](https://s3.console.aws.amazon.com/s3/buckets/skin-tone-labeling?region=eu-central-1&tab=objects)
+- [Zalando VOC Skin Tones Dataset](https://s3.console.aws.amazon.com/s3/buckets/skin-tone-labeling?region=eu-central-1&tab=objects)
 (S3 Bucket requiring access permissions)
-* [Zalando VOC Images Data Documentation](https://docs.google.com/document/d/15Agfx3jpiYHLjssztqZMWl-JtxRDhXfV5BT4ZZXfOcs/edit) (Base dataset used for labeling)
-* [Skin Tone Labeling Initiative](https://docs.google.com/document/d/12wYbrM9dHFXapbeBPZxX3Yh6mvYSzskQs1nmWrlt-Lk/edit#heading=h.va8flzlzpc8h)
-* [Instructions for Labelers](https://docs.google.com/document/d/1o56MdP7yFW9aWcLgPu0pbV3fuoWIrHntZ2Dx4AiCRFE/edit)
-* [Dataset processing and analysis](https://github.bus.zalan.do/aithics/skin-tone-labeling/) (GitHub Repository)
+- [Zalando VOC Images Data Documentation](https://docs.google.com/document/d/15Agfx3jpiYHLjssztqZMWl-JtxRDhXfV5BT4ZZXfOcs/edit) (Base dataset used for labeling)
+- [Skin Tone Labeling Initiative](https://docs.google.com/document/d/12wYbrM9dHFXapbeBPZxX3Yh6mvYSzskQs1nmWrlt-Lk/edit#heading=h.va8flzlzpc8h)
+- [Instructions for Labelers](https://docs.google.com/document/d/1o56MdP7yFW9aWcLgPu0pbV3fuoWIrHntZ2Dx4AiCRFE/edit)
+- [Dataset processing and analysis](https://github.bus.zalan.do/aithics/skin-tone-labeling/) (GitHub Repository)
 
 ### Developers
+
 - **[Alex Loosley](mailto:alex.loosley@zalando.de), Algorithmic Privacy and Fairness:** (Principle Developer)
 - **[Amrollah Seifoddini](mailto:amrollah.seifoddini@zalando.ch), Size and Fit:** (Dataset Owner)
 
 ### Owner
+
 - **Main point of contact:** [Amrollah Seifoddini](mailto:amrollah.seifoddini@zalando.ch)
 - **Team:** [Size and Fit](mailto:team-sizing@zalando.de) (Zurich)
 - **Affiliation:** Zalando SE
@@ -159,6 +161,7 @@ see the [sensitive and protected attributes](#sensitive-and-protected-attributes
 for more details.
 
 ---
+
 #### TABLE: labeling_job_manifest
 <!-- width: full -->
 - **Primary Key:** `image_id`
@@ -172,6 +175,7 @@ for more details.
 | source-ref          | str  | s3 bucket location                          |
 
 ---
+
 #### TABLE: data_per_label
 <!-- width: full -->
 - **Primary Key:** None
@@ -271,7 +275,8 @@ Version 1.0.0 will be released once data curation and preparation is complete.
 
 
 ## Example of Data Points
-#### Typical Data Point
+
+### Typical Data Point
 <!-- width: half -->
 <!-- info: Provide an example of a typical data point and describe what makes
 it typical.
@@ -313,7 +318,7 @@ for more details).
 Note, this data corresponds to the main labeling task which only had three labelers. See 
 [Annotations and Labeling](#annotations-and-labeling) for more details about labeling tasks.
 
-#### Atypical Data Point
+### Atypical Data Point
 <!-- width: half -->
 <!-- info: Provide an example of an outlier data point and describe what makes
 it atypical.
@@ -348,7 +353,7 @@ Note, this data corresponds to the calibration 1 labeling task which had more la
 got used to the labeling UI.  See [Annotations and Labeling](#annotations-and-labeling) for more details about
 labeling tasks.
 
-#### Sampling of Data Points
+### Sampling of Data Points
 <!-- scope: periscope -->
 <!-- info: Provide link(s) to data points OR
 a link to an exploratory demo if one exists -->
@@ -415,6 +420,7 @@ motivations for the dataset.) -->
 See the [skin-tone-labeling](https://github.bus.zalan.do/aithics/skin-tone-labeling) repository for more details.
 
 ### Intended Use
+
 #### Dataset Use(s)
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
@@ -442,8 +448,8 @@ used at scale.
 <!-- scope: periscope -->
 <!-- info: Provide a description of the specific problem space that this
 dataset intends to address. -->
-* Skin tone fairness evaluation
-* Analysis of bias in human skin tone annotations
+- Skin tone fairness evaluation
+- Analysis of bias in human skin tone annotations
 
 
 ## Information for Usage
@@ -470,6 +476,7 @@ creation of this dataset.  See the [Accesss Prerequesites](#prerequisites) secti
 
 
 ### Use with Other Data
+
 #### Safety Level
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
@@ -487,6 +494,7 @@ If presenting examples of this data is a must, consider blurring faces and backg
 **Additional Notes:** Add here
 
 ### Forking and Sampling
+
 #### Safety Level
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
@@ -535,7 +543,7 @@ individual data points made explicit.
 
 Include links to servers where readers can explore the data on their own. -->
 
-**Exploration Demo:** [Link](https://github.bus.zalan.do/aithics/skin-tone-labeling/blob/main/datasets/zalando-voc/notebooks/01-aggregate-labeling-job-results-from-local.ipynb)
+**Exploration Demo:** Found in [Jupyter Notebook](https://github.bus.zalan.do/aithics/skin-tone-labeling/blob/main/datasets/zalando-voc/notebooks/01-aggregate-labeling-job-results-from-local.ipynb)
 
 
 ### Distribution(s)
@@ -588,7 +596,7 @@ out for, or other relevant information or considerations. -->
 ## Known Usage
 <!-- info: Fill out the following section if your dataset was primarily
 created for use in AI/ML system(s) -->
-#### Models(s)
+### Models(s)
 <!-- scope: telescope -->
 <!-- info: Provide a table of known models that use this dataset
 that the dataset has been used for.-->
@@ -600,7 +608,7 @@ that the dataset has been used for.-->
 Note, this table may not be exhaustive.  Dataset users and documentation consumers at large
 are highly encouraged to contribute known usages.
 
-#### Application(s)
+### Application(s)
 <!-- scope: telescope -->
 <!-- info: Provide a table of known AI/ML systems that use this dataset
 that the dataset has been used for.-->
@@ -616,8 +624,10 @@ are highly encouraged to contribute known usages.
 ## Access, Retention, and Deletion
 <!-- info: NEEDS INPUT FROM PRIV-GOV! -->
 ### Access
+
 #### Relevant Links
-* [Zalando VOC Skin Tones Dataset](https://s3.console.aws.amazon.com/s3/buckets/skin-tone-labeling?region=eu-central-1&tab=objects)
+
+- [Zalando VOC Skin Tones Dataset](https://s3.console.aws.amazon.com/s3/buckets/skin-tone-labeling?region=eu-central-1&tab=objects)
 (S3 Bucket requiring access permissions)
 
 #### Data Security Classification
@@ -632,12 +642,13 @@ see https://docs.google.com/document/d/1j-khhbdOf2Fqyh2JlSC_82nA9KvyBOfdezftKOkP
 <!-- info: Please describe any required training or prerequisites to access
 this dataset. -->
 - Users requiring access must get approval on a DPR (with corresponding use case) either by:
-    - adding their user to the [existing DPR](https://jira.zalando.net/browse/SEC-23706)
-    - creating a [new DPR](https://jira.zalando.net/secure/CreateIssue.jspa?pid=16062&issuetype=15401) if the existing DPR does not match your requirements
+  - adding their user to the [existing DPR](https://jira.zalando.net/browse/SEC-23706)
+  - creating a [new DPR](https://jira.zalando.net/secure/CreateIssue.jspa?pid=16062&issuetype=15401) if the existing DPR does not match your requirements
 - For data with images, users must be added to role with S3 access to the Zalando VOC skin tones dataset
   (first get DPR approval described above, then contact dataset owner)
 
 ### Retention
+
 #### Duration
 <!-- scope: periscope -->
 <!-- info: Specify the duration for which this dataset can be retained: -->
@@ -671,6 +682,7 @@ considerations. -->
 TBD
 
 ### Deletion
+
 #### Deletion Event Summary
 <!-- scope: microscope -->
 <!-- info: Summarize the sequence of events and allowable processing for data
@@ -708,7 +720,9 @@ TBD
 
 
 ## Provenance
+
 ### Collection
+
 #### Method(s) Used
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** methods used to collect data.
@@ -747,6 +761,7 @@ considerations. -->
 **Static:** Data was collected once from a single source.
 
 ### Attribute Collection Criteria and Integration
+
 #### Data Integration
 <!-- scope: periscope -->
 <!-- info: List all fields collected from different sources, and specify if
@@ -767,6 +782,7 @@ Zalando-VOC images were used as input for labeling.  These images are not genera
 are identified by image-id to allow for fairness evaluation of systems that use such images.
 
 ### Data Point Collection Criteria
+
 #### Data Selection
 <!-- scope: telescope -->
 <!-- info: Summarize the data selection criteria.
@@ -779,6 +795,7 @@ considerations. -->
   and leaving enough images to annotate (~1000) for a fairness evaluation, given the annotation budget
 
 ### Relationship to Source
+
 #### Use and Utility(ies)
 <!-- scope: telescope -->
 <!-- info: Describe how the resulting dataset is aligned with the purposes,
@@ -825,6 +842,7 @@ following for each source type.) -->
 
 
 ## Sensitive and Protected Attributes
+
 ### Sensitivity of Data
 <!-- info: Be mindful not to repeat any information that might be in a technical
 risk assessment or data processing request somewhere else.  Use references where necessary,
@@ -849,11 +867,11 @@ Use additional notes to capture any other relevant information or
 considerations. -->
 **Intentional Collected Sensitive Data**
 
-* Images used in labeling contain pictures of customers (without blurred faces)
+- Images used in labeling contain pictures of customers (without blurred faces)
 
 **Unintentionally Collected Sensitive Data**
 
-* Can see the setting in which customers take pictures of themselves
+- Can see the setting in which customers take pictures of themselves
 
 #### Security and Privacy Handling
 <!-- scope: microscope -->
@@ -877,6 +895,7 @@ See relevant DPRs
 
 
 ### Protected Attributes
+
 #### Protected Attribute Type(s)
 <!-- scope: telescope -->
 <!-- info: Select **all attributes** that are represented (directly or
@@ -956,14 +975,15 @@ considerations.
 None identified at this time.
 
 #### Possible Correlations to Protected Attributes
+
 Labeler bias may cause correlations between skin tone labels and attributes of the image not
 related to skin tone, such as:
 
-* judgements based on objects in the field of view (i.e. certain objects associated with certain cultures)
-* facial shape and body shape
-* repeated customers - some customers appear multiple times in separate images and labelers may have
+- judgements based on objects in the field of view (i.e. certain objects associated with certain cultures)
+- facial shape and body shape
+- repeated customers - some customers appear multiple times in separate images and labelers may have
   consistently given each the same incorrect skin tone
-* labeler recency bias - seeing a lot of a certain skin color in a row can affect the next label made
+- labeler recency bias - seeing a lot of a certain skin color in a row can affect the next label made
 
 #### Risk(s) and Mitigation(s)
 <!-- scope: microscope -->
@@ -1009,6 +1029,7 @@ See the [skin-tone-labeling code base](https://github.bus.zalan.do/aithics/skin-
 for code and documentation on data preparation, including data transformation.
 
 ### Synopsis
+
 #### Transformation(s) Applied
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** transformations
@@ -1035,6 +1056,7 @@ type applied.) -->
 by calculating other statistics. No loss of raw data has taken place.
 
 **Platforms, tools, or libraries:**
+
 - Python
 
 **Additional Notes:**
@@ -1045,6 +1067,7 @@ by calculating other statistics. No loss of raw data has taken place.
 performed in the creation of your dataset. -->
 
 ### Annotation
+
 #### Task(s)
 <!-- scope: microscope -->
 <!-- info: Summarize each task type associated
@@ -1081,9 +1104,9 @@ The overall labeling work was broken down into four sequential tasks described i
 
 Labelers were given a two small calibration tasks and after each calibration task, a discussed took place about:
 
-* How long did the task take?
-* Were any instructions unclear?
-* What, if any, potential biasing factors did you notice, and how might one be mindful about these to mitigate such
+- How long did the task take?
+- Were any instructions unclear?
+- What, if any, potential biasing factors did you notice, and how might one be mindful about these to mitigate such
   biasing factors?
 
 **Methods used:** Four human labelers with varying backgrounds labeled each image
@@ -1216,10 +1239,10 @@ following for each annotation type.) -->
 
 **Expertise of annotators:**
 
-* Beauty
-* Ethical data labeling
-* Responsible AI
-* Size and fit applications
+- Beauty
+- Ethical data labeling
+- Responsible AI
+- Size and fit applications
 
 **Summary of general (non task specific) annotation instructions:** N/A
 
@@ -1286,14 +1309,14 @@ type.) -->
 ## Validation Types
 <!-- info: Fill this section if the data in the dataset was validated during
 or after the creation of your dataset. -->
-#### Method(s)
+### Method(s)
 <!-- scope: telescope -->
 <!-- info: Select **all applicable**: -->
 - Range and Constraint Validation
 - Structured Validation
 - Consistency Validation
 
-#### Breakdown(s)
+### Breakdown(s)
 <!-- scope: periscope -->
 <!-- info: Provide a description of the fields and data
 points that were validated.
@@ -1307,7 +1330,7 @@ following for each validator type.) -->
 
 **Number of Data Points Validated:** all
 
-#### Description(s)
+### Description(s)
 <!-- scope: microscope -->
 <!-- info: Provide a description of the methods used to
 validate the dataset.
@@ -1327,13 +1350,13 @@ biases introduced by sampling to create this dataset.
 
 Fill out the following block if your dataset employs any sampling
 methods. -->
-#### Method(s) Used
+### Method(s) Used
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** methods used in the creation of this
 dataset: -->
 - Unsampled
 
-#### Characteristic(s)
+### Characteristic(s)
 <!-- scope: periscope -->
 <!-- info: Provide characteristics of each sampling
 method used.
@@ -1345,7 +1368,7 @@ relevant information or considerations.
 following for each sampling method
 used.) -->
 
-#### Sampling Criteria
+### Sampling Criteria
 <!-- scope: microscope -->
 <!-- info: Describe the criteria used to sample data from
 upstream sources.
@@ -1356,9 +1379,12 @@ See [Data Point Collection Criteria](#data-point-collection-criteria) for inform
 for labeling from the [Zalando VOC Images Dataset](https://docs.google.com/document/d/15Agfx3jpiYHLjssztqZMWl-JtxRDhXfV5BT4ZZXfOcs/edit).
 
 ## Model Documentation Metadata
+
 ### Documentation Template Version
+
 [v1.0.0](template-data-documentation.md)
 
 ### Documentation Authors
+
 - **[Alex Loosley](mailto:alex.loosley@zalando.de), Algorithmic Privacy and Fairness:** (Principle Developer)
 - **[Pak-Hang Wong](mailto:pakhang.wong@zalando.de), Algorithmic Privacy and Fairness:** (Contributor)

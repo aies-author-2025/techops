@@ -23,6 +23,7 @@
 <br>**Reviewers**: List reviewers
 
 ## Overview 
+
 <div style="color:gray">
 EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>, paragraph 1
 
@@ -32,9 +33,11 @@ You can use this section to provide transparency to users and high-level informa
 </div>
 
 ### Model Type
+
 **Model Type:** (e.g., Neural Networks, Decision Trees, etc.)
 
 ### Model Description 
+
 <div style="color:gray">
     EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 1(a)
     <p></p>
@@ -62,21 +65,23 @@ very useful. -->
 
 Example references:
 
-- GitHub Repository
-- Paper/Documentation Link
-- Initiative Demo
-- Conference Talk
-- API Link
+* GitHub Repository
+* Paper/Documentation Link
+* Initiative Demo
+* Conference Talk
+* API Link
 
 ### Developers
-- **Name, Team**
-- **Name, Team**
+
+* **Name, Team**
+* **Name, Team**
 
 ### Owner
 <!-- info: Remember to reference developers and owners emails. -->
-- **Team Name, Contact Person**
+* **Team Name, Contact Person**
 
 ## Version Details and Artifacts 
+
 <div style="color:gray">
     EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a> paragraph 1(c)
     <p></p>
@@ -100,10 +105,11 @@ but be sure to track the release date of the model.
 **Artifacts:**
 
 
-- Model weights (e.g. S3 bucket path)
-- Model config (e.g. S3 bucket path)
+* Model weights (e.g. S3 bucket path)
+* Model config (e.g. S3 bucket path)
 
 ## Intended and Known Usage
+
 ### Intended Use
 <!-- info: This section focuses on the initial purpose and/or reasoning
 for creating the model. It is important to define this section as 
@@ -114,6 +120,7 @@ Example Use Case: A university research team develops a machine learning model t
 * Description
 
 ### Domain(s) of use
+
 * Description
 
 
@@ -126,9 +133,11 @@ Example Use Case: A university research team develops a machine learning model t
 </div>
 
 ### Out Of Scope Uses
+
 Provide potential applications and/or use cases for which use of the model is not suitable.
 
 ### Known Applications 
+
 <div style="color:gray">
     EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 1(f)
     <p></p>
@@ -147,6 +156,7 @@ Note, this table may not be exhaustive.  Model users and documentation consumers
 are highly encouraged to contribute known usages.
 
 ## Model Architecture 
+
 <div style="color:gray">
 EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 2(b), 2(c)
 
@@ -162,20 +172,21 @@ Article 11(2)(c) requires a description of the system’s architecture, how soft
 <!-- Info: Describing the architecture is fundamental for reproducibility, transparency, and effective maintenance. Without clear records of the model’s layers, activation functions, input/output shapes, and training configurations, it becomes difficult to reproduce results, debug issues, or update the model reliably.  -->
 
 
-- Architecture Description
+* Architecture Description
 
-- Key components
+* Key components
     
-- Hyperparameter tuning methodology
+* Hyperparameter tuning methodology
 
-- Training Methodology
+* Training Methodology
 
-- Training duration
+* Training duration
     
-- Compute resources used
+* Compute resources used
     
 
 ### Data Collection and Preprocessing
+
 <div style="color:gray">
     EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 2(d)
     <p></p>
@@ -185,35 +196,36 @@ Article 11(2)(c) requires a description of the system’s architecture, how soft
 
 In Article 11, 2 (d) a datasheet is required which describes all training methodologies and techniques as well as the characteristics of the training dataset, general description of the dataset, information about their provenance, scope and main characteristics, how the data was obtained and selected labelling procedures conducted and data cleaning methodologies deployed -->
 
-- **Steps Involved**:
-    - Data collection: Describe how the data was sourced (e.g., databases, APIs, sensors, or publicly available datasets).
-    - Data cleaning: Explain techniques used to handle missing values, outliers, or errors.
+* **Steps Involved**:
+  * Data collection: Describe how the data was sourced (e.g., databases, APIs, sensors, or publicly available datasets).
+  * Data cleaning: Explain techniques used to handle missing values, outliers, or errors.
         
-    - Data transformation: Include any scaling or encoding applied.
+  * Data transformation: Include any scaling or encoding applied.
 
 
        
 ### Data Splitting 
 
 * **Subset Definitions**:
-    * **Training set**: 
-    * **Validation set**: 
-    * **Test set**: 
+  * **Training set**: 
+  * **Validation set**: 
+  * **Test set**: 
 * **Splitting Methodology**:
-    * Describe the approach:
-        * **Random Sampling**: 
-        * **Stratified Sampling**: 
-        * **Temporal Splits**: 
+  * Describe the approach:
+    * **Random Sampling**: 
+    * **Stratified Sampling**: 
+    * **Temporal Splits**: 
 * **Proportions**:
-    * Example: "70% training, 20% validation, 10% testing."
+  * Example: "70% training, 20% validation, 10% testing."
 * **Reproducibility**:
-    * Mention how many seeds are being used and how many are needed to prove statistical significance
+  * Mention how many seeds are being used and how many are needed to prove statistical significance
     
 **Data Shuffling**:
 
-- Shuffle applied: (Yes/No) 
+* Shuffle applied: (Yes/No) 
 
 ## Model Training Process 
+
 <div style="color:gray">
     EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 2(c, g), paragraph 3
 
@@ -229,10 +241,10 @@ Paragraph 3 further requires detailed information about the monitoring, function
 
 **Details of Processes**:
 
-- **Initialisation**: 
-- **Loss Function**:
-- **Optimiser**:
-- **Hyperparameters**:
+* **Initialisation**: 
+* **Loss Function**:
+* **Optimiser**:
+* **Hyperparameters**:
         
 ## Model Training and Validation 
 
@@ -244,12 +256,12 @@ Paragraph 3 further requires detailed information about the monitoring, function
 
 Objective: Clarify what the model is supposed to achieve. 
 
-- Problem statement (e.g., classification of X, prediction of Y)
-- Business goals (accuracy, fairness, speed)
-- Metrics selected (e.g., accuracy, precision, recall, F1-score, AUC-ROC, MAE, RMSE)
+* Problem statement (e.g., classification of X, prediction of Y)
+* Business goals (accuracy, fairness, speed)
+* Metrics selected (e.g., accuracy, precision, recall, F1-score, AUC-ROC, MAE, RMSE)
 Rationale for each metric (why accuracy? why F1-score?)
 
-- Model predictions on the validation set evalutaion description. 
+* Model predictions on the validation set evalutaion description. 
 
 <!--
 - Performance metrics (e.g., accuracy, F1 score, RMSE) are monitored.
@@ -333,31 +345,32 @@ Rationale for each metric (why accuracy? why F1-score?)
 
  **Performance Metrics**:
     
- - Compute metrics on the test set:
-     - Accuracy, precision, recall, F1 score for classification.
-    - MSE, RMSE, MAE for regression.
+* Compute metrics on the test set:
+  * Accuracy, precision, recall, F1 score for classification.
+  * MSE, RMSE, MAE for regression.
 
  **Confusion Matrix**:
     
-- Generate a confusion matrix to evaluate classification results.
+* Generate a confusion matrix to evaluate classification results.
 
  **ROC Curve and AUC**:
     
-- For binary classifiers, compute the ROC curve and Area Under the Curve (AUC).
+* For binary classifiers, compute the ROC curve and Area Under the Curve (AUC).
 
  **Feature Importance**:
     
-- Analyse feature contributions (for explainability).
+* Analyse feature contributions (for explainability).
 
  **Robustness Testing**:
 
-- Test the model on edge cases or adversarial examples.
+* Test the model on edge cases or adversarial examples.
 
  **Comparison to Baselines**:
     
-- Compare the model’s performance to a simple baseline (e.g., random guess, mean prediction).
+* Compare the model’s performance to a simple baseline (e.g., random guess, mean prediction).
 
 ### Model Bias and Fairness Analysis 
+
 <div style="color:gray">
     EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a> ; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 2 (f, g), paragraph 3, 4
     <p></p>
@@ -408,6 +421,7 @@ Paragraph 4 requires the assessment of the appropriateness of the performance me
     
 
 ## Model Interpretability and Explainability 
+
 <div style="color:gray">
     EU AI Act <a href="https://artificialintelligenceact.eu/article/11/" style="color:blue; text-decoration:underline">Article 11</a>; <a href="https://artificialintelligenceact.eu/annex/4/" style="color:blue; text-decoration:underline">Annex IV</a>  paragraph 2(e)
     <p></p>
@@ -422,20 +436,20 @@ Paragraph 4 requires the assessment of the appropriateness of the performance me
 
 **Post-hoc Explanation Models**
 
-- Feature Importance, Permutation Importance, SHAP (SHapley Additive exPlanations), LIME (Local Interpretable Model-agnostic Explanations):
-- Partial Dependence Plots (PDP) 
-- Counterfactual Explanations
-- Surrogate Models
-- Attention Mechanisms (for Deep Learning)
+* Feature Importance, Permutation Importance, SHAP (SHapley Additive exPlanations), LIME (Local Interpretable Model-agnostic Explanations):
+* Partial Dependence Plots (PDP) 
+* Counterfactual Explanations
+* Surrogate Models
+* Attention Mechanisms (for Deep Learning)
     
 
 **Model-Specific Explanation Techniques**
 
 <!-- info: this part is important to delineate why a model makes a decision or to debug and identify if the model is focusing on the right parts of the input. Especially fundamental for models deployed in critical domains such as medical, financial and legal or law enforcement. This section can be useful to draft the user-interface section of the documentation.) -->
 
-- Grad-CAM (Gradient-weighted Class Activation Mapping) for CNNs and RNNs: especially for computer vision applications 
-- Layer-wise Relevance Propagation (LRP): Works well for CNNs, fully connected nets, and some RNNs (classification focused)
-- TreeSHAP (SHAP for Decision Trees)
+* Grad-CAM (Gradient-weighted Class Activation Mapping) for CNNs and RNNs: especially for computer vision applications 
+* Layer-wise Relevance Propagation (LRP): Works well for CNNs, fully connected nets, and some RNNs (classification focused)
+* TreeSHAP (SHAP for Decision Trees)
     
 
 How interpretable is the model’s decision-making process? 
@@ -448,6 +462,7 @@ Some technical tools that can aid transparency include:
 - Version Control Systems: Git, DVC (Data Version Control) for datasets and models. -->
 
 ### EU Declaration of conformity 
+
 <div style="color:gray">
     EU AI Act <a href="https://artificialintelligenceact.eu/article/47/" style="color:blue; text-decoration:underline">Article 47</a>(d)
     <p></p>
@@ -463,6 +478,7 @@ indication for, or on behalf of whom, that person signed, a signature.-->
 <!-- Document here the standards and frameworks used-->
 
 ## Documentation Metadata
+
 ### Version
 <!-- info: provide version of this document, if applicable (dates might also be useful) -->
 
@@ -475,6 +491,6 @@ indication for, or on behalf of whom, that person signed, a signature.-->
 Select one or more roles per author and reference author's
 emails to ease communication and add transparency. -->
 
-- **Name, Team:** (Owner / Contributor / Manager)
-- **Name, Team:** (Owner / Contributor / Manager)
-- **Name, Team:** (Owner / Contributor / Manager)
+* **Name, Team:** (Owner / Contributor / Manager)
+* **Name, Team:** (Owner / Contributor / Manager)
+* **Name, Team:** (Owner / Contributor / Manager)

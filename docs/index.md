@@ -1,6 +1,7 @@
 # Home
 
 ## TechOps Introduction
+
 Welcome! This is the website contains rendered versions of AI documentation templates and examples
 from the paper "TechOps: Technical Documentation Templates for the AI Act", under review for AIES 2025.
 We recommend developing documentation with the help of such rendering as it helps all actors (developers, deployers,
@@ -9,6 +10,7 @@ users, etc.) more easily view documentation details while maintaining view of th
 These templates and examples are not to be used before publication and serve, for the moment, only to demonstrate the work described in the paper. All rights reserved.
 
 ## Templates
+
 TechOps are three separate templates for sufficiently documenting AI systems for proof of compliance with the AI Act.
 The documentation is split into three levels:
 

@@ -10,6 +10,7 @@ Data card contributions and feedback are welcome!
 ## Overview
 
 #### Last Update
+
 DD/MM/YYYY
 (See [version section](#dataset-version-and-maintenance) for details)
 
@@ -76,16 +77,17 @@ by documentation consumers.
 The examples below represent
 : -->
 <!-- width: full -->
-* [Dataset Link] - i.e. link to S3 bucket, SQL or Big Query tables, etc.
-* [Initiative Link] - i.e. link to Google Doc
-* [Code Repository Link] - i.e. link to [GitHub Enterprise](https://github.bus.zalan.do/) repository
-* [Data Quality Monitoring Link] - i.e. link to Data Quality Framework dashboard (for example, [CP&T uses this]((https://cptdpai-data-quality-framework.docs.zalando.net/))
-* [Labeling Job Link] - i.e. link to SageMaker Ground Truth job
-* [Active DPRs] - i.e. corresponding [DPR tickets](https://docs.google.com/document/d/1pmvNYNcWDbyj3YknuCWvzJQJdhqeiS6Xs5Z2P63XrcE)
-  * [DPR 1 Link]
-  * [DPR 2 Link]
+- [Dataset Link] - i.e. link to S3 bucket, SQL or Big Query tables, etc.
+- [Initiative Link] - i.e. link to Google Doc
+- [Code Repository Link] - i.e. link to [GitHub Enterprise](https://github.bus.zalan.do/) repository
+- [Data Quality Monitoring Link] - i.e. link to Data Quality Framework dashboard (for example, [CP&T uses this]((https://cptdpai-data-quality-framework.docs.zalando.net/))
+- [Labeling Job Link] - i.e. link to SageMaker Ground Truth job
+- [Active DPRs] - i.e. corresponding [DPR tickets](https://docs.google.com/document/d/1pmvNYNcWDbyj3YknuCWvzJQJdhqeiS6Xs5Z2P63XrcE)
+  - [DPR 1 Link]
+  - [DPR 2 Link]
 
 ## Authorship
+
 ### Author(s)
 <!-- scope: microscope -->
 <!-- info: **If** they were not all covered in the overview
@@ -97,6 +99,7 @@ of all authors here:
 - **Name, Team:** (Owner / Contributor / Manager / etc.)
 
 ### Dataset Owners
+
 #### Contact Detail(s)
 <!-- scope: periscope -->
 <!-- info: Provide more information about dataset ownership: -->
@@ -106,6 +109,7 @@ of all authors here:
 - **Team Website:** Provide a link to the website for the dataset owner team
 
 ### Funding Sources
+
 <-- info: Use these sections if relevant.
 
 For example, this may be relevant if it is funded by an
@@ -168,6 +172,7 @@ organizations belong: -->
 - **Website:** Provide a website for the dataset if available
 
 ## Dataset Overview
+
 #### Primary Data Modality
 <!-- scope: telescope -->
 <!-- info: Select the modality(ies) that best describe a typical data point
@@ -509,6 +514,7 @@ For example:
 Summarize motivation here. Include links where relevant.
 
 ### Intended Use
+
 #### Dataset Use(s)
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
@@ -574,6 +580,7 @@ this dataset.
 **Additional Notes:** Add here
 
 ### Use with Other Data
+
 #### Safety Level
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
@@ -596,6 +603,7 @@ or links where necessary.
 **Additional Notes:** Add here
 
 ### Forking and Sampling
+
 #### Safety Level
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
@@ -763,6 +771,7 @@ out for, or other relevant information or considerations. -->
 **Guidelines:** Summarize citation guidelines with link to data documentation (i.e this data card).
 
 **BiBTeX:**
+
 ```
 @article{kuznetsova2020open,
   title={The open images dataset v4},
@@ -814,11 +823,13 @@ are highly encouraged to contribute known usages.
 ## Access, Retention, and Deletion
 <!-- info: NEEDS INPUT FROM PRIV-GOV! -->
 ### Access
+
 #### Relevant Links
-* [S3 Bucket]
-* [DPR]
-* [ROPA]
-* [Collibra Page]
+
+- [S3 Bucket]
+- [DPR]
+- [ROPA]
+- [Collibra Page]
 
 #### Data Security Classification
 <!-- scope: telescope -->
@@ -846,6 +857,7 @@ This dataset requires membership in [specific] database groups:
 - Add Databricks cluster or other technical users to correct roles
 
 ### Retention
+
 #### Duration
 <!-- scope: periscope -->
 <!-- info: Specify the duration for which this dataset can be retained: -->
@@ -882,6 +894,7 @@ considerations. -->
 **Additional Notes:** Add here
 
 ### Deletion
+
 #### Deletion Event Summary
 <!-- scope: microscope -->
 <!-- info: Summarize the sequence of events and allowable processing for data
@@ -944,7 +957,9 @@ considerations.** -->
 **Additional Notes:** Add here
 
 ## Provenance
+
 ### Collection
+
 #### Method(s) Used
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** methods used to collect data.
@@ -1032,6 +1047,7 @@ considerations. -->
 **Others:** Please specify
 
 ### Attribute Collection Criteria and Integration
+
 #### Data Integration
 <!-- scope: periscope -->
 <!-- info: List all fields collected from different sources, and specify if
@@ -1094,6 +1110,7 @@ Describe step 2.
 
 
 ### Data Point Collection Criteria
+
 #### Data Selection
 <!-- scope: telescope -->
 <!-- info: Summarize the data selection criteria.
@@ -1131,6 +1148,7 @@ considerations. -->
 **Additional Notes:** Add here
 
 ### Relationship to Source
+
 #### Use and Utility(ies)
 <!-- scope: telescope -->
 <!-- info: Describe how the resulting dataset is aligned with the purposes,
@@ -1179,6 +1197,7 @@ following for each source type.) -->
 - **Source Type:** Summarize here. Include links where available.
 
 ## Sensitive and Protected Attributes
+
 ### Sensitivity of Data
 <!-- info: Be mindful not to repeat any information that might be in a technical
 risk assessment or data processing request somewhere else.  Use references where necessary,
@@ -1266,6 +1285,7 @@ dataset: -->
 - Others (Please Specify)
 
 ### Protected Attributes
+
 #### Protected Attribute Type(s)
 <!-- scope: telescope -->
 <!-- info: Select **all attributes** that are represented (directly or
@@ -1420,6 +1440,7 @@ Simply refer the reader to go there for this information. -->
 See [[this GitHub repository]()] for more transformation code base and documentation.
 
 ### Synopsis
+
 #### Transformation(s) Applied
 <!-- scope: telescope -->
 <!-- info: Select **all applicable** transformations
@@ -1945,6 +1966,7 @@ Summarize here. Include links where available.
 performed in the creation of your dataset. -->
 
 ### Annotation
+
 #### Task(s)
 <!-- scope: microscope -->
 <!-- info: Summarize each task type associated
@@ -2207,6 +2229,7 @@ following for each validator type.) -->
 **Number of Data Points Validated:** 12345
 
 **Fields Validated**
+
 Field | Count (if available)
 --- | ---
 Field | 123456
@@ -2253,6 +2276,7 @@ section. -->
 pool(s). Use additional notes to capture any
 other relevant information or considerations. -->
 **(Validation Type)**
+
 - Unique validators: 12345
 - Number of examples per validator: 123456
 - Average cost/task/validator: $$$
@@ -2392,6 +2416,7 @@ relevant information or considerations. -->
 - **Sampling method:** Summarize here. Include links where applicable.
 
 ## Glossary
+
 ### Concepts and Definitions referenced in this Data Card
 <!-- info: Use this space to include the expansions and definitions of any
 acronyms, concepts, or terms of art used across the Data Card.
@@ -2404,6 +2429,7 @@ If this information already exists as part of another document or
 in a Collibra data asset, a link to that will suffice.
 -->
 #### Term of Art
+
 Definition: Write here
 
 Source: Write here and share link
@@ -2411,6 +2437,7 @@ Source: Write here and share link
 Interpretation: Write here
 
 #### Term of Art
+
 Definition: Write here
 
 Source: Write here and share link
@@ -2418,6 +2445,7 @@ Source: Write here and share link
 Interpretation: Write here
 
 #### Term of Art
+
 Definition: Write here
 
 Source: Write here and share link
@@ -2425,6 +2453,7 @@ Source: Write here and share link
 Interpretation: Write here
 
 #### Term of Art
+
 Definition: Write here
 
 Source: Write here and share link
@@ -2432,6 +2461,7 @@ Source: Write here and share link
 Interpretation: Write here
 
 #### Term of Art
+
 Definition: Write here
 
 Source: Write here and share link
@@ -2439,6 +2469,7 @@ Source: Write here and share link
 Interpretation: Write here
 
 #### Term of Art
+
 Definition: Write here
 
 Source: Write here and share link
@@ -2446,6 +2477,7 @@ Source: Write here and share link
 Interpretation: Write here
 
 #### Term of Art
+
 Definition: Write here
 
 Source: Write here and share link
@@ -2453,6 +2485,7 @@ Source: Write here and share link
 Interpretation: Write here
 
 #### Term of Art
+
 Definition: Write here
 
 Source: Write here and share link
@@ -2460,6 +2493,7 @@ Source: Write here and share link
 Interpretation: Write here
 
 #### Term of Art
+
 Definition: Write here
 
 Source: Write here and share link
@@ -2467,6 +2501,7 @@ Source: Write here and share link
 Interpretation: Write here
 
 #### Term of Art
+
 Definition: Write here
 
 Source: Write here and share link
@@ -2474,6 +2509,7 @@ Source: Write here and share link
 Interpretation: Write here
 
 #### Term of Art
+
 Definition: Write here
 
 Source: Write here and share link
@@ -2481,6 +2517,7 @@ Source: Write here and share link
 Interpretation: Write here
 
 #### Term of Art
+
 Definition: Write here
 
 Source: Write here and share link
@@ -2494,10 +2531,13 @@ does the dataset contain data that might be offensive, insulting, threatening,
 or might otherwise cause anxiety? If so, please contact the appropriate parties
 to mitigate any risks. -->
 ### Title
+
 Write notes here.
 
 ### Title
+
 Write notes here.
 
 ### Title
+
 Write notes here.
