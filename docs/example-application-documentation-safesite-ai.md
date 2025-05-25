@@ -59,17 +59,20 @@ analytics and sensor fusion. The system's primary objective is to identify unsaf
 
 | Model                        | Documentation                                                    | Description of Application Usage                    |
 |------------------------------|------------------------------------------------------------------|-----------------------------------------------------|
-| ALiSNet*                     | [TechOps Model Document](example-model-documentation-alisnet.md) | Used for identity masked human and PPE segmentation |
-| PPE Fit and Usage Classifier | [TechOps Model Document]()                                       | Used to score if PPE properly used                  |
-| Other Danger Classifier      | [GitHub Repo]()                                                  | Used to detect other safety hazards in view         |
+| ALiSNet                      | [TechOps Model Document](example-model-documentation-alisnet.md) | Used for identity masked human and PPE segmentation |
+| PPE Fit and Usage Classifier | [TechOps Model Document]()*                                      | Used to score if PPE properly used                  |
+| Other Danger Classifier      | [GitHub Repo]()*                                                 | Used to detect other safety hazards in view         |
 
+* Fictional example (no link provided)
 
 ### Datasets
 
-| Dataset               | Documentation                                                         | Description of Application Usage        |
-|-----------------------|-----------------------------------------------------------------------|-----------------------------------------|
-| Skin tones dataset    | [TechOps Data Document](example-data-documentation-voc-skin-tones.md) | Used for end-to-end application testing |
-| PPE annotation data   | [GitHub Repo]()                                                       | Used for end-to-end application testing |
+| Dataset             | Documentation                                                         | Description of Application Usage        |
+|---------------------|-----------------------------------------------------------------------|-----------------------------------------|
+| Skin tones dataset  | [TechOps Data Document](example-data-documentation-voc-skin-tones.md) | Used for end-to-end application testing |
+| PPE annotation data | [GitHub Repo]()*                                                      | Used for end-to-end application testing |
+
+* Fictional example (no link provided)
 
 Note, other datasets were used to train, evaluate, and test [models](#models) used as part of SafeSiteAI. 
 See those documentation for details about those datasets.
