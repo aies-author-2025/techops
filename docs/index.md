@@ -2,12 +2,26 @@
 
 ## TechOps Introduction
 
-Welcome! This is the website contains rendered versions of AI documentation templates and examples
-from the paper "TechOps: Technical Documentation Templates for the AI Act", under review for AIES 2025.
-We recommend developing documentation with the help of such rendering as it helps all actors (developers, deployers,
-users, etc.) more easily view documentation details while maintaining view of the big picture.
+* Are you looking for guidance on how to provide technical documentation for your AI/ML system 
+  and/or its constituent models and datasets?  
+* Should such documentation provide value for a wide variety of user personas 
+  (e.g. managers, system users, developers, researchers, etc.)?
+* Does your AI/ML system need to comply with the EU AI Act, or are you developing a model or dataset that
+  you want to be used as part of an AI/ML system that needs to comply with the EU AI Act?
 
-These templates and examples are not to be used before publication and serve, for the moment, only to demonstrate the work described in the paper. All rights reserved.
+If you answered yes to any of these questions, TechOps is for you.  
+
+TechOps is a set of documentation templates and examples designed to help document AI/ML application, model, and
+dataset teams document and rendering their documentation in an easy-to-read manner such that any documentation 
+user can quickly drill down to find the information they need without losing track of the big picture. 
+TechOps is also the first set of documentation templates that we know of to completely map its sections to the 
+EU AI Act, for developers and providers that need to comply with this regulation that first came into force in 
+August 2024.
+
+This work accompanies a (currently anonymous) submission to AIES 2025.
+
+These templates and examples are not to be used before publication and serve, for the moment, 
+only to demonstrate the work described in the paper. All rights reserved.
 
 ## Templates
 
@@ -38,23 +52,22 @@ Clear documentation also promotes discoverability, collaboration, and risk asses
 
 The templates are tested on real-world scenarios providing examples that further guide their implementation:
 
-|                                                                            | Description | 
-|----------------------------------------------------------------------------|---|
-| [Model Documentation Example](example-model-documentation-alisnet.md)      | The model template is followed to document a neural network for segmenting human silhouettes in photos |
-| [Data Documentation Example](example-data-documentation-voc-skin-tones.md) | The data template is followed to document a skin tones dataset created to support fairness evaluations of downstream computer vision models and human centric applications |
+|                                                                            | Description                                                                                                                                                     | 
+|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Application Documentation Example](example-application-documentation-safesite-ai.md) | SafeSiteAI is a **fictional** high-risk AI system developed to detect and monitor construction worker safety using real-time video analytics and sensor fusion. | 
+| [Model Documentation Example](example-model-documentation-alisnet.md)      | A neural network for segmenting human silhouettes in photos                                                                                                     |
+| [Data Documentation Example](example-data-documentation-voc-skin-tones.md) | A skin tones dataset created to support fairness evaluations of downstream computer vision models and human centric applications like SafeSiteAI                |
 
 ## How To Use
 
-The approach is to choose which of the templates need to be filled.  For example, if you are responsible for an
-AI System and have trained your own models based on custom datasets that have not been documented, you
-may need to work at all three documentation levels (AI System, model, and data).
+Developing TechOps documentation is easy, it's just markdown!
 
-We, the TechOps developers, advise that documentation authors use the templates as best suites their needs given
-documentation standards that already exist in your context. One example of how to use the templates would be,
+Our research and offering focuses on content and we generally consider this work rendering and integration agnostic.  
+However, for those working on teams or at companies that do not already have documentation rendering and integration standards,
+we provide an example here for how documentation can be rendered cleanly making it highly accessible to a wide variety
+of personas. Specifically, we offer a rendering method designed to solve the documentation overload problem 
+by rendering it in a way that allows documentation users to dive deep into sections they care about, 
+without losing site of the big picture. 
 
-1. Create a GitHub Repo for your documentation.
-2. Take the template(s) markdown file you wish to implement (see [our GitHub Repo](https://github.com/aies-author-2025/techops)) 
-   and implement them with the help of the template comments and [examples](#examples).
-3. Render your documentation to make it easy to read, similar to how the examples are rendered on this website
-   (you can use [our GitHub Repo](https://github.com/aies-author-2025/techops) as an example for how to render using 
-   [mkdocs](https://www.mkdocs.org/)).
+See our [GitHub repository](https://github.com/aies-author-2025/techops/?tab=readme-ov-file#getting-started) 
+on documentation development and rendering.

@@ -51,7 +51,7 @@ analytics and sensor fusion. The system's primary objective is to identify unsaf
   * Generates classification alerts (e.g., PPE violation) with confidence scores
   * Provides bounding box visualizations and timestamps
 * **System Architecture Overview**:
-  * See [WorkSafe AI LeanIX Architecture]()
+  * See [SafeSiteAI LeanIX Architecture]()
 
 ## Models and Datasets
 
@@ -71,7 +71,7 @@ analytics and sensor fusion. The system's primary objective is to identify unsaf
 | Skin tones dataset    | [TechOps Data Document](example-data-documentation-voc-skin-tones.md) | Used for end-to-end application testing |
 | PPE annotation data   | [GitHub Repo]()                                                       | Used for end-to-end application testing |
 
-Note, other datasets were used to train, evaluate, and test [models](#models) used as part of WorkSafeAI. 
+Note, other datasets were used to train, evaluate, and test [models](#models) used as part of SafeSiteAI. 
 See those documentation for details about those datasets.
 
 ## Application Development
@@ -80,7 +80,7 @@ See those documentation for details about those datasets.
 
 * **Cloud Setup**: See [LeanIX Page]()
 * **APIs**: [Backend]() (see [Swagger Documentation]())  
-* **Integration**: Application integrated into Vandelay Industries [WorkSafe Suite]() 
+* **Integration**: Application integrated into Vandelay Industries [SafeSiteAI Suite]() 
 
 ## Integration with External Systems
 

@@ -1,4 +1,4 @@
-# Techops
+# TechOps
 
 ## Introduction
 
@@ -20,6 +20,9 @@ August 2024.
 
 This work accompanies a (currently anonymous) submission to AIES 2025.
 
+These templates and examples are not to be used before publication and serve, for the moment, 
+only to demonstrate the work described in the paper. All rights reserved.
+
 ## Website
 
 See [the TechOps website](https://aies-author-2025.github.io/techops/) to dive in deeper and/or explore our templates
@@ -29,11 +32,12 @@ and examples.
 
 Developing TechOps documentation is easy, it's just markdown!
 
-Our work focussed on content and in that way we consider our work rendering and integration agnostic.  However, 
-for those working on teams or at companies that do not already have documentation rendering and integration standards,
+Our research and offering focuses on content and we generally consider this work rendering and integration agnostic.  
+However, for those working on teams or at companies that do not already have documentation rendering and integration standards,
 we provide an example here for how documentation can be rendered cleanly making it highly accessible to a wide variety
-of personas. Specifically, we attempt to solve the documentation overload problem by rendering it in a way that allows
-documentation users to dive deep into sections they care about, without losing site of the big picture. 
+of personas. Specifically, we offer a rendering method designed to solve the documentation overload problem 
+by rendering it in a way that allows documentation users to dive deep into sections they care about, 
+without losing site of the big picture. 
 
 To render your own documentation, you can use this repo with the following steps:
 
