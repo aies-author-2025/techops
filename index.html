@@ -216,11 +216,24 @@
               
                 <h1 id="home">Home<a class="headerlink" href="#home" title="Permanent link">&para;</a></h1>
 <h2 id="techops-introduction">TechOps Introduction<a class="headerlink" href="#techops-introduction" title="Permanent link">&para;</a></h2>
-<p>Welcome! This is the website contains rendered versions of AI documentation templates and examples
-from the paper &ldquo;TechOps: Technical Documentation Templates for the AI Act&rdquo;, under review for AIES 2025.
-We recommend developing documentation with the help of such rendering as it helps all actors (developers, deployers,
-users, etc.) more easily view documentation details while maintaining view of the big picture.</p>
-<p>These templates and examples are not to be used before publication and serve, for the moment, only to demonstrate the work described in the paper. All rights reserved.</p>
+<ul>
+<li>Are you looking for guidance on how to provide technical documentation for your AI/ML system 
+  and/or its constituent models and datasets?  </li>
+<li>Should such documentation provide value for a wide variety of user personas 
+  (e.g. managers, system users, developers, researchers, etc.)?</li>
+<li>Does your AI/ML system need to comply with the EU AI Act, or are you developing a model or dataset that
+  you want to be used as part of an AI/ML system that needs to comply with the EU AI Act?</li>
+</ul>
+<p>If you answered yes to any of these questions, TechOps is for you.  </p>
+<p>TechOps is a set of documentation templates and examples designed to help document AI/ML application, model, and
+dataset teams document and rendering their documentation in an easy-to-read manner such that any documentation 
+user can quickly drill down to find the information they need without losing track of the big picture. 
+TechOps is also the first set of documentation templates that we know of to completely map its sections to the 
+EU AI Act, for developers and providers that need to comply with this regulation that first came into force in 
+August 2024.</p>
+<p>This work accompanies a (currently anonymous) submission to AIES 2025.</p>
+<p>These templates and examples are not to be used before publication and serve, for the moment, 
+only to demonstrate the work described in the paper. All rights reserved.</p>
 <h2 id="templates">Templates<a class="headerlink" href="#templates" title="Permanent link">&para;</a></h2>
 <p>TechOps are three separate templates for sufficiently documenting AI systems for proof of compliance with the AI Act.
 The documentation is split into three levels:</p>
@@ -252,29 +265,29 @@ entire AI lifecycle, ensuring traceability, reproducibility, in addition to comp
 </thead>
 <tbody>
 <tr>
+<td><a href="example-application-documentation-safesite-ai/">Application Documentation Example</a></td>
+<td>SafeSiteAI is a <strong>fictional</strong> high-risk AI system developed to detect and monitor construction worker safety using real-time video analytics and sensor fusion.</td>
+</tr>
+<tr>
 <td><a href="example-model-documentation-alisnet/">Model Documentation Example</a></td>
-<td>The model template is followed to document a neural network for segmenting human silhouettes in photos</td>
+<td>A neural network for segmenting human silhouettes in photos</td>
 </tr>
 <tr>
 <td><a href="example-data-documentation-voc-skin-tones/">Data Documentation Example</a></td>
-<td>The data template is followed to document a skin tones dataset created to support fairness evaluations of downstream computer vision models and human centric applications</td>
+<td>A skin tones dataset created to support fairness evaluations of downstream computer vision models and human centric applications like SafeSiteAI</td>
 </tr>
 </tbody>
 </table>
 <h2 id="how-to-use">How To Use<a class="headerlink" href="#how-to-use" title="Permanent link">&para;</a></h2>
-<p>The approach is to choose which of the templates need to be filled.  For example, if you are responsible for an
-AI System and have trained your own models based on custom datasets that have not been documented, you
-may need to work at all three documentation levels (AI System, model, and data).</p>
-<p>We, the TechOps developers, advise that documentation authors use the templates as best suites their needs given
-documentation standards that already exist in your context. One example of how to use the templates would be,</p>
-<ol>
-<li>Create a GitHub Repo for your documentation.</li>
-<li>Take the template(s) markdown file you wish to implement (see <a href="https://github.com/aies-author-2025/techops">our GitHub Repo</a>) 
-   and implement them with the help of the template comments and <a href="#examples">examples</a>.</li>
-<li>Render your documentation to make it easy to read, similar to how the examples are rendered on this website
-   (you can use <a href="https://github.com/aies-author-2025/techops">our GitHub Repo</a> as an example for how to render using 
-   <a href="https://www.mkdocs.org/">mkdocs</a>).</li>
-</ol>
+<p>Developing TechOps documentation is easy, it&rsquo;s just markdown!</p>
+<p>Our research and offering focuses on content and we generally consider this work rendering and integration agnostic.<br />
+However, for those working on teams or at companies that do not already have documentation rendering and integration standards,
+we provide an example here for how documentation can be rendered cleanly making it highly accessible to a wide variety
+of personas. Specifically, we offer a rendering method designed to solve the documentation overload problem 
+by rendering it in a way that allows documentation users to dive deep into sections they care about, 
+without losing site of the big picture. </p>
+<p>See our <a href="https://github.com/aies-author-2025/techops/?tab=readme-ov-file#getting-started">GitHub repository</a> 
+on documentation development and rendering.</p>
               
             </div>
           </div>
